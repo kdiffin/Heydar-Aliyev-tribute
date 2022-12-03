@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <div
-      name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      id="həyatı"
+      className="w-full  snap-center	 pt-60 -mb-20 h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-8">
@@ -12,7 +12,6 @@ function About() {
             Həyatı
           </p>
         </div>
-
         <p className="text-xl mt-10">
           Heydər Əlirza oğlu Əliyev 1923-cü il mayın 10-da Azərbaycanın Naxçıvan
           şəhərində dəmiryolçu ailəsində dünyaya gəlmişdir. 1939-cu ildə
@@ -27,7 +26,8 @@ function About() {
           məsul vəzifələrdə xidmət etmiş, 1944-cü ilin mayında isə Naxçıvan
           Vilayət Partiya Komitəsi tərəfindən dövlət təhlükəsizliyi orqanlarına
           işə göndərilmişdir.
-        </p>
+        </p>{" "}
+        <button>show more</button>
       </div>
     </div>
   );

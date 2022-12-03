@@ -7,5 +7,14 @@
 @layer base {
   html {
     font-family: "Raleway", sans-serif;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+  @media screen and (max-width: 580px) {
+    html {
+      font-family: "Raleway", sans-serif;
+      scroll-snap-type: none;
+      transition: 19900ms;
+    }
   }
 }

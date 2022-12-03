@@ -1,30 +1,35 @@
 import React from "react";
-import heroImage from "/public/heroImage.jpg";
+import heroImage from "/heroImage.jpg";
 import { FaArrowRight } from "react-icons/fa";
 
 function Home() {
   return (
     <div
-      name="home"
-      className="h-screen w-full bg-gradient-to-b  from-black via-black to-gray-800 "
+      id="əsas"
+      className="snap-center h-screen w-full pt-10 bg-gradient-to-b  from-black via-black to-gray-800 sm:snap-none "
     >
       <div
         className="max-w-screen-lg mx-auto flex flex-col 
         items-center justify-center h-full   px-4 text-white md:flex-row"
       >
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full mr-20 flex-wrap">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Azərbaycanın ümümilli lideri
+            Heydər Əliyev{" "}
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">*insert anything here*</p>
+          <p className="text-gray-500 py-4 max-w-md">
+            Müdrik liderimizin bioqrafiyası.
+          </p>
 
           <div>
-            <button className="group  text-white cursor-pointer w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-700 via-red-700 to-green-700">
+            <a
+              href="#həyatı"
+              className="group  text-white cursor-pointer w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-900 via-red-900 to-green-900"
+            >
               Davam et{" "}
               <span className="group-hover:rotate-90 duration-300 ml-1">
                 <FaArrowRight />
               </span>
-            </button>
+            </a>
           </div>
         </div>
 
