@@ -27,12 +27,6 @@ function Navbar() {
       link: "#nəsihətləri",
       name: "nəsihətləri",
     },
-
-    {
-      id: 5,
-      link: "#sayt",
-      name: "sayt",
-    },
   ];
 
   return (

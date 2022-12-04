@@ -10,6 +10,21 @@
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
   }
+  body::-webkit-scrollbar {
+    width: 15px;
+    background-image: linear-gradient(to bottom, #000, #000, #1f2937);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #000, #000, #1f2937);
+
+    border-radius: 20px;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom, #000, #1f2937, #1f2937);
+  }
+
   @media screen and (max-width: 580px) {
     html {
       font-family: "Raleway", sans-serif;
