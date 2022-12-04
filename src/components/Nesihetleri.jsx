@@ -5,7 +5,7 @@ function Nəsihətləri() {
   return (
     <div
       id="nəsihətləri"
-      className="w-full  snap-center	 pt-60 -mb-20 h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full  snap-center pt-40 h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-8">

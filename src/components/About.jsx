@@ -74,7 +74,7 @@ function About(props) {
 
               <Link
                 to={"/Həyatı"}
-                className="bg-gradient-to-t py-5 w-48 justify-center ml-[450px] flex items-center active:scale-90  text-gray-400 rounded-xl from-[#050916] via-[#0d1222]  to-[#0d1020] shadow-m shadow-blue-200"
+                className="bg-gradient-to-t py-5 w-48 justify-center ml-auto mr-auto flex items-center active:scale-90  text-gray-400 rounded-xl from-[#050916] via-[#0d1222]  to-[#0d1020] shadow-m shadow-blue-200"
               >
                 <span className=" mr-3">Daha Ətraflı</span> <FaArrowRight />
               </Link>

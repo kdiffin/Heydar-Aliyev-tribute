@@ -163,10 +163,10 @@ function Mukafatlar() {
   return (
     <div
       id="mükafatları"
-      className="snap-center	  sm:snap-none  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="snap-center	sm:mt-0   pt-[200px] sm:pt-0 sm:pb-10  sm:snap-none  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="mb-12 px-10 items-center shadow-sm flex rounded-lg   shadow-gray-800 pt-5  pb-2">
+        <div className="mb-12 px-10 items-center shadow-sm   flex flex-col sm:flex-row rounded-lg   shadow-gray-800 pt-5  pb-2">
           <div className="flex  flex-col pt-5 ">
             <p className="text-4xl font-bold inline border-b-2 border-gray-500">
               Mükafatları
@@ -179,10 +179,10 @@ function Mukafatlar() {
           <div className="flex ml-auto">
             <div
               onClick={() => setMukafatType("azerbaijan")}
-              className="ml-4  cursor-pointer text-lg mt-5 active:scale-90 p-3 w-28  py-5 flex items-center justify-center shadow-md shadow-gray-800 rounded-md"
+              className="ml-4  cursor-pointer  text-lg mt-5  w-1/5 active:scale-90 p-3 sm:w-28  py-5 flex items-center justify-center shadow-md shadow-gray-800 rounded-md"
             >
               <img
-                className="h-5 mr-3"
+                className="h-5  mr-3"
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.publicdomainpictures.net%2Fpictures%2F340000%2Fvelka%2Fflag-of-azerbaijan-1588676171Dkl.jpg&f=1&nofb=1&ipt=34d0cddbd7ff458d003854447b6939b0ec18d49295df6fbc6fb79770907f62de&ipo=images"
               />
               AZE
@@ -190,10 +190,10 @@ function Mukafatlar() {
 
             <div
               onClick={() => setMukafatType("ussr")}
-              className="ml-4 cursor-pointer mt-5  text-lg active:scale-90 p-3 w-28 py-5 flex items-center justify-center shadow-md shadow-gray-800 rounded-md"
+              className="ml-4 cursor-pointer mt-5  text-lg active:scale-90 p-3 w-1/5 sm:w-28 py-5 flex items-center justify-center shadow-md shadow-gray-800 rounded-md"
             >
               <img
-                className="h-5 mr-3"
+                className="h-5 mr-3 "
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F36%2F22536-050-E22B1D13%2FFlag-Union-of-Soviet-Socialist-Republics.jpg%3Fw%3D400%26h%3D300%26c%3Dcrop&f=1&nofb=1&ipt=b5c9608aa7283fc7662aaa53a398de5dd9cf4e9fd62dd058f4809bc39e5a640c&ipo=images "
               />
               SSRI
@@ -201,9 +201,10 @@ function Mukafatlar() {
 
             <div
               onClick={() => setMukafatType("abideler")}
-              className="ml-4 mt-5 text-lg cursor-pointer   active:scale-90  w-32 py-5 flex items-center justify-center  shadow-md shadow-gray-800 rounded-md"
+              className="ml-4 mt-5 text-lg cursor-pointer  w-1/5 sm:w-32  active:scale-90   py-5 flex items-center justify-center  shadow-md shadow-gray-800 rounded-md"
             >
-              <img className="h-5 mr-3" src={merkezilogo}></img>Abidələr
+              <img className="h-5  mr-3" src={merkezilogo}></img>
+              Abidələr
             </div>
           </div>
         </div>
@@ -223,17 +224,17 @@ function Mukafatlar() {
                   src={mukafat.src}
                   className={
                     mukafat.src === mukafatAze2 || mukafat.src === mukafatAze5
-                      ? "rounded-t-lg   object-fit-down w-60 ml-auto mr-auto"
+                      ? "rounded-t-lg   object-fit-down w-60 pt-5 ml-auto mr-auto"
                       : mukafat.src === mukafatAze4
-                      ? "rounded-t-lg   object-fit-down w-44 ml-auto  mr-auto"
+                      ? "rounded-t-lg   object-fit-down w-40 ml-auto  mr-auto"
                       : mukafat.src === mukafatAze1
-                      ? "rounded-t-lg   object-fit-down w-[195px] ml-auto  mr-auto"
+                      ? "rounded-t-lg   object-fit-down w-[190px] ml-auto  mr-auto"
                       : mukafat.src === mukafatAze3
                       ? "rounded-t-lg   object-fit-down w-56 ml-auto  mr-auto"
                       : mukafat.src === mukafatAze6
                       ? "rounded-t-lg   object-fit-down ml-auto  pt-7  scale-125  mr-auto"
                       : mukafat.src === mukafat3
-                      ? "rounded-t-lg   object-fit-down w-48  pt-1 ml-auto  mr-auto"
+                      ? "rounded-t-lg   object-fit-down w-[200px] pt-2   ml-auto  mr-auto"
                       : "rounded-t-lg   object-fit-down "
                   }
                 />
