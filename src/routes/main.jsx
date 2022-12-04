@@ -7,7 +7,7 @@ import Nəsihətləri from "../components/Nesihetleri";
 
 function main() {
   return (
-    <div>
+    <div className="bg-gray-800">
       <Əsas />
       <Həyatı />
       <Mükafatları />

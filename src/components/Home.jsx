@@ -6,7 +6,7 @@ function Home() {
   return (
     <div
       id="əsas"
-      className="snap-center h-screen w-full pt-10 bg-gradient-to-b  from-black via-black to-gray-800 sm:snap-none "
+      className="snap-center h-screen w-full  bg-gradient-to-b  from-black via-black to-gray-800 sm:snap-none "
     >
       <div
         className="max-w-screen-lg mx-auto flex flex-col 
@@ -16,7 +16,8 @@ function Home() {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             Heydər Əliyev{" "}
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+
+          <p className="text-gray-500 py-4 max-w-md ">
             Müdrik liderimizin bioqrafiyası.
           </p>
 

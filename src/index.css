@@ -10,6 +10,11 @@
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
   }
+
+  body {
+    zoom: 0.9;
+    transform-origin: 0 0;
+  }
   body::-webkit-scrollbar {
     width: 15px;
     background-image: linear-gradient(to bottom, #000, #000, #1f2937);
@@ -31,5 +36,31 @@
       scroll-snap-type: none;
       transition: 19900ms;
     }
+  }
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 15px;
+    overscroll-behavior-y: none;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+
+    height: 10px;
+    background-image: linear-gradient(to bottom, #1f2937, #101925, #08101b);
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: black;
+
+    border-radius: 100vh;
+    height: 20px;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #19293f;
+    height: 10px;
   }
 }

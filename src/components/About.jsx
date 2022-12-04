@@ -9,8 +9,8 @@ function About(props) {
       id="həyatı"
       className={
         !props.routed
-          ? "w-full  snap-center	pt-44  h-screen bg-gradient-to-b from-gray-800 to-black text-white"
-          : "w-full  	pb-20 pt-48 h-full  bg-gradient-to-b from-gray-800 to-black text-white"
+          ? "w-full  snap-center	pt-32    h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+          : "w-full  	pb-20 pt-24 h-full   bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white"
       }
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
@@ -73,6 +73,7 @@ function About(props) {
               <br />
 
               <Link
+                onClick={() => scrollTo(0, 0)}
                 to={"/Həyatı"}
                 className="bg-gradient-to-t py-5 w-48 justify-center ml-auto mr-auto flex items-center active:scale-90  text-gray-400 rounded-xl from-[#050916] via-[#0d1222]  to-[#0d1020] shadow-m shadow-blue-200"
               >

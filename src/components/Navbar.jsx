@@ -30,7 +30,7 @@ function Navbar() {
   ];
 
   return (
-    <div className="snap-none snap-align-none -mb-20 flex justify-between px-4 sm:snap-none  items-center w-full h-20  text-white  bg-black">
+    <div className="-mb-5 flex justify-between px-4  items-center w-full h-20  text-white  bg-black">
       <div>
         <h1 className="text-4xl ml-2">Azərbaycanın ümumilli lideri</h1>
       </div>
@@ -42,9 +42,7 @@ function Navbar() {
               key={link.id}
               className="px-4 cursor-pointer capitalize text-gray-500 hover:scale-110 duration-200"
             >
-              <a href={link.link} ignoreCancelEvents={true}>
-                {link.name}
-              </a>
+              <a href={link.link}>{link.name}</a>
             </li>
           );
         })}

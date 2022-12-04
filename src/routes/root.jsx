@@ -5,11 +5,11 @@ import { Link, Outlet } from "react-router-dom";
 
 function root() {
   return (
-    <div>
+    <>
       {" "}
       <Navbar />
       <Outlet />
-    </div>
+    </>
   );
 }
 

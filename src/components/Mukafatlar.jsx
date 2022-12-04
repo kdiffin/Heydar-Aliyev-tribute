@@ -163,7 +163,7 @@ function Mukafatlar() {
   return (
     <div
       id="mükafatları"
-      className="snap-center	sm:mt-0   pt-[200px] sm:pt-0 sm:pb-10  sm:snap-none  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="snap-center	sm:mt-0   pt-[200px] sm:pt-6 sm:pb-10  sm:snap-none  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="mb-12 px-10 items-center shadow-sm   flex flex-col sm:flex-row rounded-lg   shadow-gray-800 pt-5  pb-2">

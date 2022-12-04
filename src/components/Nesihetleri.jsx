@@ -1,11 +1,55 @@
 import React from "react";
 
 function Nəsihətləri() {
-  const sözlər = ["Xalq dövlət üçün yox, dövlət xalq üçün olmalıdır."];
+  const sözlər = [
+    {
+      name: "Mən fəxr edirəm ki, Azərbaycanlıyam!",
+      id: 2,
+    },
+    {
+      name: "Xalq dövlət üçün yox, dövlət xalq üçün olmalıdır.",
+      id: 1,
+    },
+    {
+      name: "Öz ana dilini bilməyən adamlar şikəst adamlardır!      ",
+
+      id: 4,
+    },
+    {
+      name: "Böyük siyasəti kiçik hisslərə, xırda mənfəətlərə bağlamaq olmaz",
+
+      id: 3,
+    },
+    {
+      name: "Dil böyük bir aləmdir. ",
+
+      id: 5,
+    },
+    {
+      name: "Sənətdə hər kəsin öz yeri var. Heç kəs kiminsə yerini almır.      ",
+
+      id: 6,
+    },
+    {
+      name: "Ədalətsizliklə ədaləti bərpa etmək olmaz.",
+
+      id: 7,
+    },
+    {
+      name: "Müstəqillik yolu qədər çətin yol yoxdur. ",
+
+      id: 8,
+    },
+    {
+      name: "Fikir müxtəlifliyi təbii hadisədir.      ",
+
+      id: 9,
+    },
+  ];
   return (
     <div
       id="nəsihətləri"
-      className="w-full  snap-center pt-40 h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full  snap-center pt-32 mt-32  h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-8">
@@ -13,22 +57,27 @@ function Nəsihətləri() {
             Müdrik İfadələri
           </p>
         </div>
-        <p className="text-xl mt-10">
-          Heydər Əlirza oğlu Əliyev 1923-cü il mayın 10-da Azərbaycanın Naxçıvan
-          şəhərində dəmiryolçu ailəsində dünyaya gəlmişdir. 1939-cu ildə
-          Naxçıvan Pedaqoji Texnikumunu bitirdikdən sonra Azərbaycan Sənaye
-          İnstitutunun memarlıq fakültəsində təhsil almışdır. Başlanan müharibə
-          ona təhsilini başa çatdırmağa imkan verməmişdir.
-        </p>
-        <br />
-        <p className="text-xl mt-5">
-          Heydər Əliyev 1941–1944-cü illərdə Naxçıvan MSSR Xalq Daxili İşlər
-          Komissarlığında və Naxçıvan MSSR Xalq Komissarları Sovetində müxtəlif
-          məsul vəzifələrdə xidmət etmiş, 1944-cü ilin mayında isə Naxçıvan
-          Vilayət Partiya Komitəsi tərəfindən dövlət təhlükəsizliyi orqanlarına
-          işə göndərilmişdir.
-        </p>{" "}
-        <button>show more</button>
+
+        <div className=" pb-6 shadow-lg shadow-gray-800 border-4 border-gray-800">
+          <div
+            className="overflow-y-scroll h-[400px]  scrollbar
+           mukatafatlar-scrollbar  px-7  snap-y rounded-md
+          snap-mandatory   "
+          >
+            {sözlər.map((söz) => {
+              return (
+                <p
+                  key={söz.id}
+                  className="text-xl hover:scale-105 transition duration-150 w-full border-gray-800 border-solid border-4 
+            shadow-md border-opacity-50 mt-7 rounded-md shadow-gray-800   p-4 
+            flex justify-center items-center text-center "
+                >
+                  {söz.name}
+                </p>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );
