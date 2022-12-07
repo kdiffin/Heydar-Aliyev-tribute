@@ -1,19 +1,19 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Əsas from "../components/Home";
-import Həyatı from "../components/About";
-import Mükafatları from "../components/Mukafatlar";
-import Nəsihətləri from "../components/Nesihetleri";
+import Əsas from "../components/Sections/Home";
+import Həyatı from "../components/Sections/About";
+import Mükafatları from "../components/Sections/Mukafatlar";
+import Nəsihətləri from "../components/Sections/Nesihetleri";
+import Popup from "../components/Utility/Popup";
 
 function main() {
   return (
-    <div className="bg-gray-800">
-      <Əsas />
+    <>
+      {/* <Əsas />
       <Həyatı />
       <Mükafatları />
       <Nəsihətləri />
-      <Footer />
-    </div>
+      <Popup /> */}
+    </>
   );
 }
 

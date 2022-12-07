@@ -11,14 +11,8 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    children: [
-      {
-        path: "/Həyatı",
-        element: <Heyat />,
-      },
-      { index: true, element: <Main /> },
-    ],
   },
+  { path: "/Həyatı", element: <Heyat /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
