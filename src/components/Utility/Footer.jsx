@@ -10,6 +10,7 @@ function Footer() {
         <span className="font-semibold">Davud İbrahim</span> tərəfindən
         hazırlanmışdır.
       </h1>
+
       <div className="font-semibold flex   sm:flex-col text-[20px]">
         <div className="flex  ml-4 items-center">
           <p>Github :</p>{" "}
@@ -22,6 +23,7 @@ function Footer() {
             <FaGithub size={30} />
           </a>
         </div>
+
         <div className="flex ml-auto mr-4 items-center">
           <p>Mail:</p>
           <a

@@ -15,7 +15,7 @@ import mukafatAze6 from "/mukafatAze6.png";
 
 import merkezilogo from "/h.e-merkezilogo.png";
 
-function Mukafatlar() {
+function Mukafatlar(props) {
   const [mukafatType, setMukafatType] = useState("azerbaijan");
 
   const mukafatlar = [
@@ -160,18 +160,17 @@ function Mukafatlar() {
     },
   ];
 
-  // <div
-  //   id="mükafatları"
-  //   className="snap-center  overflow-hidden  flex justify-center items-center     sm:snap-none  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
-  // >
-  // </div>
   return (
     <section
       id="mükafatları"
-      className="flex flex-col snap-center  h-[2500px] bg-gradient-to-b from-black  to-gray-800 items-center justify-center text-center w-full sm:h-screen"
+      className={`flex flex-col snap-center   ${
+        props.lightMode
+          ? "dark bg bg-gradient-to-b  from-white via-white to-gray-200"
+          : "bg-gradient-to-b  from-black via-black to-gray-800 "
+      } h-[2500px] items-center justify-center text-center w-full sm:h-screen`}
     >
       <div className="max-w-screen-lg p-4 mx-auto  flex flex-col justify-center w-full h-full">
-        <div className="mb-12 px-10 items-center shadow-sm   flex flex-col sm:flex-row rounded-lg   shadow-gray-800 pt-5  pb-2">
+        <div className="mb-12 px-10 items-center shadow-md dark:shadow-none    flex flex-col sm:flex-row rounded-lg   shadow-gray-800 pt-5  pb-2">
           <div className="flex  flex-col pt-5 ">
             <p className="text-4xl font-bold inline border-b-2 text-left border-gray-500">
               Mükafatları
@@ -180,10 +179,10 @@ function Mukafatlar() {
               Həyatı boyu əldə etmiş müxtəlif nailiyyətləri{" "}
             </p>
           </div>
-          <div className="flex ml-auto">
+          <div className="flex justify-center  sm:ml-auto">
             <div
               onClick={() => setMukafatType("azerbaijan")}
-              className="ml-4  cursor-pointer  text-lg mt-5  w-1/5 active:scale-90 p-3 sm:w-28  py-5 flex items-center justify-center shadow-md shadow-gray-800 rounded-md"
+              className="mukafatlar-button dark:shadow-md active:scale-90 sm:px-0  sm:w-28   shadow-md shadow-gray-800 "
             >
               <img
                 className="h-5  mr-3"
@@ -194,7 +193,7 @@ function Mukafatlar() {
 
             <div
               onClick={() => setMukafatType("ussr")}
-              className="ml-4 cursor-pointer mt-5  text-lg active:scale-90 p-3 w-1/5 sm:w-28 py-5 flex items-center justify-center shadow-md shadow-gray-800 rounded-md"
+              className="mukafatlar-button dark:shadow-md sm:px-0  sm:w-32  active:scale-90    shadow-md shadow-gray-800"
             >
               <img
                 className="h-5 mr-3 "
@@ -205,7 +204,7 @@ function Mukafatlar() {
 
             <div
               onClick={() => setMukafatType("abideler")}
-              className="ml-4 mt-5 text-lg cursor-pointer  w-1/5 sm:w-32  active:scale-90   py-5 flex items-center justify-center  shadow-md shadow-gray-800 rounded-md"
+              className="mukafatlar-button dark:shadow-md  sm:px-0 sm:w-32  active:scale-90    shadow-md shadow-gray-800 "
             >
               <img className="h-5  mr-3" src={merkezilogo}></img>
               Abidələr
@@ -213,14 +212,14 @@ function Mukafatlar() {
           </div>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3  gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3   gap-8 px-12 sm:px-0">
           {mukafatlar.map((mukafat) => {
             return (
               <div
                 key={mukafat.id}
                 className={
                   mukafatType === "azerbaijan"
-                    ? "shadow-md group cursor-pointer active:scale-95  p-10 relative shadow-gray-600 rounded-lg "
+                    ? "shadow-md group cursor-pointer dark:shadow-md  active:scale-95  p-10 relative shadow-gray-600 rounded-lg "
                     : "shadow-md group cursor-pointer active:scale-95 p-5   relative shadow-gray-600 rounded-lg "
                 }
               >
@@ -242,7 +241,7 @@ function Mukafatlar() {
                       : "rounded-t-lg   object-fit-down "
                   }
                 />
-                <div className="absolute transition px-3 text-center justify-center   ease-in-out duration-700 group-hover:opacity-100 opacity-0  flex top-0 left-0 rounded-xl h-full w-full bg-gradient-to-t from-black   via-black/600 to-transparent">
+                <div className="absolute dark:text-white  transition px-3 text-center justify-center   ease-in-out duration-700 group-hover:opacity-100 opacity-0  flex top-0 left-0 rounded-xl h-full w-full bg-gradient-to-t from-black   via-black/600 to-transparent">
                   <h1 className="  text-xl   mt-auto mb-5 font-bold">
                     {mukafat.name}
                   </h1>

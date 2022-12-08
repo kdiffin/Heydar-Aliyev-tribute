@@ -1,29 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import Əsas from "../components/Sections/Home";
 import Həyatı from "../components/Sections/About";
 import Mükafatları from "../components/Sections/Mukafatlar";
 import Nəsihətləri from "../components/Sections/Nesihetleri";
 import Popup from "../components/Utility/Popup";
+import StylingWarning from "../components/Utility/StylingWarning";
 
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import Navbar from "../components/Sections/Navbar";
+import { useEffect } from "react";
 
 function root() {
-  {
-    /* <Əsas />
-  <Həyatı />
-  <Mükafatları />
-  <Nəsihətləri />
-  <Popup /> */
-  }
+  //in the rest of my code i refer to lightmode as dark, because tailwind supports only that
+  // as the class option 😭😭😭😭 excuse me for that one
+  const location = useLocation();
+  const lightModeRouter = location.state;
+  const [lightMode, setLightMode] = useState(lightModeRouter || false);
+
   return (
-    <>
-      <Navbar />
-      <Əsas />
-      <Həyatı />
-      <Mükafatları />
-      <Nəsihətləri />
-    </>
+    <div className={` ${lightMode ? "text-black" : ""} m-0 p-0`}>
+      <Əsas lightMode={lightMode} setLightMode={setLightMode} />
+      <Həyatı lightMode={lightMode} setLightMode={setLightMode} />
+      <Mükafatları lightMode={lightMode} />
+      <Nəsihətləri lightMode={lightMode} />
+      <StylingWarning lightMode={lightMode} />
+    </div>
   );
 }
 
