@@ -14,9 +14,12 @@ import mukafatAze5 from "/mukafatAze5.svg";
 import mukafatAze6 from "/mukafatAze6.png";
 
 import merkezilogo from "/h.e-merkezilogo.png";
+import Popup from "../Utility/Popup";
 
 function Mukafatlar(props) {
   const [mukafatType, setMukafatType] = useState("azerbaijan");
+  const [showPopUp, setShowPopUp] = useState(false);
+  const [mukafatIndex, setMukafatIndex] = useState();
 
   const mukafatlar = [
     {
@@ -41,6 +44,24 @@ function Mukafatlar(props) {
         ) : (
           <></>
         ),
+      melumat:
+        mukafatType === "azerbaijan"
+          ? "1986-cı ildən etibarən verilməyə başlanan və dünyada sülhə töhfə vermiş insanlara verilən Türkiyənin Dövlət mükafatıdır."
+          : mukafatType === "ussr"
+          ? " 1988-ci ildə SSRİ Silahlı Qüvvələrinin 70 illik yubileyi münasibətilə təsis olunmuşdur."
+          : "ssr1",
+      subTitle:
+        mukafatType === "azerbaijan"
+          ? "Türkiyənin ən nüfuzlu mükafatı."
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr1",
+      wikiLink:
+        mukafatType === "azerbaijan"
+          ? "https://az.wikipedia.org/wiki/Atat%C3%BCrk_Beyn%C9%99lxalq_S%C3%BClh_M%C3%BCkafat%C4%B1"
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr3",
     },
     {
       id: 2,
@@ -64,6 +85,24 @@ function Mukafatlar(props) {
         ) : (
           <></>
         ),
+      melumat:
+        mukafatType === "azerbaijan"
+          ? "Ölkənin ən böyük elm mərkəzlərindən biri. 1918-ci ilin fevralında yaradılıb. Universitetdə təxminən 18.000 tələbə təhsil alır. Universitetdə Hüquq, İqtisadiyyat, Sosial elmlər, Tibb və Təbiət Elmləri Fakültəsi var."
+          : mukafatType === "ussr"
+          ? " II Dünya Müharibəsi cəbhələrində Qırmızı Ordu, Hərbi Dəniz Qüvvələri və NKVD qoşunlarının sıralarında bilavasitə iştirak edən və ya hərbi rayonlardakı işləri ilə qələbəni təmin edən bütün hərbi personal və mülki heyət"
+          : "ssr2",
+      subTitle:
+        mukafatType === "azerbaijan"
+          ? "Gürcüstanın aparıcı və ən böyük ali məktəbi."
+          : mukafatType === "ussr"
+          ? "`1941–1945-ci illər Böyük Vətən Müharibəsində Almaniya üzərində qələbəyə görə` medalı ilə təltif edilsin:"
+          : "ssr1",
+      wikiLink:
+        mukafatType === "azerbaijan"
+          ? "https://az.wikipedia.org/wiki/Tbilisi_D%C3%B6vl%C9%99t_Universiteti"
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr3",
     },
     {
       id: 3,
@@ -87,6 +126,25 @@ function Mukafatlar(props) {
         ) : (
           <></>
         ),
+
+      subTitle:
+        mukafatType === "azerbaijan"
+          ? "Türkiyə Respublikasının ən yüksək mükafatı.  "
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr1",
+      melumat:
+        mukafatType === "azerbaijan"
+          ? `   1988-ci ildə təsis edilmişdir.  Türkiyə prezidenti tərəfindən təqdim edilən 'Dövlət nişanı' dövlət başçısının tövsiyəsi əsasında Türkiyə Respublikası Nazirlər Kabinetinin qərarı ilə verilir. Bu mükafata xarici ölkələrin dövlət başçıları ölkələr arasında dostluq əlaqələrinin inkişafı və xalqların bir-biri ilə daha da yaxınlaşmasındakı xidmətlərinə görə layiq görülürlər`
+          : mukafatType === "ussr"
+          ? " SSRİ-nin ən yüksək mükafatı. 6 aprel 1930-cu ildə SSRİ MİK-in fərmanı ilə yaradılıb. "
+          : "ssr3",
+      wikiLink:
+        mukafatType === "azerbaijan"
+          ? "https://az.wikipedia.org/wiki/D%C3%B6vl%C9%99t_ni%C5%9Fan%C4%B1_(T%C3%BCrkiy%C9%99)"
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr3",
     },
     {
       id: 4,
@@ -110,6 +168,24 @@ function Mukafatlar(props) {
         ) : (
           <></>
         ),
+      subTitle:
+        mukafatType === "azerbaijan"
+          ? "Ukraynanın ali mükafatı.  "
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr1",
+      melumat:
+        mukafatType === "azerbaijan"
+          ? " 2001-ci ildə Ukraynanın `Qızıl tale` Beynəlxalq Açıq Məşhurluq Reytinqinin `Qloriya Populi` qızıl ulduzu, 2003-cü ildə Ukrayna Prezidenti yanında Dövlət İdarəçilik Akademiyasının fəxri doktoru və 2003-cü ilin 27 İyununda Ukraynanın mədəniyyət ictimaiyyətinin `Şərəf` ordenini əldə edib."
+          : mukafatType === "ussr"
+          ? "SSRİ Ali Sovetinin 27 dekabr 1938-ci il tarixli qanunu ilə təsis olunmuş SSRİ medalı"
+          : "ssr4",
+      wikiLink:
+        mukafatType === "azerbaijan"
+          ? "https://az.wikipedia.org/wiki/Heyd%C9%99r_%C6%8Fliyev"
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr3",
     },
     {
       id: 5,
@@ -125,7 +201,7 @@ function Mukafatlar(props) {
         ),
       name:
         mukafatType === "azerbaijan" ? (
-          "Egey Universitetinin fəxri doktoru"
+          "Ege Universitetinin fəxri doktoru"
         ) : mukafatType === "ussr" ? (
           "Böyük Vətən müharibəsində qələbənin 40 illiyi yubiley medalı"
         ) : mukafatType === "abideler" ? (
@@ -133,6 +209,18 @@ function Mukafatlar(props) {
         ) : (
           <></>
         ),
+      melumat:
+        mukafatType === "azerbaijan"
+          ? "1955-cı ildə yaradılan, Türkiyənin qabaqda gələn universitetlərindən biri. 2016-ci ildə açıqlanan məlumatda , dünyanın ən yaxşı universitetləri arasında 482-ci olmuşdur[2]."
+          : mukafatType === "ussr"
+          ? "1985-ci ildə təsis olunmuş SSRİ medalı."
+          : "ssr5",
+      wikiLink:
+        mukafatType === "azerbaijan"
+          ? "https://az.wikipedia.org/wiki/Egey_Universiteti"
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr3",
     },
     {
       id: 6,
@@ -157,8 +245,34 @@ function Mukafatlar(props) {
         ) : (
           <></>
         ),
+      subTitle:
+        mukafatType === "azerbaijan"
+          ? "Fransanın ən yüksək hərbi və mülki dövlət mükafatı.  "
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr1",
+      melumat:
+        mukafatType === "azerbaijan"
+          ? "19 may 1802-ci ildə Napoleon Bonapart tərəfindən təsis edilmişdir. Bu ordenlə təltif olunmuş azərbaycanlılar arasında müharibə veteranı Əhmədiyyə Cəbrayılov, dahi rəssam Tahir Salahov, prezident İlham Əliyev və YUNESKO və İSESKO-nun xoşməramlı səfiri Mehriban Əliyeva da var."
+          : mukafatType === "ussr"
+          ? "Sosialist Əməyi Qəhrəmanı fəxri adı və bu adın verilməsinin əsasnaməsi SSRİ Ali Soveti Rəyasət Heyətinin 27 dekabr 1938-ci il tarixli qərarı ilə təsis edilmişdir. Buna qədər Əmək Qəhrəmanı adı mövcud idi. SSRİ üzrə ümumilikdə 20 613 nəfər Sosialist Əməyi Qəhrəmanı adına layiq görülmüşdür ki, bunlardan 201-i iki dəfə, 15-sı isə üç dəfə bu fəxri adla təltif edilmişdir. 134 nəfərə verilmiş Sosialist Əməyi Qəhrəmanı fəxri adı sonradan geri alınmışdır."
+          : "ssr6",
+      wikiLink:
+        mukafatType === "azerbaijan"
+          ? "https://az.wikipedia.org/wiki/%22F%C9%99xri_legion%22_ordeni"
+          : mukafatType === "ussr"
+          ? ""
+          : "ssr3",
     },
   ];
+
+  function popUpToggle(idz) {
+    setShowPopUp(true);
+
+    const boolList = mukafatlar.map((mukafat) => mukafat.id === idz);
+    const index = boolList.indexOf(true);
+    setMukafatIndex(index);
+  }
 
   return (
     <section
@@ -202,13 +316,13 @@ function Mukafatlar(props) {
               SSRI
             </div>
 
-            <div
+            {/* <div
               onClick={() => setMukafatType("abideler")}
               className="mukafatlar-button dark:shadow-md  sm:px-0 sm:w-32  active:scale-90    shadow-md shadow-gray-800 "
             >
               <img className="h-5  mr-3" src={merkezilogo}></img>
               Abidələr
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -217,6 +331,7 @@ function Mukafatlar(props) {
             return (
               <div
                 key={mukafat.id}
+                onClick={() => popUpToggle(mukafat.id)}
                 className={
                   mukafatType === "azerbaijan"
                     ? "shadow-md group cursor-pointer dark:shadow-md  active:scale-95  p-10 relative shadow-gray-600 rounded-lg "
@@ -251,6 +366,19 @@ function Mukafatlar(props) {
           })}
         </div>
       </div>
+      {showPopUp ? (
+        <Popup
+          setShowPopUp={setShowPopUp}
+          mukafatImg={mukafatlar[mukafatIndex].src}
+          mukafatName={mukafatlar[mukafatIndex].name}
+          mukafatMelumat={mukafatlar[mukafatIndex].melumat}
+          mukafatSubTitle={mukafatlar[mukafatIndex].subTitle}
+          lightMode={props.lightMode}
+          wikiLink={mukafatlar[mukafatIndex].wikiLink}
+        />
+      ) : (
+        <></>
+      )}
     </section>
   );
 }

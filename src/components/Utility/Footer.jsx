@@ -27,8 +27,9 @@ function Footer() {
         <div className="flex ml-auto mr-4 items-center">
           <p>Mail:</p>
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ibragim.davud.2008@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ibra.davud@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
             className="ml-3"
           >
             <SiGmail size={23} />

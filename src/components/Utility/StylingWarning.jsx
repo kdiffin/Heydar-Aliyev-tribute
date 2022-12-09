@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function stylingWarning(props) {
+function stylingWarning() {
   const [closeWarning, setCloseWarning] = useState(false);
 
   return (
