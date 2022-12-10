@@ -27,13 +27,14 @@ function stylingWarning() {
 
           <div className="flex flex-col justify-center items-center text-center">
             <p className="text-2xl text-white">
-              Sayt qəribə görsəndiyi halda ctrl və - düymələrinə basın.{" "}
+              Sayt qəribə və yaxud görsəndiyi halda sayt düzələnə qədər ctrl və
+              - düymələrinə basın.{" "}
             </p>
             <br />
 
             <p className="text-2xl text-white">
-              In the case of the site looking rather weird, press the ctrl and -
-              keys.
+              In the case of the site looking rather weird or zoomed in, press
+              the ctrl and - keys until satisfied.
             </p>
             <br />
             <br />
