@@ -9,6 +9,7 @@ import StylingWarning from "../components/Utility/StylingWarning";
 import { Link, Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import Navbar from "../components/Sections/Navbar";
 import { useEffect } from "react";
+import Abideler from "../components/Sections/Abideler";
 
 function root() {
   //in the rest of my code i refer to lightmode as dark, because tailwind supports only that
@@ -22,6 +23,7 @@ function root() {
       <Əsas lightMode={lightMode} setLightMode={setLightMode} />
       <Həyatı lightMode={lightMode} setLightMode={setLightMode} />
       <Mükafatları lightMode={lightMode} />
+      <Abideler lightMode={lightMode} />
       <Nəsihətləri lightMode={lightMode} />
       <StylingWarning />
     </div>

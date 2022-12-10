@@ -29,6 +29,11 @@ function Navbar(props) {
       link: "#Müdrik İfadələri",
       name: "Müdrik İfadələri",
     },
+    {
+      id: 4,
+      link: "#Abidələri",
+      name: "Abidələri",
+    },
   ];
 
   return (
@@ -55,7 +60,7 @@ function Navbar(props) {
 
         <div
           onClick={() => props.setLightMode(!props.lightMode)}
-          className="p-2  rounded-lg  mr-4 border-2 cursor-pointer active:scale-90 border-gray-500 text-gray-500"
+          className="p-2  rounded-lg  mr-4 border-2 cursor-pointer ml-2 active:scale-90 border-gray-500 text-gray-500"
         >
           {" "}
           {props.lightMode ? <FaMoon /> : <FaSun />}

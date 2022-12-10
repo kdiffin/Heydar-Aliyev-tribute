@@ -53,12 +53,12 @@ function Nəsihətləri(props) {
       className={`flex flex-col 
       ${
         props.lightMode
-          ? "dark bg bg-gradient-to-b  from-gray-200 via-white to-white"
-          : "bg-gradient-to-b   from-gray-800  to-black "
-      } h-[1000px]  
-      snap-center  items-center justify-center relative text-center w-full sm:h-screen`}
+          ? "dark bg bg-gradient-to-b  from-white via-white  to-gray-200"
+          : "bg-gradient-to-b   from-black  to-gray-800 "
+      } h-[800px] -mt-[35%]  sm:-mt-0
+      snap-center  items-center justify-center relative text-center w-full md:h-screen`}
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
+      <div className="max-w-screen-lg p-4 mx-auto mb-20 sm:mb-0 flex flex-col justify-center w-full">
         <div className="pb-8">
           <p className="text-4xl font bold inline border-b-2 border-gray-500">
             Müdrik İfadələri

@@ -15,6 +15,7 @@ import mukafatAze6 from "/mukafatAze6.png";
 
 import merkezilogo from "/h.e-merkezilogo.png";
 import Popup from "../Utility/Popup";
+import { Link } from "react-router-dom";
 
 function Mukafatlar(props) {
   const [mukafatType, setMukafatType] = useState("azerbaijan");
@@ -29,8 +30,6 @@ function Mukafatlar(props) {
           mukafatAze1
         ) : mukafatType === "ussr" ? (
           mukafat1
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -39,8 +38,6 @@ function Mukafatlar(props) {
           " Atatürk Beynəlxalq Sülh Mükafatı"
         ) : mukafatType === "ussr" ? (
           "SSRİ Silahlı Qüvvələrinin 70 illiyi yubiley medalı"
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -70,8 +67,6 @@ function Mukafatlar(props) {
           mukafatAze2
         ) : mukafatType === "ussr" ? (
           mukafat2
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -80,8 +75,6 @@ function Mukafatlar(props) {
           "Tbilisi Dövlət Universitetinin fəxri doktoru"
         ) : mukafatType === "ussr" ? (
           "Böyük Vətən müharibəsində Almaniya üzərində qələbə "
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -111,8 +104,6 @@ function Mukafatlar(props) {
           mukafatAze3
         ) : mukafatType === "ussr" ? (
           mukafat3
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -121,8 +112,6 @@ function Mukafatlar(props) {
           "Dövlət nişanı"
         ) : mukafatType === "ussr" ? (
           "Beş dəfə Lenin ordeni"
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -153,8 +142,6 @@ function Mukafatlar(props) {
           mukafatAze4
         ) : mukafatType === "ussr" ? (
           mukafat4
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -163,8 +150,6 @@ function Mukafatlar(props) {
           "`Yaroslav Mudrı` ordeni "
         ) : mukafatType === "ussr" ? (
           "Əmək igidliyi medalı"
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -194,8 +179,6 @@ function Mukafatlar(props) {
           mukafatAze5
         ) : mukafatType === "ussr" ? (
           mukafat5
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -204,8 +187,6 @@ function Mukafatlar(props) {
           "Ege Universitetinin fəxri doktoru"
         ) : mukafatType === "ussr" ? (
           "Böyük Vətən müharibəsində qələbənin 40 illiyi yubiley medalı"
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -229,8 +210,6 @@ function Mukafatlar(props) {
           mukafatAze6
         ) : mukafatType === "ussr" ? (
           mukafat6
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -240,8 +219,6 @@ function Mukafatlar(props) {
           "`Fəxri legion` ordeni"
         ) : mukafatType === "ussr" ? (
           "İki dəfə Sosialist Əməyi Qəhrəmanı"
-        ) : mukafatType === "abideler" ? (
-          <></>
         ) : (
           <></>
         ),
@@ -280,8 +257,8 @@ function Mukafatlar(props) {
       className={`flex flex-col snap-center   ${
         props.lightMode
           ? "dark bg bg-gradient-to-b  from-white via-white to-gray-200"
-          : "bg-gradient-to-b  from-black via-black to-gray-800 "
-      } h-[2500px] items-center justify-center text-center w-full sm:h-screen`}
+          : "bg-gradient-to-b  from-black  to-gray-800 "
+      } h-[2500px] items-center justify-center text-center w-full md:h-screen`}
     >
       <div className="max-w-screen-lg p-4 mx-auto  flex flex-col justify-center w-full h-full">
         <div className="mb-12 px-10 items-center shadow-md dark:shadow-none    flex flex-col sm:flex-row rounded-lg   shadow-gray-800 pt-5  pb-2">
@@ -296,10 +273,10 @@ function Mukafatlar(props) {
           <div className="flex justify-center  sm:ml-auto">
             <div
               onClick={() => setMukafatType("azerbaijan")}
-              className="mukafatlar-button dark:shadow-md active:scale-90 sm:px-0  sm:w-28   shadow-md shadow-gray-800 "
+              className="mukafatlar-button dark:shadow-md  active:scale-90 sm:px-0 w-2/5  sm:w-28   shadow-md shadow-gray-800 "
             >
               <img
-                className="h-5  mr-3"
+                className="h-5  mr-3  "
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.publicdomainpictures.net%2Fpictures%2F340000%2Fvelka%2Fflag-of-azerbaijan-1588676171Dkl.jpg&f=1&nofb=1&ipt=34d0cddbd7ff458d003854447b6939b0ec18d49295df6fbc6fb79770907f62de&ipo=images"
               />
               AZE
@@ -307,22 +284,14 @@ function Mukafatlar(props) {
 
             <div
               onClick={() => setMukafatType("ussr")}
-              className="mukafatlar-button dark:shadow-md sm:px-0  sm:w-32  active:scale-90    shadow-md shadow-gray-800"
+              className="mukafatlar-button dark:shadow-md sm:px-0  sm:w-32  w-1/6 active:scale-90    shadow-md shadow-gray-800"
             >
               <img
-                className="h-5 mr-3 "
+                className="h-5 sm:mr-3 "
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F36%2F22536-050-E22B1D13%2FFlag-Union-of-Soviet-Socialist-Republics.jpg%3Fw%3D400%26h%3D300%26c%3Dcrop&f=1&nofb=1&ipt=b5c9608aa7283fc7662aaa53a398de5dd9cf4e9fd62dd058f4809bc39e5a640c&ipo=images "
               />
               SSRI
             </div>
-
-            {/* <div
-              onClick={() => setMukafatType("abideler")}
-              className="mukafatlar-button dark:shadow-md  sm:px-0 sm:w-32  active:scale-90    shadow-md shadow-gray-800 "
-            >
-              <img className="h-5  mr-3" src={merkezilogo}></img>
-              Abidələr
-            </div> */}
           </div>
         </div>
 
@@ -334,8 +303,8 @@ function Mukafatlar(props) {
                 onClick={() => popUpToggle(mukafat.id)}
                 className={
                   mukafatType === "azerbaijan"
-                    ? "shadow-md group cursor-pointer dark:shadow-md  active:scale-95  p-10 relative shadow-gray-600 rounded-lg "
-                    : "shadow-md group cursor-pointer active:scale-95 p-5   relative shadow-gray-600 rounded-lg "
+                    ? "shadow-md group cursor-pointer dark:shadow-md  active:scale-95  p-10 relative shadow-gray-600 dark:shadow-gray-300 first-letter:rounded-lg "
+                    : "shadow-md group cursor-pointer active:scale-95 p-5   relative shadow-gray-600 dark:shadow-gray-300 rounded-lg "
                 }
               >
                 <img

@@ -12,7 +12,7 @@ function Popup(props) {
         <div
           className="relative    shadow-gray-600
          border-2 border-opacity-50  border-gray-600 shadow-md 
-         max-w-screen-xl w-11/12  sm:h-4/5 rounded-md  bg-gradient-to-b 
+         max-w-screen-xl w-11/12  h-4/5 rounded-md  bg-gradient-to-b 
           from-black/90 to-gray-800/90 dark:from-white/90 dark:to-gray-100/95"
         >
           <div className=" sm:p-10  w-full h-full  sm:ml-10 justify-center flex-wrap items-center  flex flex-col sm:flex-row">
@@ -31,7 +31,7 @@ function Popup(props) {
             </div>
 
             <div
-              className="border-t-4  opacity-0 sm:opacity-100 absolute  bottom-0 left-0 
+              className="border-t-4   dark:border-t-gray-300 opacity-0 sm:opacity-100 absolute  bottom-0 left-0 
              border-t-gray-700 border-opacity-60  px-10 p-5 w-full"
             >
               <span className="font-semibold flex text-lg items-center">

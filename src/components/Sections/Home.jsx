@@ -11,7 +11,7 @@ function Home(props) {
         props.lightMode
           ? "dark bg bg-gradient-to-b  from-white via-white to-gray-200"
           : "bg-gradient-to-b  from-black via-black to-gray-800 "
-      } snap-center   h-screen  items-center  justify-center text-center w-full `}
+      } snap-center h-[1100px]  sm:h-screen  items-center  justify-center text-center w-full `}
     >
       <Navbar setLightMode={props.setLightMode} lightMode={props.lightMode} />
 

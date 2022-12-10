@@ -16,7 +16,7 @@ function About(props) {
               ? "dark bg bg-gradient-to-b  from-gray-200 via-white to-white"
               : "bg-gradient-to-b  from-gray-800 via-gray-800 to-black "
           }
-          snap-center  w-full sm:h-screen`
+          snap-center  w-full md:h-screen`
           : `w-full  	pb-20 pt-5 h-full 
           ${
             props.lightMode
@@ -42,8 +42,8 @@ function About(props) {
         ) : (
           <></>
         )}
-        <div className="pb-8">
-          <p className="text-4xl font bold inline border-b-2 border-gray-500">
+        <div className={`pb-8 flex ${props.routed ? "" : "justify-center"}`}>
+          <p className="text-4xl font bold  inline border-b-2 border-gray-500">
             Həyatı
           </p>
         </div>
