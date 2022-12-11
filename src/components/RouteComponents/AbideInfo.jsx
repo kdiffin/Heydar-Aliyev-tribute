@@ -81,10 +81,10 @@ function AbideInfo(props) {
           props.name === "Heydər Əliyev Mərkəzi"
             ? "  md:h-[4101px] sm:h-[5000px] xs:h-[5400px] xxs:h-[7000px] xxxs:h-[7900px] h-[8350px] "
             : props.name === "Heydər Əliyev Sarayı"
-            ? " lg:h-[7900px] md:h-[10000px] sm:h-[11445px] xs:h-[14352px] xxxs:h-[20002px] xxs:h-[17600px] h-[21902px] "
-            : ""
+            ? " lg:h-[7900px] md:h-[10000px] sm:h-[11440px] xs:h-[14352px] xxxs:h-[20002px] xxs:h-[17600px] h-[21902px] "
+            : " h-[9900px] sm:h-[5300px] xxxs:h-[8700px] xxs:h-[7200px] xs:h-[6200px] md:h-[4500px] "
         }
-         h-[9900px] xxxs:h-[8700px] xxs:h-[7200px] xs:h-[6200px] md:h-[4500px]  sm:-mt-0 sm:h-[5300px] sm:pt-20 items-center justify-center bg-gradient-to-b dark-scrollbar dark:from-white  dark:via-white dark:to-gray-200 from-gray-800 via-gray-800 to-black 
+          sm:-mt-0  sm:pt-20 items-center justify-center bg-gradient-to-b dark-scrollbar dark:from-white  dark:via-white dark:to-gray-200 from-gray-800 via-gray-800 to-black 
       snap-start  w-full `}
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
