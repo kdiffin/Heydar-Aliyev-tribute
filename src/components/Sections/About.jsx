@@ -10,7 +10,7 @@ function About(props) {
       id="həyatı"
       className={
         !props.routed
-          ? `flex flex-col  h-[1200px] items-center justify-center 
+          ? `flex flex-col  h-[1500px] xxs:h-[1300px] items-center justify-center 
           ${
             props.lightMode
               ? "dark bg bg-gradient-to-b  from-gray-200 via-white to-white"

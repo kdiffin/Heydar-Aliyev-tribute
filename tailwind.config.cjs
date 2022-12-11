@@ -4,8 +4,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     screens: {
+      xxxs: "340px",
       xxs: "389px",
-      xs: "490px",
+      xs: "450px",
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 
