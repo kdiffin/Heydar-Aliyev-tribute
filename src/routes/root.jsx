@@ -19,7 +19,11 @@ function root() {
   const [lightMode, setLightMode] = useState(lightModeRouter || false);
 
   return (
-    <div className={` ${lightMode ? "text-black dark" : ""} m-0 p-0`}>
+    <div
+      className={` ${
+        lightMode ? "text-black  dark " : "dark-scrollbar"
+      } m-0 app  p-0`}
+    >
       <Əsas lightMode={lightMode} setLightMode={setLightMode} />
       <Həyatı lightMode={lightMode} setLightMode={setLightMode} />
       <Mükafatları lightMode={lightMode} />

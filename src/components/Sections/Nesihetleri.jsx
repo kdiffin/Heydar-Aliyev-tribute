@@ -47,9 +47,10 @@ function Nəsihətləri(props) {
       id: 9,
     },
   ];
+
   return (
     <section
-      id="Müdrik İfadələri"
+      id="müdrik-İfadələri"
       className={`flex flex-col 
       ${
         props.lightMode

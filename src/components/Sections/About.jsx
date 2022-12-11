@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-import AboutParagraph from "../Utility/AboutParagraph";
+import AboutParagraph from "../RouteComponents/AboutParagraph";
 import Navbar from "./Navbar";
 
 function About(props) {
@@ -14,19 +14,19 @@ function About(props) {
           ${
             props.lightMode
               ? "dark bg bg-gradient-to-b  from-gray-200 via-white to-white"
-              : "bg-gradient-to-b  from-gray-800 via-gray-800 to-black "
+              : "bg-gradient-to-b dark-scrollbar  from-gray-800 via-gray-800 to-black "
           }
           snap-center  w-full md:h-screen`
-          : `w-full  	pb-20 pt-5 h-full 
+          : `w-full   	pb-20 pt-5  
           ${
             props.lightMode
               ? "dark bg bg-gradient-to-b   from-gray-200 via-white text-black to-white"
-              : "bg-gradient-to-b  from-black via-black to-gray-800 "
+              : "bg-gradient-to-b dark-scrollbar  from-black via-black to-gray-800 "
           }
     text-white`
       }
     >
-      {props.routed ? <Navbar routAbout /> : <></>}{" "}
+      {props.routed ? <Navbar routAbout lightMode={props.lightMode} /> : <></>}{" "}
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         {props.routed ? (
           <Link

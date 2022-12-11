@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { FaBars, FaAlignRight, FaMoon, FaSun } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   const [nav, setNav] = useState(false);
@@ -25,14 +26,14 @@ function Navbar(props) {
     },
 
     {
-      id: 4,
-      link: "#Müdrik İfadələri",
-      name: "Müdrik İfadələri",
+      id: 5,
+      link: "#abidələri",
+      name: "Abidələri",
     },
     {
       id: 4,
-      link: "#Abidələri",
-      name: "Abidələri",
+      link: "#müdrik-İfadələri",
+      name: "Müdrik İfadələri",
     },
   ];
 
@@ -41,9 +42,13 @@ function Navbar(props) {
       className={` ${props.routAbout ? "mb-20 " : ""} flex    pt-5 w-full h-12`}
     >
       <div>
-        <h1 className="text-4xl text-center sm:ml-10 mr-auto ">
+        <Link
+          to="/"
+          className="text-4xl text-center flex sm:ml-10 mr-auto  "
+          state={props.lightMode}
+        >
           Azərbaycanın ümumilli lideri
-        </h1>
+        </Link>
       </div>
 
       <ul className="hidden md:flex   ml-auto items-center">
@@ -53,14 +58,23 @@ function Navbar(props) {
               key={link.id}
               className="px-4 cursor-pointer capitalize text-gray-500 hover:scale-110 duration-200"
             >
-              <a href={link.link}>{link.name}</a>
+              {!props.routAbout ? (
+                <a href={link.link}>{link.name}</a>
+              ) : (
+                <Link to="/" state={props.lightMode}>
+                  {" "}
+                  {link.name}{" "}
+                </Link>
+              )}
             </li>
           );
         })}
 
         <div
           onClick={() => props.setLightMode(!props.lightMode)}
-          className="p-2  rounded-lg  mr-4 border-2 cursor-pointer ml-2 active:scale-90 border-gray-500 text-gray-500"
+          className={`p-2  rounded-lg  mr-4 border-2 cursor-pointer ml-2 ${
+            props.routAbout && "hidden"
+          } active:scale-90 border-gray-500 text-gray-500`}
         >
           {" "}
           {props.lightMode ? <FaMoon /> : <FaSun />}
@@ -84,9 +98,20 @@ function Navbar(props) {
                 key={link.id}
                 className="p-10 text-4xl cursor-pointer capitalize text-gray-500 hover:scale-110 duration-200 border-solid border-1 border-b--500"
               >
-                <a href={link.link} onClick={() => setNav(false)}>
-                  {link.name}
-                </a>
+                {!props.routAbout ? (
+                  <a href={link.link} onClick={() => setNav(false)}>
+                    {link.name}
+                  </a>
+                ) : (
+                  <Link
+                    to="/"
+                    state={props.lightMode}
+                    onClick={() => setNav(false)}
+                  >
+                    {" "}
+                    {link.name}{" "}
+                  </Link>
+                )}
               </li>
             );
           })}
