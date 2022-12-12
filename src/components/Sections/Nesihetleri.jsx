@@ -56,7 +56,7 @@ function Nəsihətləri(props) {
         props.lightMode
           ? "dark bg bg-gradient-to-b  from-white via-white  to-gray-200"
           : "bg-gradient-to-b   from-black  to-gray-800 "
-      } h-[800px] -mt-[35%]  sm:-mt-0
+      } h-[800px]   sm:-mt-0
       snap-center  items-center justify-center relative text-center w-full md:h-screen`}
     >
       <div className="max-w-screen-lg p-4 mx-auto mb-20 sm:mb-0 flex flex-col justify-center w-full">
@@ -68,13 +68,13 @@ function Nəsihətləri(props) {
 
         <div
           className=" pb-6 shadow-lg dark:shadow-gray-300 shadow-gray-800 
-        rounded-sm border-4 border-gray-800 dark:border-gray-300"
+          mb-[200px] sm:mb-[0] rounded-sm border-4 border-gray-800 dark:border-gray-300"
         >
           <div
             className="overflow-y-scroll h-[400px]  scrollbar
             dark:light-scrollbar
 
-           mukatafatlar-scrollbar  px-7  snap-y rounded-md
+           mukatafatlar-scrollbar  px-7   n snap-y rounded-md
           snap-mandatory   "
           >
             {sözlər.map((söz) => {

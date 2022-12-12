@@ -32,7 +32,7 @@ function Abideler(props) {
           : "bg-gradient-to-b  from-gray-800   to-black "
       }  items-center h-[1500px]  sm:-mb-0  sm:pt-0 justify-center text-center w-full md:h-screen`}
     >
-      <div className="max-w-screen-2xl p-4 mx-auto flex flex-col justify-center w-full">
+      <div className="max-w-screen-2xl p-4 mx-auto flex flex-col items-center  justify-center w-full">
         <div className={`pb-8 flex  justify-center`}>
           <p className="text-4xl font bold mb-14  inline border-b-2 border-gray-500">
             Abidələri
