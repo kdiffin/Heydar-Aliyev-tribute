@@ -8,6 +8,7 @@ import Sarayı from "./routes/sarayi";
 import HavaLimani from "./routes/havaLimani";
 
 import "./index.css";
+import Education from "./routes/education";
 
 const router = createBrowserRouter([
   {
@@ -15,9 +16,11 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   { path: "/Həyatı", element: <Heyat /> },
+  { path: "/Təhsilə-Dəyəri", element: <Education /> },
+
   { path: "/Mərkəzi", element: <Mərkəzi /> },
   { path: "/Sarayı", element: <Sarayı /> },
-  { path: "/Hava-limanı", element: <HavaLimani /> },
+  { path: "/Hava-Limanı", element: <HavaLimani /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

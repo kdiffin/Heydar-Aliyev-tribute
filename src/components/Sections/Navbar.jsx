@@ -31,6 +31,11 @@ function Navbar(props) {
       name: "Abidələri",
     },
     {
+      id: 6,
+      link: "#təhsilə-dəyəri",
+      name: "Təhsilə Dəyəri",
+    },
+    {
       id: 4,
       link: "#müdrik-İfadələri",
       name: "Müdrik İfadələri",
@@ -44,14 +49,14 @@ function Navbar(props) {
       <div>
         <Link
           to="/"
-          className="text-4xl text-center flex sm:ml-10 mr-auto  "
+          className="text-4xl text-center flex w-full justify-center items-center   sm:ml-10 navOverflow:mr-auto  "
           state={props.lightMode}
         >
           Azərbaycanın ümumilli lideri
         </Link>
       </div>
 
-      <ul className="hidden md:flex   ml-auto items-center">
+      <ul className="hidden navOverflow:flex   ml-auto items-center">
         {links.map((link) => {
           return (
             <li
@@ -82,11 +87,10 @@ function Navbar(props) {
       </ul>
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 pt-6 md:hidden text-gray-500"
+        className="cursor-pointer pr-4 z-10 ml-auto pt-6 navOverflow:hidden text-gray-500"
       >
         {nav ? <FaAlignRight size={25} /> : <FaBars size={25} />}
       </div>
-
       {nav ? (
         <ul
           className="flex flex-col justify-center 

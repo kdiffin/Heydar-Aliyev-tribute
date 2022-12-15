@@ -199,4 +199,34 @@
     line-height: 1.75rem /* 28px */;
     cursor: pointer;
   }
+
+  .back-to-home-button {
+    display: flex;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5rem;
+    background-color: rgb(10, 14, 26);
+    color: #9ca3af;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    border-radius: 0.375rem;
+  }
+
+  .to-route-button {
+    display: flex;
+    margin-right: auto;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-left: auto;
+    background-color: rgb(10, 14, 26);
+    margin-top: 3.5rem;
+    color: #9ca3af;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    border-radius: 0.5rem;
+  }
 }

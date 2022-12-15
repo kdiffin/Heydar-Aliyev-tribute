@@ -24,12 +24,12 @@ function Abideler(props) {
   ];
 
   return (
-    <div
+    <section
       id="abidələri"
       className={`flex flex-col snap-center   ${
         props.lightMode
-          ? "dark bg bg-gradient-to-b  from-gray-200  via-white to-white"
-          : "bg-gradient-to-b  from-gray-800   to-black "
+          ? "dark bg bg-gradient-to-b  from-white  via-white to-gray-200"
+          : "bg-gradient-to-b  from-black    to-gray-800 "
       }  items-center h-[1500px]  sm:-mb-0  sm:pt-0 justify-center text-center w-full md:h-screen`}
     >
       <div className=" max-w-screen-xl xl:max-w-screen-2xl p-4 mx-auto flex flex-col items-center  justify-center w-full">
@@ -60,7 +60,7 @@ function Abideler(props) {
           <br />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

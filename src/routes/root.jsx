@@ -3,6 +3,8 @@ import Əsas from "../components/Sections/Home";
 import Həyatı from "../components/Sections/About";
 import Mükafatları from "../components/Sections/Mukafatlar";
 import Nəsihətləri from "../components/Sections/Nesihetleri";
+import Education from "../components/Sections/Education";
+
 import Popup from "../components/Utility/Popup";
 import StylingWarning from "../components/Utility/StylingWarning";
 
@@ -27,6 +29,7 @@ function root() {
       <Əsas lightMode={lightMode} setLightMode={setLightMode} />
       <Həyatı lightMode={lightMode} setLightMode={setLightMode} />
       <Mükafatları lightMode={lightMode} />
+      <Education lightMode={lightMode} />
       <Abideler lightMode={lightMode} />
       <Nəsihətləri lightMode={lightMode} />
       <StylingWarning />

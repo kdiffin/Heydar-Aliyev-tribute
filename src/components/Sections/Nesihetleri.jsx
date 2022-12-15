@@ -201,8 +201,8 @@ function Nəsihətləri(props) {
       className={`flex flex-col 
       ${
         props.lightMode
-          ? "dark bg bg-gradient-to-b  from-white via-white  to-gray-200"
-          : "bg-gradient-to-b   from-black  to-gray-800 "
+          ? "dark bg bg-gradient-to-b  from-gray-200 via-white  to-white"
+          : "bg-gradient-to-b   from-gray-800  to-black "
       } h-[800px]   sm:-mt-0
       snap-center  items-center justify-center relative text-center w-full md:h-screen`}
     >

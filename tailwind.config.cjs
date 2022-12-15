@@ -8,10 +8,12 @@ module.exports = {
       xxs: "389px",
       xs: "450px",
       sm: "640px",
+
       // => @media (min-width: 640px) { ... }
 
       md: "768px",
       // => @media (min-width: 768px) { ... }
+      navOverflow: "880px",
 
       lg: "1024px",
       // => @media (min-width: 1024px) { ... }

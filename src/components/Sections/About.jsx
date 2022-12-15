@@ -32,7 +32,7 @@ function About(props) {
           <Link
             to="/"
             state={props.lightMode}
-            className="bg-gradient-to-b dark:from-white dark:to-gray-200 ml-auto mr-auto sm:mx-0  text-md py-3 w-48 justify-center mb-10  flex items-center active:scale-90  text-gray-400 rounded-md from-gray-800 via-gray-800 to-[#1b283a81]   shadow-m shadow-blue-200"
+            className="active:scale-90 sm:mx-0 back-to-home-button dark:bg-gradient-to-b dark:from-white dark:to-gray-200"
           >
             <span className="mr-3">
               <FaArrowLeft />
@@ -86,7 +86,7 @@ function About(props) {
                 onClick={() => scrollTo(0, 0)}
                 state={props.lightMode}
                 to={"/Həyatı"}
-                className={`bg-gradient-to-t  py-5 w-48 mt-14 justify-center ml-auto mr-auto flex items-center active:scale-90  text-gray-400 rounded-xl from-[#050916] via-[#0d1222]  to-[#0d1020] dark:from-white dark:shadow-md  shadow-m shadow-blue-200`}
+                className={`to-route-button dark:bg-gradient-to-b dark:from-white dark:to-gray-200 dark:shadow-md active:scale-90 dark:text-gray-800`}
               >
                 <span className=" mr-3">Daha Ətraflı</span> <FaArrowRight />
               </Link>
