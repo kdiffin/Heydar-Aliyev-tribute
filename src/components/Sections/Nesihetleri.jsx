@@ -116,6 +116,83 @@ function Nəsihətləri(props) {
       name: "Tarix heç nəyi silmir.",
       id: 25,
     },
+    {
+      name: "Quran-şərifin bizə verdiyi tövsiyələr, dərs, göstərdiyi yolları paklığa, düzlüyə, doğruluğa, sədaqətə, qəhrəmanlığa, cəsarətə, cəsurluğa dəvət edən tələblərdir, tövsiyələrdir.",
+      id: 26,
+    },
+
+    {
+      name: "Cəmiyyətin gələcək tərəqqisi bir çox cəhətdən indi gənclərimizə nəyi və necə öyrətməyimizdən asılı olacaqdır.",
+      id: 27,
+    },
+
+    {
+      name: "Rəhbərlik etmək, yəni adamları öyrətmək və tərbiyələndirmək üçün gərək mənəvi haqqın olsun.",
+      id: 28,
+    },
+
+    {
+      name: "Hamı bir boyda ola bilməz, hamının eyni fikri ola bilməz.",
+      id: 29,
+    },
+
+    {
+      name: "Ana dilini bilməmək, ana dilini qiymətləndirməmək, şübhəsiz ki, xalq qarşısında böyük qəbahətdir.",
+      id: 30,
+    },
+
+    {
+      name: "Hər bir xalq öz dili ilə yaranır. Ancaq xalqın dilini yaşatmaq, inkişaf etdirmək və dünya mədəniyyəti səviyyəsinə qaldırmaq xalqın qabaqcıl adamlarının, elm, bilik xadimlərinin fəaliyyəti nəticəsində mümkün olur.",
+      id: 31,
+    },
+
+    {
+      name: "Xalq azadlıq uğrunda mübarizə apararkən qurbanlar verməlidir. Keçmişdə də belə olmuşdur, bu gün də belədir, gələcəkdə də belə olacaqdır.",
+      id: 32,
+    },
+
+    {
+      name: "Tənqid həmişə işə kömək edir.",
+      id: 33,
+    },
+
+    {
+      name: "Xalqın, Vətənin taleyi hər bir insanın taleyinə çevrilməlidir!",
+      id: 34,
+    },
+
+    {
+      name: "Vətən müharibəsi bütün xalqın, hər bir vətəndaşın öz şərəf və namusunu qorumaq üçün aparılan müharibədir!",
+      id: 35,
+    },
+
+    {
+      name: "Hər bir alim qiymətlidir. Ancaq nəzəriyyəni təcrübə ilə birləşdirən, fikirlərini tətbiq edə bilən və onlardan əməli nəticə götürə bilən, cəmiyyətə, ölkəyə, xalqa konkret fayda gətirən insanlar alimlərin sırasında xüsusi yer tuturlar.",
+      id: 36,
+    },
+
+    {
+      name: "Demokratiya insanların şüurunda dəyişiklik deməkdir. Bu dəyişiklik inqilabla olmur, təkamül yolu ilə, tədricən gedir.",
+      id: 37,
+    },
+
+    {
+      name: "Ziyalılıq kütləvi ola bilməz. Alim, şair, bəstəkar, rəssam, yazıçı, artist - bunlar fitri istedada malik olan nadir adamlardır.",
+      id: 38,
+    },
+
+    {
+      name: "Ziyalıların, mədəniyyət xadimlərinin, elm xadimlərinin cəmiyyətdə hörmətini qaldırmaq lazımdır.",
+      id: 41,
+    },
+    {
+      name: "Həqiqəti gizlətmək, həqiqətin üstünü basdırmaq olmaz.",
+      id: 39,
+    },
+    {
+      name: "Tariximizin hər səhifəsi bizim üçün əzizdir.",
+      id: 40,
+    },
   ];
 
   return (
