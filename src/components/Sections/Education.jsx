@@ -11,7 +11,11 @@ import educationImg4 from "/educationImg4.jpg";
 import educationImg5 from "/educationImg5.jpg";
 import educationImg6 from "/educationImg6.jpg";
 import educationImg8 from "/educationImg8.jpg";
+import educationImg7 from "/educationImg7.jpg";
+
 import educationImg9 from "/educationImg9.jpg";
+import educationImg10 from "/educationImg10.jpg";
+import educationImg11 from "/educationImg11.jpg";
 
 function Education(props) {
   const schools = [
@@ -116,6 +120,38 @@ function Education(props) {
       subTitle:
         "Azərbaycan Milli Elmlər Akademiyasının strukturuna daxil olan elmi təşkilat.",
     },
+    {
+      id: 11,
+      src: educationImg10,
+      name: "Azərbaycan Respublikasının Prezidenti yanında Dövlət İdarəçilik Akademiyası        ",
+      wikiLink:
+        "https://az.wikipedia.org/wiki/Az%C9%99rbaycan_Respublikas%C4%B1n%C4%B1n_Prezidenti_yan%C4%B1nda_D%C3%B6vl%C9%99t_%C4%B0dar%C9%99%C3%A7ilik_Akademiyas%C4%B1",
+      melumat:
+        "Azərbaycanda yüksək tipli ilk siyasi təhsil müəssisəsi 1921-ci ilin dekabrında təşkil edilmiş Mərkəzi Sovet Partiya Məktəbi olmuşdur. Bu məktəb 1928-ci ildə Bakı partiya komitəsi nəzdində olan Ali Sovet Partiya məktəbi ilə birləşərək, ikiillik Azərbaycan Mərkəzi Sovet Partiya məktəbi adı altında fəaliyyətini Böyük Vətən müharibəsinin başlanmasına qədərki dövrdə davam etdirmişdir. Bakı Ali Partiya məktəbi 1954-cü ildə fəaliyyətdə olan üçillik respublika partiya məktəbi əsasında 1956-cı ildə yaradıldı. Məktəbin xüsusi fakültəsində Cənubi Azərbaycandan 1945–1946-cı illərdə gəlmiş demokratik gənclər təhsil alırdı.",
+      subTitle: " Bir neçə dəfə 'İlin təhsil müəssisəsi' seçilmişdir.",
+    },
+    {
+      id: 13,
+      src: educationImg11,
+      name: "Heydər Əliyev adına Müasir Təhsil Kompleksi      ",
+      wikiLink:
+        "https://az.wikipedia.org/wiki/Heyd%C9%99r_%C6%8Fliyev_ad%C4%B1na_M%C3%BCasir_T%C9%99hsil_Kompleksi",
+      melumat:
+        "2001-ci il sentyabr ayının 1-də Ümummilli lider Heydər Əliyevin iştirakı ilə açılmışdır. Təhsil ocağı üç hissədən — uşaq bağçası, orta ümumtəhsil məktəbi və orta məktəbdən ibarətdir və onların hər birində üç bölmə — Azərbaycan, rus və ingilis bölmələri fəaliyyət göstərir. Məktəbdə Olimpiada qrupları, Şagird Elmi Cəmiyyəti, Şagird Parlamenti fəaliyyət göstərir. İngilis bölməsində dərslər 'Cambridge proqramı əsasında keçirilir. Proqramı bitirən şagirdlərə dünyanın bütün ölkələrində tanınan və yüksək səviyyədə qiymətləndirilən IGCSE sertifikatları verilir. 15 may 2018-ci ildə Heydər Əliyev adına Müasir Təhsil Kompleksinin yeni binasının açılışı olub. Azərbaycan Respublikasının Prezidenti İlham Əliyev və birinci xanım Mehriban Əliyeva açılış mərasimində iştirak ediblər.",
+      subTitle:
+        " Özündə bağça-məktəb fəaliyyətini birləşdirən Azərbaycanın ilk özəl təhsil müəssisələrindən biri.",
+    },
+    {
+      id: 12,
+      src: educationImg7,
+      name: "Azərbaycan Silahlı Qüvvələrinin Hərbi Akademiyası",
+      wikiLink:
+        "https://az.wikipedia.org/wiki/Az%C9%99rbaycan_Silahl%C4%B1_Q%C3%BCvv%C9%99l%C9%99rinin_H%C9%99rbi_Akademiyas%C4%B1",
+      melumat:
+        "Hərbi Akademiyada iki il müddətində təhsil alan dinləyicilər taktiki və operativ səviyyədəki birlik və qərargahlarda komandir və qərargah zabitləri vəzifələrində çalışmaq üçün hazırlanırlar. Hərbi Akademiyada təşkil olunmuş tədris prosesi hərbi-strateji, operativ-taktiki, eləcə də hərbi-siyasi və hərbi-iqtisadi məsələlərin öyrənilməsini təmin edir. Azərbaycan Respublikası Silahlı Qüvvələrinin Hərbi Akademiyasının nəzdində Strateji tətqiqatlar və dövlət müdafiəsini idarəetmə və hərbi diplomatiya kursları da fəaliyyət göstərir. Kursların vəzifəsi respublikanın müdafiəsi ilə əlaqədar hərbi-strateji, hərbi-iqtisadi və hərbi-siyasi məsələlərin öyrənilməsini təmin etməkdir.",
+      subTitle:
+        "  20 fevral 1999-cu il tarixli fərmanı ilə Azərbaycan Respublikası Silahlı Qüvvələrinin Hərbi Akademiyası yaradılmışdır.",
+    },
   ];
 
   const [showPopUp, setShowPopUp] = useState(false);
@@ -134,7 +170,7 @@ function Education(props) {
       id="təhsilə-dəyəri"
       className={
         !props.routed
-          ? `flex flex-col  h-[1500px] xxs:h-[1300px] items-center justify-center 
+          ? `flex flex-col  h-[1500px]  xxs:h-[1300px] items-center justify-center 
         ${
           props.lightMode
             ? "dark bg bg-gradient-to-b  from-gray-200 via-white to-white"
