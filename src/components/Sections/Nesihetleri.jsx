@@ -46,6 +46,76 @@ function Nəsihətləri(props) {
 
       id: 9,
     },
+    {
+      name: "Kim müxalifətdə durursa-dursun, ancaq Vətəninə, xalqına, mənəviyyatına, məsləyinə müxalifətdə durmasın.",
+      id: 10,
+    },
+    {
+      name: "Tarix həmişə hər şeyi öz yerinə qoyur.",
+      id: 11,
+    },
+    {
+      name: "Əgər hər hansı ölkənin xalqları öz hüquqlarını anlayır və onları qoruya bilirsə, o zaman ən kiçik dövlət belə ən böyük məmləkət qədər güclü olar.",
+      id: 12,
+    },
+    {
+      name: "Azadlıq və istiqlaliyyət hər bir xalqın milli sərvətidir.",
+      id: 13,
+    },
+    {
+      name: "Başqasının fikrinə hörmət etmək, ondan faydalı bir şey götürmək qabiliyyəti hər bir adama lazımdır.",
+      id: 13,
+    },
+    {
+      name: "Hər bir insan həyatda öz yerini tapmalıdır. Amma öz yerini, özünə məxsus olan yerini tapmalıdır.",
+      id: 14,
+    },
+    {
+      name: "Kim ki, biliyindən, bacarığından artıq iddialar edir o, həmişə məğlub olur.",
+
+      id: 15,
+    },
+    {
+      name: "Dövlət, ölkə nə qədər çox xalqı birləşdirsə, bir o qədər zəngin olur, çünki onların hər biri ümumdünya mədəniyyətinə və sivilizasiyasına öz töhfəsini verir.",
+      id: 16,
+    },
+    {
+      name: "İlk işə başlayan şəxslərin üzərinə həmişə çox böyük, şərəfli vəzifələr düşür.",
+      id: 17,
+    },
+    {
+      name: "Yol - iqtisadiyyat, mədəniyyət, bir sözlə həyat deməkdir.",
+      id: 18,
+    },
+    {
+      name: "Heç bir vətəndaş ictimai-siyasi həyata biganə qalmamalıdır.",
+      id: 19,
+    },
+    {
+      name: "Xalqla ordunun birliyi həm xalqın qüdrətini artırır, həm də ordunu daha qüvvətli edir.",
+      id: 20,
+    },
+    {
+      name: "Dünya ümumiyyətlə quruculuqla, tikib-yaratmaqla yaşayıb, inkişaf edib.",
+      id: 21,
+    },
+    {
+      name: "Yüksək mədəniyyətə malik olan xalq həmişə irəli gedəcək, həmişə yaşayacaq, həmişə inkişaf edəcəkdir.",
+      id: 22,
+    },
+    {
+      name: "Mədəniyyət bəşəriyyətin topladığı ən yaxşı nümunələrlə xalqları zənginləşdirir.",
+
+      id: 23,
+    },
+    {
+      name: "Xalq gərək daim öz kökünü xatırlasın.",
+      id: 24,
+    },
+    {
+      name: "Tarix heç nəyi silmir.",
+      id: 25,
+    },
   ];
 
   return (
