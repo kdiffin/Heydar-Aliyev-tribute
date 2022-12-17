@@ -32,7 +32,7 @@ function About(props) {
           <Link
             to="/"
             state={props.lightMode}
-            className="active:scale-90 sm:mx-0 back-to-home-button dark:bg-gradient-to-b dark:from-white dark:to-gray-200"
+            className="active:scale-90 dark:text-gray-900 sm:mx-0 back-to-home-button dark:bg-gradient-to-b dark:from-white dark:to-gray-200"
           >
             <span className="mr-3">
               <FaArrowLeft />

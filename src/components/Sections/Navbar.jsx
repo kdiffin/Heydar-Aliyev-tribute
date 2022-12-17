@@ -24,16 +24,16 @@ function Navbar(props) {
       link: "#mükafatları",
       name: "mükafatları",
     },
+    {
+      id: 6,
+      link: "#təhsilə-dəyəri",
+      name: "Təhsilə Dəyəri",
+    },
 
     {
       id: 5,
       link: "#abidələri",
       name: "Abidələri",
-    },
-    {
-      id: 6,
-      link: "#təhsilə-dəyəri",
-      name: "Təhsilə Dəyəri",
     },
     {
       id: 4,

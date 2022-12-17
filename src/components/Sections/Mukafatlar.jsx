@@ -16,10 +16,14 @@ import mukafatAze6 from "/mukafatAze6.png";
 import merkezilogo from "/h.e-merkezilogo.png";
 import Popup from "../Utility/Popup";
 import { Link } from "react-router-dom";
+import { FaShareSquare } from "react-icons/fa";
 
 function Mukafatlar(props) {
   const [mukafatType, setMukafatType] = useState("azerbaijan");
   const [showPopUp, setShowPopUp] = useState(false);
+
+  // when i reference mukafatIndex as "all", just know that it means it'll trigger the popup with all of the achievments
+  //which reside above ussr and aze buttons
   const [mukafatIndex, setMukafatIndex] = useState();
 
   const mukafatlar = [
@@ -246,9 +250,13 @@ function Mukafatlar(props) {
   function popUpToggle(idz) {
     setShowPopUp(true);
 
-    const boolList = mukafatlar.map((mukafat) => mukafat.id === idz);
-    const index = boolList.indexOf(true);
-    setMukafatIndex(index);
+    if (idz) {
+      const boolList = mukafatlar.map((mukafat) => mukafat.id === idz);
+      const index = boolList.indexOf(true);
+      setMukafatIndex(index);
+    } else {
+      setMukafatIndex("all");
+    }
   }
 
   return (
@@ -261,41 +269,51 @@ function Mukafatlar(props) {
       } h-[2500px] items-center justify-center text-center w-full md:h-screen`}
     >
       <div className="max-w-screen-lg p-4 mx-auto  flex flex-col justify-center w-full h-full">
-        <div className="mb-12 px-10 items-center shadow-md dark:shadow-none    flex flex-col sm:flex-row rounded-lg   shadow-gray-800 pt-5  pb-2">
-          <div className="flex  flex-col pt-5 ">
-            <p className="text-4xl font-bold inline border-b-2 text-left border-gray-500">
-              Mükafatları
-            </p>
-            <p className="py-6">
-              Həyatı boyu əldə etmiş müxtəlif nailiyyətləri{" "}
-            </p>
-          </div>
-          <div className="flex justify-center  sm:ml-auto">
-            <div
-              onClick={() => setMukafatType("azerbaijan")}
-              className="mukafatlar-button dark:shadow-md  active:scale-90 sm:px-0 w-2/5  sm:w-28   shadow-md shadow-gray-800 "
-            >
-              <img
-                className="h-5  mr-3  "
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.publicdomainpictures.net%2Fpictures%2F340000%2Fvelka%2Fflag-of-azerbaijan-1588676171Dkl.jpg&f=1&nofb=1&ipt=34d0cddbd7ff458d003854447b6939b0ec18d49295df6fbc6fb79770907f62de&ipo=images"
-              />
-              AZE
+        <div className="relative">
+          <div className="group mb-12 px-10 items-center shadow-md dark:shadow-none    flex flex-col sm:flex-row rounded-lg   shadow-gray-800 pt-5  pb-2">
+            <div className="flex  flex-col pt-5 ">
+              <p className="text-4xl font-bold inline border-b-2 text-left border-gray-500">
+                Mükafatları
+              </p>
+              <p className="py-6">
+                Həyatı boyu əldə etmiş müxtəlif nailiyyətləri{" "}
+              </p>
             </div>
+            <div className="flex justify-center  sm:ml-auto">
+              <div
+                onClick={() => setMukafatType("azerbaijan")}
+                className="mukafatlar-button dark:shadow-md  active:scale-90 sm:px-0 w-2/5  sm:w-28   shadow-md shadow-gray-800 "
+              >
+                <img
+                  className="h-5  mr-3  "
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.publicdomainpictures.net%2Fpictures%2F340000%2Fvelka%2Fflag-of-azerbaijan-1588676171Dkl.jpg&f=1&nofb=1&ipt=34d0cddbd7ff458d003854447b6939b0ec18d49295df6fbc6fb79770907f62de&ipo=images"
+                />
+                AZE
+              </div>
 
+              <div
+                onClick={() => setMukafatType("ussr")}
+                className="mukafatlar-button dark:shadow-md sm:px-0  sm:w-32  w-1/6 active:scale-90    shadow-md shadow-gray-800"
+              >
+                <img
+                  className="h-5 sm:mr-3 "
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F36%2F22536-050-E22B1D13%2FFlag-Union-of-Soviet-Socialist-Republics.jpg%3Fw%3D400%26h%3D300%26c%3Dcrop&f=1&nofb=1&ipt=b5c9608aa7283fc7662aaa53a398de5dd9cf4e9fd62dd058f4809bc39e5a640c&ipo=images "
+                />
+                SSRI
+              </div>
+            </div>
             <div
-              onClick={() => setMukafatType("ussr")}
-              className="mukafatlar-button dark:shadow-md sm:px-0  sm:w-32  w-1/6 active:scale-90    shadow-md shadow-gray-800"
+              onClick={() => popUpToggle()}
+              className=" group-hover:opacity-100 transition duration-300 active:scale-75 absolute opacity-0 dark:border-none top-3 right-3  cursor-pointer p-2    border-gray-700 border-2 border-opacity-40 rounded-md "
             >
-              <img
-                className="h-5 sm:mr-3 "
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F36%2F22536-050-E22B1D13%2FFlag-Union-of-Soviet-Socialist-Republics.jpg%3Fw%3D400%26h%3D300%26c%3Dcrop&f=1&nofb=1&ipt=b5c9608aa7283fc7662aaa53a398de5dd9cf4e9fd62dd058f4809bc39e5a640c&ipo=images "
-              />
-              SSRI
+              <div className="flex justify-center items-center">
+                <FaShareSquare />
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3   gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3    gap-8 px-12 sm:px-0">
           {mukafatlar.map((mukafat) => {
             return (
               <div
@@ -337,13 +355,25 @@ function Mukafatlar(props) {
       </div>
       {showPopUp ? (
         <Popup
+          mukafatIndex={mukafatIndex}
           setShowPopUp={setShowPopUp}
-          mukafatImg={mukafatlar[mukafatIndex].src}
-          mukafatName={mukafatlar[mukafatIndex].name}
-          mukafatMelumat={mukafatlar[mukafatIndex].melumat}
-          mukafatSubTitle={mukafatlar[mukafatIndex].subTitle}
+          mukafatImg={
+            mukafatIndex === "all" ? "" : mukafatlar[mukafatIndex].src
+          }
+          mukafatName={
+            mukafatIndex === "all" ? "" : mukafatlar[mukafatIndex].name
+          }
+          mukafatMelumat={
+            mukafatIndex === "all" ? "" : mukafatlar[mukafatIndex].melumat
+          }
+          mukafatSubTitle={
+            mukafatIndex === "all" ? "" : mukafatlar[mukafatIndex].subTitle
+          }
           lightMode={props.lightMode}
-          wikiLink={mukafatlar[mukafatIndex].wikiLink}
+          mukafatType={mukafatType}
+          wikiLink={
+            mukafatIndex === "all" ? "" : mukafatlar[mukafatIndex].wikiLink
+          }
         />
       ) : (
         <></>

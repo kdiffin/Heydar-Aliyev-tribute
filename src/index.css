@@ -43,6 +43,8 @@
 }
 
 @layer utilities {
+  /* ROUND SCROLLBAR HERE (USEFUL SMALLER ELEMENTS IN WHICH U STILL NEED TO SCROLL) */
+
   .light-scrollbar::-webkit-scrollbar-track {
     border-radius: 100vh;
 
@@ -83,29 +85,16 @@
 
   /* AWESOME DARK MODE SCROLLBAR SAUCE HERE */
 
-  /* .dark-scrollbar::-webkit-scrollbar-thumb:hover {
-    background-color: #19293f;
-    height: 10px;
-  } */
-
   .dark-scrollbar::-webkit-scrollbar {
     width: 15px;
-    overscroll-behavior-y: none;
-  }
-
-  .dark-scrollbar::-webkit-scrollbar-track {
-    height: 10px;
   }
 
   .dark-scrollbar::-webkit-scrollbar-thumb {
     background-color: rgb(61, 68, 78);
-
-    height: 20px;
   }
 
   .dark-scrollbar::-webkit-scrollbar-thumb:hover {
     background-color: #525a64;
-    height: 10px;
   }
 
   /* Buttons */
