@@ -304,7 +304,7 @@ function Mukafatlar(props) {
             </div>
             <div
               onClick={() => popUpToggle()}
-              className=" group-hover:opacity-100 transition duration-300 active:scale-75 absolute opacity-0 dark:border-none top-3 right-3  cursor-pointer p-2    border-gray-700 border-2 border-opacity-40 rounded-md "
+              className=" group-hover:opacity-100 transition duration-300 active:scale-75 absolute md:opacity-0 dark:border-none top-3 right-3  cursor-pointer p-2    border-gray-700 border-2 border-opacity-40 rounded-md "
             >
               <div className="flex justify-center items-center">
                 <FaShareSquare />

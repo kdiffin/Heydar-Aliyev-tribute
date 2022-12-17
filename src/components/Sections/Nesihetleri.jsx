@@ -47,7 +47,7 @@ function Nəsihətləri(props) {
           </div>
         </div>
       </div>
-      <div className="absolute  w-full left-0 bottom-0">
+      <div className="absolute   w-full left-0 bottom-0">
         <Footer />
       </div>
     </section>
