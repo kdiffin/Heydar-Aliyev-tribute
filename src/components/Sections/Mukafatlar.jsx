@@ -22,7 +22,7 @@ function Mukafatlar(props) {
   const [mukafatType, setMukafatType] = useState("azerbaijan");
   const [showPopUp, setShowPopUp] = useState(false);
 
-  // when i reference mukafatIndex as "all", just know that it means it'll trigger the popup with all of the achievments
+  // when i reference mukafatIndex as "all", just know that it means it'll trigger the popup with all of the achievments/mukafatlar
   //which reside above ussr and aze buttons
   const [mukafatIndex, setMukafatIndex] = useState();
 
