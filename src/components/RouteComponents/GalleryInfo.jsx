@@ -8,7 +8,7 @@ import ReactResponsiveMasonry from "../Utility/ReactResponsiveMasonry";
 function GalleryInfo(props) {
   //this is the component that gets rendered in the /qaleriya route
 
-  const [photoType, setPhotoType] = useState(props.filter || " 1923-1969");
+  const [photoType, setPhotoType] = useState(props.filter || "1923-1969");
   return (
     <div
       className={`w-full min-h-screen overflow-x-hidden relative   	pb-20 pt-5  

@@ -5,8 +5,8 @@ import About from "../components/Sections/About";
 
 function gallery() {
   const location = useLocation();
-  const lightMode = location.state.lightMode || false;
-  const filter = location.state.filter;
+  const lightMode = location.state ? location.state.lightMode : false;
+  const filter = location.state ? location.state.filter : "1923-1969";
 
   return (
     <div
