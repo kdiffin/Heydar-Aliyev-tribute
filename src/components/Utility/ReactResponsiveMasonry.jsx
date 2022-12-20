@@ -21,10 +21,7 @@ function ReactResponsiveMasonry(props) {
     <div className="grid  grid-cols- md:grid-cols-6  max-w-screen-2xl auto-rows-[200px_300px] gap-3 ">
       {images.map((image, i) => {
         return (
-          <div
-            key={i}
-            className={`${image.rowSpan} col-span-1 sm:${image.colSpan}`}
-          >
+          <div key={i} className={`${image.rowSpan} ${image.colSpan}`}>
             <div className="w-full h-full cursor-pointer relative group">
               <div
                 className={`w-full  h-full  ${

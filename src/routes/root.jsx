@@ -21,6 +21,11 @@ function root() {
   // as the class option 😭😭😭😭 excuse me for that one
   const location = useLocation();
   const lightModeRouter = location.state;
+  //the way i implemented dark mode is dumb
+  //basically the way its done is that it first gets set in the root directory and once u click on perhaps "daha etrafli" or any of the navbar options it resets the state from that button click
+  //but the better way to do it was to set it as sessionstorage and access it using loaders and change it using actions
+  //but ive already did it this way and i dont have time to revert the whole project
+
   const [lightMode, setLightMode] = useState(lightModeRouter || false);
 
   return (

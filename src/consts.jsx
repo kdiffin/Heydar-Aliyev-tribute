@@ -3528,6 +3528,7 @@ export const GALLERY_PHOTOS_1990 = [
     colSpan: "col-span-2",
     rowSpan: "row-span-1",
   },
+
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692328341.jpg",
     name: "Heydər Əliyev və kraliça 2-ci Yelizaveta, London, 1998",
