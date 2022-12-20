@@ -6,7 +6,7 @@ import { GALLERY_MAIN_PHOTOS as photos } from "../../consts";
 function Gallery(props) {
   return (
     <div
-      id="qaleriya"
+      id="qalereya"
       className={`flex flex-col  h-[1300px] pb-60 sm:pb-0 xxs:h-[2300px] items-center justify-center 
   ${
     props.lightMode
@@ -39,7 +39,7 @@ function Gallery(props) {
                   />
 
                   <Link
-                    to="/Qaleriya"
+                    to="/Qalereya"
                     state={{
                       filter: photo.name,
                       lightMode: props.lightMode,

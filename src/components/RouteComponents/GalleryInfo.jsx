@@ -9,6 +9,7 @@ function GalleryInfo(props) {
   //this is the component that gets rendered in the /qaleriya route
 
   const [photoType, setPhotoType] = useState(props.filter || "1923-1969");
+
   return (
     <div
       className={`w-full min-h-screen overflow-x-hidden relative   	pb-20 pt-5  
@@ -22,7 +23,7 @@ function GalleryInfo(props) {
       <Navbar routAbout lightMode={props.lightMode} />
       <div className={`pb-8 flex  justify-center`}>
         <p className="text-5xl font bold text-center mt-20  mb-10 inline border-b-2 border-gray-500">
-          Foto qaleriya
+          Foto qalereya
         </p>
       </div>
       <div className="flex justify-center  items-center">

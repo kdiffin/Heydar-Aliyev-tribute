@@ -47,8 +47,8 @@ function Navbar(props) {
     },
     {
       id: 9,
-      link: "#qaleriya",
-      name: "Qaleriya",
+      link: "#qalereya",
+      name: "Qalereya",
     },
     {
       id: 4,

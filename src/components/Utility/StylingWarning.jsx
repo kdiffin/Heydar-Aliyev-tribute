@@ -27,8 +27,8 @@ function stylingWarning() {
 
           <div className="flex flex-col justify-center items-center text-center">
             <p className="text-2xl text-white">
-              Sayt qəribə və yaxud görsəndiyi halda sayt düzələnə qədər ctrl və
-              - düymələrinə basın.{" "}
+              Sayt qəribə və yaxud nasaz görsəndiyi halda, sayt düzələnə qədər
+              "ctrl" və "-" düymələrinə basın
             </p>
             <br />
 

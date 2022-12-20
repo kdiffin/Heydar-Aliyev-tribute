@@ -27,7 +27,7 @@ const router = createBrowserRouter([
   { path: "/Təhsilə-Dəyəri", element: <Education /> },
 
   { path: "/Mərkəzi", element: <Mərkəzi /> },
-  { path: "/Qaleriya", element: <Gallery /> },
+  { path: "/Qalereya", element: <Gallery /> },
   { path: "/Siyasi-portreti", element: <PoliticalPortrait /> },
   {
     path: "/Çıxışları/Andiçmə-mərasimi",
