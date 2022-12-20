@@ -3123,13 +3123,13 @@ export const GALLERY_PHOTOS_1923 = [
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692321561.jpg",
     name: "Heydər Əliyev, Naxçıvan, 1930",
-    colSpan: "col-span-2 md:col-span-1",
+    colSpan: " col-span-1",
     rowSpan: "row-span-2",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692321562.jpg",
     name: "Heydər Əliyev, Naxçıvan,1938",
-    colSpan: "col-span-2 md:col-span-1",
+    colSpan: " col-span-1",
     rowSpan: "row-span-",
   },
   {
@@ -3215,13 +3215,13 @@ export const GALLERY_PHOTOS_1923 = [
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692322846.jpg",
     name: "Heydər Əliyev DTK-nın Ali Məktəbində,Leninqrad,1950",
-    colSpan: "col-span-2 md:col-span-1",
+    colSpan: " col-span-1",
     rowSpan: "row-span-",
   },
   {
     src: "    https://heydaraliyevcenter.az/files/gallery/13692322843.jpg    ",
     name: "Podpolkovnik Heydər Əliyev",
-    colSpan: "col-span-2 md:col-span-1",
+    colSpan: " col-span-1",
     rowSpan: "row-span-",
   },
   {
@@ -3255,7 +3255,7 @@ export const GALLERY_PHOTOS_1969 = [
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692931285.jpg",
     name: "Üzümçülük kolxozlarının birində, Naxçıvan,1974",
-    colSpan: "col-span-2 sm:col-span-1",
+    colSpan: "col-span-1",
     rowSpan: "row-span-1",
   },
   {
@@ -3298,7 +3298,7 @@ export const GALLERY_PHOTOS_1969 = [
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692932991.jpg",
     name: "Çay plantasiyasında, Astara, 1982",
-    colSpan: "col-span-3 sm:col-span-2",
+    colSpan: "col-span-2",
     rowSpan: "row-span-1",
   },
 
@@ -3354,7 +3354,7 @@ export const GALLERY_PHOTOS_1969 = [
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692932995.jpg",
     name: "Bakı Məişət Kondisionerləri zavodu ilə tanış olarkən, 1975",
-    colSpan: "col-span-2 sm:col-span-1",
+    colSpan: "col-span-1",
     rowSpan: "row-span-1",
   },
   {
@@ -3379,7 +3379,7 @@ export const GALLERY_PHOTOS_1969 = [
     src: "https://heydaraliyevcenter.az/files/gallery/13692932997.jpg",
     name: "Yeni Bakı Neftayırma zavodunda, 1976",
     colSpan: " col-span-1",
-    rowSpan: "row-span-2 sm:row-span-1",
+    rowSpan: "row-span-1",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692935530.jpg",
@@ -3409,19 +3409,19 @@ export const GALLERY_PHOTOS_1969 = [
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692935534.jpg",
     name: "Yazıçı Anara Dövlət mükafatı laureatının diplomunu təqdim edərkən, 1980",
-    colSpan: "col-span-4 sm:col-span-2",
+    colSpan: "col-span-2",
     rowSpan: "row-span-1",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692935536.jpg",
     name: "Təltif olunmuş şair və yazıçılarla, 1981",
-    colSpan: "col-span-4 sm:col-span-3",
+    colSpan: "col-span-3",
     rowSpan: "row-span-2",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692935537.jpg",
     name: "Heydər Əliyev və maestro Niyazi, 1983",
-    colSpan: "col-span-4 sm:col-span-3",
+    colSpan: "col-span-3",
     rowSpan: "row-span-2",
   },
 
@@ -3429,31 +3429,32 @@ export const GALLERY_PHOTOS_1969 = [
     src: "https://heydaraliyevcenter.az/files/gallery/13692935533.jpg",
     name: "Qara Qarayevin 60 illik yubileyinə həsr olunmuş təntənəli gecədə, 1978",
     colSpan: "col-span-3",
-    rowSpan: "row-span-1",
+    rowSpan: "row-span-2",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692935871.jpg",
     name: "Volqoqrad, 1987",
     colSpan: "col-span-1",
-    rowSpan: "sm:row-span-2 row-span-4",
+    rowSpan: "row-span-2 ",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692935538.jpg",
     name: "Heydər Əliyev, 1984",
-    colSpan: "col-span-3 sm:col-span-2",
+    colSpan: "col-span-2",
     rowSpan: "row-span-3",
   },
+
   {
     src: "https://heydaraliyevcenter.az/files/gallery/136929355310.jpg",
     name: "SSRİ Kommunist Partiyasının 27-ci qurultayının mətbuat mərkəzində, 1986",
-    colSpan: "col-span-4 sm:col-span-3",
+    colSpan: "col-span-3",
     rowSpan: "row-span-",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692935870.jpg",
     name: "Laos, Sovet nümayəndə heyətinin qəbul mərasimi, 1986",
-    colSpan: "col-span-4",
-    rowSpan: "row-span-",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
   },
 ];
 
@@ -3493,7 +3494,7 @@ export const GALLERY_PHOTOS_1990 = [
     src: "https://heydaraliyevcenter.az/files/gallery/13692326604.jpg",
     name: "Heydər Əliyev Şəhidlər Xiyabanında, Bakı, 1991",
     colSpan: "col-span-2",
-    rowSpan: " row-span-2 sm:row-span-1",
+    rowSpan: " row-span-2 ",
   },
 
   {
@@ -3508,28 +3509,23 @@ export const GALLERY_PHOTOS_1990 = [
     colSpan: "col-span-3",
     rowSpan: "row-span-2",
   },
-  {
-    src: "https://heydaraliyevcenter.az/files/gallery/13692326608.jpg",
-    name: "Heydər Əliyev döyüş bölgəsində, 1994",
-    colSpan: "col-span-3 sm:col-span-2",
-    rowSpan: "row-span-1",
-  },
+
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692326609.jpg",
     name: "“Əsrin müqaviləsi”nin imzalanması mərasimi, 1994",
-    colSpan: "col-span-3 sm:col-span-2",
+    colSpan: "col-span-2",
     rowSpan: "row-span-1",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/136923266010.jpg",
     name: "ATƏT-in Budapeşt sammitində, 1994",
-    colSpan: "col-span-3 sm:col-span-2",
+    colSpan: "col-span-2",
     rowSpan: "row-span-1",
   },
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692328340.jpg",
     name: "ATƏT-in Lissabon sammitində, 1996",
-    colSpan: "col-span-3 sm:col-span-2",
+    colSpan: "col-span-2",
     rowSpan: "row-span-1",
   },
   {
@@ -3572,6 +3568,148 @@ export const GALLERY_PHOTOS_1990 = [
   {
     src: "https://heydaraliyevcenter.az/files/gallery/13692328349.jpg",
     name: "Rusiya Federasiyasına rəsmi səfərdə, Moskva, 2002",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
+  },
+];
+export const GALLERY_PHOTOS_MOMENTS = [
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944100.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944101.jpg",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944102.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944103.jpg",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944104.jpg",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944105.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944106.jpg",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944107.jpg",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944108.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944109.jpg",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/136929441010.jpg",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944790.png",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944791.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944792.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944793.jpg",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944794.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944795.jpg",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944796.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944797.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944798.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692944799.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/136929447910.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692945100.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692945101.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692945102.jpg",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692945103.jpg",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692945104.jpg",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692945105.jpg",
     colSpan: "col-span-3",
     rowSpan: "row-span-2",
   },

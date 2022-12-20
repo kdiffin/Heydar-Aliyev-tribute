@@ -45,7 +45,7 @@ function GalleryInfo(props) {
           })}
         </div>
       </div>
-      <div className=" flex justify-center    mt-20">
+      <div className=" flex justify-center  p-2  mt-20">
         <ReactResponsiveMasonry filter={photoType} />
       </div>
     </div>
