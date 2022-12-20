@@ -5,7 +5,9 @@ import About from "../components/Sections/About";
 
 function gallery() {
   const location = useLocation();
-  const lightMode = location.state;
+  const lightMode = location.state.lightMode;
+  const filter = location.state.filter;
+
   return (
     <div
       className={`text-white overflow-y-scroll h-screen ${
@@ -13,7 +15,7 @@ function gallery() {
       }  `}
     >
       {/* routed prop will be useful when u go to the about component and see all the ternaries */}
-      <GalleryInfo routed lightMode={lightMode} />
+      <GalleryInfo routed lightMode={lightMode} filter={filter} />
     </div>
   );
 }
