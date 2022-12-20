@@ -1,12 +1,11 @@
 import React from "react";
+import { useLocation } from "react-router";
+import GalleryInfo from "../components/RouteComponents/GalleryInfo";
 import About from "../components/Sections/About";
-import { useLocation } from "react-router-dom";
-import AboutParagraph from "../components/RouteComponents/AboutParagraph";
 
-function heyat() {
+function gallery() {
   const location = useLocation();
   const lightMode = location.state;
-
   return (
     <div
       className={`text-white overflow-y-scroll h-screen ${
@@ -14,14 +13,9 @@ function heyat() {
       }  `}
     >
       {/* routed prop will be useful when u go to the about component and see all the ternaries */}
-      <About
-        routed
-        lightMode={lightMode}
-        name="Həyatı"
-        paragraph={<AboutParagraph />}
-      />
+      <GalleryInfo routed lightMode={lightMode} />
     </div>
   );
 }
 
-export default heyat;
+export default gallery;

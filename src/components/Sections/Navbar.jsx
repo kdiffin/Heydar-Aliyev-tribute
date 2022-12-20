@@ -18,22 +18,37 @@ function Navbar(props) {
       link: "#həyatı",
       name: "həyatı",
     },
-
     {
       id: 3,
       link: "#mükafatları",
       name: "mükafatları",
     },
+
     {
-      id: 6,
-      link: "#təhsilə-dəyəri",
-      name: "Təhsilə Dəyəri",
+      id: 7,
+      link: "#siyasi-portreti",
+      name: "Siyasi portreti",
     },
 
     {
       id: 5,
       link: "#abidələri",
       name: "Abidələri",
+    },
+    {
+      id: 6,
+      link: "#təhsilə-dəyəri",
+      name: "Təhsilə Dəyəri",
+    },
+    {
+      id: 8,
+      link: "#çıxışları",
+      name: "Çıxışları",
+    },
+    {
+      id: 9,
+      link: "#qaleriya",
+      name: "Qaleriya",
     },
     {
       id: 4,
@@ -44,12 +59,14 @@ function Navbar(props) {
 
   return (
     <div
-      className={` ${props.routAbout ? "mb-20 " : ""} flex    pt-5 w-full h-12`}
+      className={` ${
+        props.routAbout ? "mb-20 -mt-4 " : ""
+      } flex    pt-5 w-full h-12`}
     >
       <div>
         <Link
           to="/"
-          className="text-4xl text-center flex w-full justify-center items-center   sm:ml-10 navOverflow:mr-auto  "
+          className="text-4xl text-center flex w-full justify-center items-center   sm:ml-6 navOverflow:mr-auto  "
           state={props.lightMode}
         >
           Azərbaycanın ümumilli lideri
@@ -93,14 +110,16 @@ function Navbar(props) {
       </div>
       {nav ? (
         <ul
-          className="flex flex-col justify-center 
-      items-center absolute top-0 dark:from-white dark:to-gray-300  left-0 w-full overflow-y-hidden h-full bg-gradient-to-b from-black to-gray-800 text-gray-500"
+          className={`flex flex-col justify-center 
+      items-center absolute top-0 dark:from-white dark:to-gray-300  left-0 w-full overflow-y-scroll ${
+        !props.lightMode && "dark-scrollbar"
+      }     pt-64 pb-20 h-full bg-gradient-to-b from-black to-gray-800 text-gray-500`}
         >
           {links.map((link) => {
             return (
               <li
                 key={link.id}
-                className="p-10 text-4xl cursor-pointer capitalize text-gray-500 hover:scale-110 duration-200 border-solid border-1 border-b--500"
+                className="p-10 text-4xl  cursor-pointer capitalize text-gray-500 hover:scale-110 duration-200 border-solid border-1 border-b--500"
               >
                 {!props.routAbout ? (
                   <a href={link.link} onClick={() => setNav(false)}>

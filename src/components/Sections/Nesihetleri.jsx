@@ -9,9 +9,9 @@ function Nəsihətləri(props) {
       className={`flex flex-col 
       ${
         props.lightMode
-          ? "dark bg bg-gradient-to-b  from-gray-200 via-white  to-white"
-          : "bg-gradient-to-b   from-gray-800  to-black "
-      } h-[800px]   sm:-mt-0
+          ? "dark bg bg-gradient-to-b  from-white via-white  to-gray-200"
+          : "bg-gradient-to-b   from-black  to-gray-800 "
+      } h-[850px]   
       snap-center  items-center justify-center relative text-center w-full md:h-screen`}
     >
       <div className="max-w-screen-lg p-4 mx-auto mb-20 sm:mb-0 flex flex-col justify-center w-full">

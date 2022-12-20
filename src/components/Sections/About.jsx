@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-import AboutParagraph from "../RouteComponents/AboutParagraph";
 import Navbar from "./Navbar";
 
 function About(props) {
+  //there are 2 different sources of props here, the ones found in the /routes directory
+  //and secondly the ones coming from the root.jsx file.
   return (
     <section
-      id="həyatı"
+      id={props.isHeyati ? "həyatı" : "siyasi-portreti"}
       className={
         !props.routed
           ? `flex flex-col  h-[1500px] xxs:h-[1300px] items-center justify-center 
@@ -44,29 +45,12 @@ function About(props) {
         )}
         <div className={`pb-8 flex ${props.routed ? "" : "justify-center"}`}>
           <p className="text-4xl font bold  inline border-b-2 border-gray-500">
-            Həyatı
+            {props.name}
           </p>
         </div>
         <div className="text-xl mt-5">
-          <p>
-            Heydər Əlirza oğlu Əliyev 1923-cü il mayın 10-da Azərbaycanın
-            Naxçıvan şəhərində dəmiryolçu ailəsində dünyaya gəlmişdir. 1939-cu
-            ildə Naxçıvan Pedaqoji Texnikumunu bitirdikdən sonra Azərbaycan
-            Sənaye İnstitutunun memarlıq fakültəsində təhsil almışdır. Başlanan
-            müharibə ona təhsilini başa çatdırmağa imkan verməmişdir.
-          </p>
-          <br />
-          <p>
-            Heydər Əliyev 1941–1944-cü illərdə Naxçıvan MSSR Xalq Daxili İşlər
-            Komissarlığında və Naxçıvan MSSR Xalq Komissarları Sovetində
-            müxtəlif məsul vəzifələrdə xidmət etmiş, 1944-cü ilin mayında isə
-            Naxçıvan Vilayət Partiya Komitəsi tərəfindən dövlət təhlükəsizliyi
-            orqanlarına işə göndərilmişdir.
-          </p>{" "}
-          <br />
-          {props.routed ? (
-            <></>
-          ) : (
+          {props.firstLines}
+          {!props.routed && props.isHeyati ? (
             <>
               <p>
                 1993-cü il oktyabrın 3-də ümumxalq səsverməsi nəticəsində Heydər
@@ -79,20 +63,22 @@ function About(props) {
                 olunmuşdur.
               </p>
             </>
+          ) : (
+            <></>
           )}
           {!props.routed ? (
             <>
               <Link
                 onClick={() => scrollTo(0, 0)}
                 state={props.lightMode}
-                to={"/Həyatı"}
+                to={props.link}
                 className={`to-route-button dark:bg-gradient-to-b dark:from-white dark:to-gray-200 dark:shadow-md active:scale-90 dark:text-gray-800`}
               >
                 <span className=" mr-3">Daha Ətraflı</span> <FaArrowRight />
               </Link>
             </>
           ) : (
-            <AboutParagraph />
+            <>{props.paragraph}</>
           )}
         </div>
       </div>

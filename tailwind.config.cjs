@@ -13,7 +13,7 @@ module.exports = {
 
       md: "768px",
       // => @media (min-width: 768px) { ... }
-      navOverflow: "880px",
+      navOverflow: "1130px",
 
       lg: "1024px",
       // => @media (min-width: 1024px) { ... }

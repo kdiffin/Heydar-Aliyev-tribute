@@ -79,9 +79,7 @@ function Education(props) {
         <></>
       )}
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
-        <div
-          className={`pb-8 flex ${props.routed ? "" : <></>}  justify-center`}
-        >
+        <div className={`pb-8 flex  justify-center`}>
           <p className="text-4xl font bold  text-center inline  border-b-2 border-gray-500">
             Milli təhsil quruculuğunda rolu
           </p>

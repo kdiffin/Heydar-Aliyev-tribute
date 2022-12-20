@@ -321,7 +321,7 @@ function Mukafatlar(props) {
                 onClick={() => popUpToggle(mukafat.id)}
                 className={
                   mukafatType === "azerbaijan"
-                    ? "shadow-md group cursor-pointer dark:shadow-md  active:scale-95  p-10 relative shadow-gray-600 dark:shadow-gray-300 first-letter:rounded-lg "
+                    ? "shadow-md group cursor-pointer dark:shadow-md  active:scale-95  p-10 relative shadow-gray-600 dark:shadow-gray-300 rounded-lg"
                     : "shadow-md group cursor-pointer active:scale-95 p-5   relative shadow-gray-600 dark:shadow-gray-300 rounded-lg "
                 }
               >

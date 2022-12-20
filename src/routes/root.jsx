@@ -5,13 +5,16 @@ import Mükafatları from "../components/Sections/Mukafatlar";
 import Nəsihətləri from "../components/Sections/Nesihetleri";
 import Education from "../components/Sections/Education";
 
-import Popup from "../components/Utility/Popup";
 import StylingWarning from "../components/Utility/StylingWarning";
-
-import { Link, Outlet, ScrollRestoration, useLocation } from "react-router-dom";
-import Navbar from "../components/Sections/Navbar";
-import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Abideler from "../components/Sections/Abideler";
+import {
+  ABIDELER_ITEMS,
+  ABOUT_TEXT,
+  POLITICALPORTRAIT_TEXT,
+  SPEECHES_ITEMS,
+} from "../consts";
+import Gallery from "../components/Sections/Gallery";
 
 function root() {
   //in the rest of my code i refer to lightmode as dark, because tailwind supports only that
@@ -27,10 +30,32 @@ function root() {
       } m-0 app  p-0`}
     >
       <Əsas lightMode={lightMode} setLightMode={setLightMode} />
-      <Həyatı lightMode={lightMode} setLightMode={setLightMode} />
+      <Həyatı
+        lightMode={lightMode}
+        setLightMode={setLightMode}
+        name="Həyatı"
+        link="Həyatı"
+        firstLines={ABOUT_TEXT}
+        isHeyati
+      />
       <Mükafatları lightMode={lightMode} />
+      <Həyatı
+        lightMode={lightMode}
+        setLightMode={setLightMode}
+        name="Siyasi portreti"
+        link="Siyasi-portreti"
+        firstLines={POLITICALPORTRAIT_TEXT}
+      />
+      <Abideler
+        lightMode={lightMode}
+        name="Abidələr"
+        isAbideler
+        items={ABIDELER_ITEMS}
+      />
       <Education lightMode={lightMode} />
-      <Abideler lightMode={lightMode} />
+      <Abideler lightMode={lightMode} name="Çıxışları" items={SPEECHES_ITEMS} />
+      <Gallery lightMode={lightMode} />
+
       <Nəsihətləri lightMode={lightMode} />
       <StylingWarning />
     </div>

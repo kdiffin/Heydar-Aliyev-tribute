@@ -11,6 +11,8 @@ import educationImg9 from "/educationImg9.jpg";
 import educationImg10 from "/educationImg10.jpg";
 import educationImg11 from "/educationImg11.jpg";
 
+//IF YOURE USING VSCODE BE SURE TO COLLAPSE ALL UNUSED LISTS/OBJECTS BEFORE TRYING TO EDIT
+
 export const IMGS_PALACE = [
   {
     src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fvista-eed.com%2Fwp-content%2Fuploads%2F2017%2F09%2FHaydarAliyevSarayi02.jpg%3Ffit%3D1366%252C721&f=1&nofb=1&ipt=a9407af6d57d67f2826b5d522eba1ef7e17631bef5b869301b165248785d708d&ipo=images",
@@ -1787,5 +1789,1790 @@ export const ALLMUKAFATLARUSSR_POPUP = [
   {
     name: "   `SSRİ Silahlı Qüvvələrinin 70 illiyi` yubiley medalı — 1988    ",
     id: 33,
+  },
+];
+
+export const ABOUT_TEXT = (
+  <>
+    <p>
+      Heydər Əlirza oğlu Əliyev 1923-cü il mayın 10-da Azərbaycanın Naxçıvan
+      şəhərində dəmiryolçu ailəsində dünyaya gəlmişdir. 1939-cu ildə Naxçıvan
+      Pedaqoji Texnikumunu bitirdikdən sonra Azərbaycan Sənaye İnstitutunun
+      memarlıq fakültəsində təhsil almışdır. Başlanan müharibə ona təhsilini
+      başa çatdırmağa imkan verməmişdir.
+    </p>
+    <br />
+    <p>
+      Heydər Əliyev 1941–1944-cü illərdə Naxçıvan MSSR Xalq Daxili İşlər
+      Komissarlığında və Naxçıvan MSSR Xalq Komissarları Sovetində müxtəlif
+      məsul vəzifələrdə xidmət etmiş, 1944-cü ilin mayında isə Naxçıvan Vilayət
+      Partiya Komitəsi tərəfindən dövlət təhlükəsizliyi orqanlarına işə
+      göndərilmişdir.
+    </p>
+    <br />
+  </>
+);
+
+export const POLITICALPORTRAIT_TEXT = (
+  <>
+    <p>
+      Azərbaycan dövlətinin tarixində, xalqının yaddaşında əbədilik özünə yer
+      eləmiş Heydər Əlirza oğlu Əliyev anadan olduğu torpağı, mənsub olduğu
+      milləti xoşbəxt, firavan görmək üçün ömrünü əməli fəaliyyətə, gərgin işə
+      həsr edib.
+    </p>
+    <br />
+    <p>
+      Heydər Əliyev ilk azərbaycanlıdır ki, Azərbaycan Dövlət Təhlükəsizlik
+      Komitəsinin sədri təyin edilib. İlk azərbaycanlıdır ki, Sovet İttifaqı
+      Kommunist Partiyası Mərkəzi Komitəsi Siyasi Bürosunun üzvü seçilib.
+    </p>
+    <br></br>
+
+    <p>
+      1969-cu ilin 14 iyul günü Azərbaycan xalqının həyatında önəmli
+      günlərdəndir. Həmin gün Heydər Əliyev Azərbaycan SSR Kommunist Partiyası
+      Mərkəzi Komitəsinin birinci katibi vəzifəsinə seçilib. İşgüzarlığı,
+      məqsədyönlülüyü, prinsipiallığı ilə seçilən rəhbərin qarşısında respublika
+      iqtisadiyyatını əsaslı şəkildə dəyişmək, onu müasir texnika və texnologiya
+      ilə təchiz olunmuş sənaye ölkəsinə çevirmək, Bakını daha da gözəlləşdirib
+      abadlaşdırmaq, Azərbaycan kəndini dirçəltmək, əhalinin sosial, mədəni və
+      təhsil səviyyəsini qaldırmaq kimi məsələlər əsas vəzifələr kimi dururdu.
+    </p>
+    <br></br>
+  </>
+);
+
+export const POLITICALPORTRAIT_PARAGRAPH = (
+  <>
+    <p>
+      Azərbaycan dövlətinin tarixində, xalqının yaddaşında əbədilik özünə yer
+      eləmiş Heydər Əlirza oğlu Əliyev anadan olduğu torpağı, mənsub olduğu
+      milləti xoşbəxt, firavan görmək üçün ömrünü əməli fəaliyyətə, gərgin işə
+      həsr edib.
+    </p>
+    <br />
+    <p>
+      Heydər Əliyev ilk azərbaycanlıdır ki, Azərbaycan Dövlət Təhlükəsizlik
+      Komitəsinin sədri təyin edilib. İlk azərbaycanlıdır ki, Sovet İttifaqı
+      Kommunist Partiyası Mərkəzi Komitəsi Siyasi Bürosunun üzvü seçilib.
+    </p>
+    <br></br>
+
+    <p>
+      1969-cu ilin 14 iyul günü Azərbaycan xalqının həyatında önəmli
+      günlərdəndir. Həmin gün Heydər Əliyev Azərbaycan SSR Kommunist Partiyası
+      Mərkəzi Komitəsinin birinci katibi vəzifəsinə seçilib. İşgüzarlığı,
+      məqsədyönlülüyü, prinsipiallığı ilə seçilən rəhbərin qarşısında respublika
+      iqtisadiyyatını əsaslı şəkildə dəyişmək, onu müasir texnika və texnologiya
+      ilə təchiz olunmuş sənaye ölkəsinə çevirmək, Bakını daha da gözəlləşdirib
+      abadlaşdırmaq, Azərbaycan kəndini dirçəltmək, əhalinin sosial, mədəni və
+      təhsil səviyyəsini qaldırmaq kimi məsələlər əsas vəzifələr kimi dururdu.
+    </p>
+    <br></br>
+    <p>
+      Heydər Əliyevin Az. KP MK - nin birinci katibi olduğu dövrdə təşkilatçılıq
+      bacarığı sayəsində 1969 - 1982-ci illərdə Azərbaycan üçün strateji
+      əhəmiyyət kəsb edən bu məsələlər müvəffəqiyyətlə həyata keçirildi. Heydər
+      Əliyevin məqsədyönlü fəaliyyəti nəticəsində Azərbaycan keçmiş SSRİ-də
+      inkişaf etmiş respublikalardan birinə çevrildi. Bakıda, Sumqayıtda,
+      Gəncədə, Naxçıvanda və digər şəhər və rayonlarda yeni sənaye müəssisələri,
+      ali məktəblər, muzeylər, teatrlar, kitabxanalar açıldı. Qısa müddətdə
+      mövcud neft maşınqayırması və neft emalı, həmçinin kimya müəssisələrinin
+      yenidən qurulması prosesi başladı. 70-ci illərdə tamamilə müasirləşmiş və
+      yenidən qurulmuş müəssisələr fəaliyyətə başladı. Bunlara misal olaraq Bakı
+      elektrik maşınqayırma, Bakı məişət kondisionerləri zavodu, Bakı şampan
+      şərabları zavodu, Bakı məişət soyuducuları zavodu, Elektron hesablayıcı
+      maşınlar zavodu, Sumqayıt kompressor zavodu, Gəncə &quot;Büllur&quot;
+      zavodu və digərləri belə müəssisələrdəndir.
+    </p>
+    <br></br>
+    <p>
+      Heydər Əliyev sənayenin inkişafına böyük əhəmiyyət verməklə yanaşı, kənd
+      təsərrüfatının da çiçəklənməsinə xüsusi diqqətlə yanaşıb. 1969 - 1982-ci
+      illərdə Heydər Əliyevin yeritdiyi məqsədyönlü kənd təsərrüfatı siyasəti
+      nəticəsində Azərbaycanda bu sahədə yüksək göstəricilər əldə edilib,
+      məhsuldarlığın səviyyəsi xeyli yüksəlib. Üzümçülük, pambıqçılıq özünün ən
+      yüksək inkişaf nöqtəsinə çatmışdı. 1970 - 1982-ci illərdə orta illik
+      məhsuldarlıq əvvəlki 13 ilin məhsuldarlığından taxıl üzrə 1,9 dəfə,
+      tərəvəz üzrə 1,6 dəfə, meyvəçilik üzrə 2 dəfə, çay yarpağı üzrə 2,3 dəfə
+      çox olub. Bu dünyanın heç bir yerində görünməmiş inkişaf tempi olub.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycanın inkişafı yolunda Heydər Əliyevin xüsusi fikir verdiyi
+      məsələlərdən biri Azərbaycan ədəbiyyatının, dramaturgiyasının,
+      incəsənətinin, bütövlükdə mədəniyyətinin inkişafı və dünyada tanıdılması
+      idi. Azərbaycanın məşhur ədəbiyyat incəsənət nümayəndələrinin ölkədən
+      kənarda keçirilən yubileyləri, dahi Azərbaycan şair və mütəfəkkirləri
+      Nizami Gəncəvi və Nəsiminin yubileyləri, 1974-cü ildə Azərbaycan teatrının
+      100 illik yubileyinin keçirilməsi, çoxlarının müqavimətinə baxmayaraq
+      Azərbaycan dilinə dövlət statusunun verilməsi, repressiya qurbanı olaraq
+      Sibir çöllərində vəfat edən Hüseyn Cavidin cənazəsinin qalıqlarının Bakıya
+      gətirilməsi kimi mühüm hadisələr o dövr Azərbaycan mədəniyyətinin
+      əlamətdar hadisələrindən idi. Ümumiyyətlə, 1969 -1982-ci illərdə
+      Azərbaycan mədəniyyəti özünün əsl intibah dövrünü yaşayıb.
+    </p>
+    <br></br>
+    <p>
+      Həmin dövrün ən mühüm hadisələrindən biri də Bakıda milli hərbi kadrlar
+      hazırlayan C. Naxçıvanski adına məktəbin fəaliyyətə başlaması oldu. Bu
+      məktəbin fəaliyyətə başlaması nəticəsində yüzlərlə gələcək zabit hərb
+      elminin sirlərinə yiyələndi. Heydər Əliyevin sovet Azərbaycanının rəhbəri
+      olduğu müddətdə minlərlə azərbaycanlı gənc təhsil almaq üçün ölkənin ən
+      yaxşı məktəblərinə -Moskvaya, Leninqrada, Kiyevə, Xarkova, Minskə
+      göndərildi və ölkəyə lazımlı ixtisaslar üzrə təhsil aldılar. SSRİ-də ilk
+      dəfə məhz Azərbaycanda Heydər Əliyevin rəhbərliyi ilə korrupsiyaya,
+      rüşvətxorluğa, tayfabazlığa qarşı genişmiqyaslı müharibə elan edildi. 70
+      -80-ci illər Azərbaycan tarixində hərtərəfli, köklü yeniləşdirmə dövrü,
+      dinamiklik dövrü kimi xarakterizə olunur.
+    </p>
+    <br></br>
+    <p>
+      Heydər Əliyev 1982-ci ilin dekabrında SSRİ Nazirlər Soveti sədrinin
+      birinci müavini vəzifəsinə irəli çəkilib və faktiki olaraq SSRİ-nin
+      rəhbərlərindən biri olub. Heydər Əliyev səhiyyə, elm, maşınqayırma, yüngül
+      sənaye, nəqliyyat, rabitə, mədəniyyət, təhsil kimi bir çox vacib sahələrə
+      rəhbərlik edirdi. Sovet rəhbərliyi ötən əsrin ən nəhəng tikililərindən
+      olan Baykal - Amur Magistralının (BAM) çəkilişlərinə rəhbərlik etməyi
+      Heydər Əliyevə tapşırmışdı. Heydər Əliyev prinsipial mövqeyi, dönməzliyi,
+      işgüzarlığı nəticəsində ona verilən bu məsuliyyətli işin öhdəsindən
+      layiqincə gəlmişdi. Heydər Əliyev rəhbərlik etdiyi və yuxarıda adları
+      çəkilən bu sahələrin demək olar ki, hamısında dövlət proqramı qəbul
+      olunub.
+    </p>
+    <br></br>
+    <p>
+      80-ci illərin sonunda sovet rəhbərliyinin apardığı yarıtmaz siyasət bir
+      çox sahələrdə xaosa gətirib çıxarmışdı. Məhz bu səbəblərə görə 1987 - ci
+      ildə Heydər Əliyev sovet rəhbərliyinin yeritdiyi siyasətə etiraz edərək
+      tutduğu vəzifələrdən istefa verdi.
+    </p>
+    <br></br>
+    <p>
+      Heydər Əliyev 1990-cı ilin yanvarında sovet qoşunlarının Bakıda törətdiyi
+      vəhşiliklərə etiraz əlaməti olaraq Moskvadakı Azərbaycan nümayəndəliyində
+      bəyanatla çıxış edərək, Azərbaycan xalqıma qarşı törədilmiş cinayətin
+      təşkilatçıları və icraçılarının cəzalandırılmasını tələb etdi. Bir çox
+      analitiklər Heydər Əliyevin bu bəyanatını cəsarətli addım saymaqla yanaşı,
+      onun böyük siyasətə qayıdışı adlandırırlar. 1991-ci ilin iyulunda Heydər
+      Əliyev Dağlıq Qarabağda yaranmış kəskin vəziyyətlə əlaqədar SSRİ
+      rəhbərliyinin ikiüzlü siyasətinə etiraz əlaməti olaraq Kommunist
+      Partiyasının sıralarını tərk etdi. 1990-cı ilin iyulunda Azərbaycana
+      qayıdan Heydər Əliyev Naxçıvan Muxtar Respublikası Ali Məclisinin sədri,
+      həmçinin, Azərbaycan Respublikası Ali Soveti sədrinin müavini seçilib.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycanın müstəqillik qazandığı ilk illərdə siyasi hakimiyyətdə təmsil
+      olunanların naşılığı, prinsipsizliyi, qətiyyətsizliyi və düşünülməmiş
+      addımları Azərbaycanı getdikcə tənəzzülə aparırdı. Digər tərəfdən də
+      Azərbaycanın Ermənistanla cəbhə xəttində baş verən məğlubiyyətlər,
+      uğursuzluq ölkədə dərin böhranın yaranmasına gətirib çıxarırdı. Sözün
+      həqiqi mənasında əsl hərc-mərclik var idi. Belə bir anda - 1993-cü ilin
+      iyununda xalqın təkidli tələbi ilə o vaxtkı hakimiyyət Naxçıvan Ali
+      Məclisinin sədri vəzifəsində işləyən Heydər Əliyevi siyasi rəhbərliyə
+      dəvət etdi. 1993-cü ilin oktyabrında Azərbaycan Respublikasının Prezidenti
+      seçilən Heydər Əliyev qısa müddət ərzində Azərbaycanı dünyada tanıda
+      bildi.
+    </p>
+    <br></br>
+    <p>
+      Heydər Əliyev Azərbaycanda hüquqi - demokratik dövlət quruculuğu yolunu
+      seçdi. 1995-ci ildə Azərbaycan Respublikasının Konstitusiyası qəbul
+      edildi. Aparılan islahatlar nəticəsində ölkənin bütün hüquq sistemində
+      köklü dəyişikliklərə səbəb olan yeni mütərəqqi qanunlar qəbul edildi.
+      1998-ci il iyulun 14-də yaranan Azərbaycan Respublikasının Konstitusiya
+      Məhkəməsi ölkənin ali konstitusiya məhkəməsi olmaqla, Azərbaycan
+      konstitusiyasının aliliyini, hər kəsin əsas hüquq və azadlıqlarmı təmin
+      edir. Azərbaycan Respublikasının Konstitusiya Məhkəməsi öz fəaliyyətində
+      insan hüquqları haqqında beynəlxalq hüquqi sənədlərin müddəalarına
+      əsaslanır. Bu da öz növbəsində ona, konstitusiya əsasında işlərə baxarkən
+      Avropa və dünya birliyi tərəfindən qəbul edilmiş demokratik norma və
+      standartlara riayət etmək imkanı verir.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycan Silahlı Qüvvələrində həyata keçirilən quruculuq işləri,
+      struktur dəyişiklikləri, döyüş əməliyyatlarının vahid rəhbərlik altında
+      planlaşdırılması, hərbi hissələrin hərb elminin tələblərinə uyğun idarə
+      edilməsi Azərbaycan ordusunu keyfiyyətcə yeniləşdirdi.
+    </p>
+    <p>
+      <br></br>
+      Aparılan ardıcıl və məqsədyönlü siyasət nəticəsində ictimai-siyasi
+      sabitliyin təmin olunması, istehsalatda yaranmış geriləmə proseslərinin
+      qarşısının alınması və digər tədbirlərdən sonra iqtisadiyyatda tənəzzül
+      tədricən aradan qaldırıldı və bununla da Azərbaycanın iqtisadi inkişafında
+      mahiyyətcə yeni mərhələnin təməli qoyuldu. Əldə olunan makroiqtisadi
+      sabitlik, sənayedə və digər sahələrdə iqtisadi göstəricilərin artımı,
+      həyata keçirilən genişmiqyaslı iqtisadi islahatların ilkin nəticələri
+      aparılan siyasətin düzgünlüyünü və Azərbaycanın bazar iqtisadiyyatı
+      yolunda inamlı addımlarının təcəssümü idi.
+    </p>
+    <br></br>
+    <p>
+      1996-cı ildən başlayaraq, ölkə iqtisadiyyatında ardıcıl müşahidə olunan
+      inkişaf meylləri, ayrı-ayrı sahələrdə əldə edilən müsbət nəticələr
+      dövlətin sosial yönümlü siyasətinin daha da gücləndirilməsinə şərait
+      yaratdı. Heydər Əliyevin hakimiyyəti dövründə əmək haqlarının, aztəminatlı
+      ailələrə verilən müavinətlərin artırılması sahəsində bir sıra mühüm
+      tədbirlər həyata keçirilərək vətəndaşların təqaüd təminatının
+      yaxşılaşdırılması istiqamətində ciddi addımlar atılıb.
+    </p>
+    <br></br>
+    <p>
+      Demokratiyanın daha bir göstəricisi kimi 1999-cu ilin dekabrında
+      Azərbaycanda ilk dəfə olaraq yerli özünüidarəetmə orqanlarına - bələdiyyə
+      seçkiləri keçirildi. Heydər Əliyevin rəhbərliyi ilə bələdiyyə institutu
+      yaradıldı, bələdiyyələrin iş mexanizmi, statusu vəzifə və səlahiyyətləri,
+      inkişaf istiqamətləri müəyyən edildi. Bələdiyyələrin yaradılması və
+      fəaliyyəti Azərbaycanın demokratiya yolunda addımlamasının ən bariz
+      göstəricilərindən biri idi.
+    </p>
+    <br></br>
+    <p>
+      Prezident kimi fəaliyyətinin əsas istiqamətlərindən bəhs edərək Heydər
+      Əliyev iki halı xüsusi qeyd etmişdi: &quot;Respublika iqtisadiyyatı demək
+      olar ki, tamamilə dağıdılıb, xalqın rifah halı aşağı düşüb. Lakin
+      respublikanın böyük sosial - siyasi vəziyyəti, onun təbii sərvətləri, uzun
+      illər boyu yaranmış əsas fondları respublikanı bu ağır böhrandan çıxarmağa
+      imkan verir. Digər tərəfdən yeni islahatlar aparmaq yolu ilə bazar
+      iqtisadiyyatına keçmək istiqamətində hərəkət etməliyik&quot;. 1993-cü ildə
+      Heydər Əliyev prezident seçilərkən respublikada ümumi daxili məhsul
+      istehsalında orta hesabla 20-23 faiz geriləmə baş verirdi. Lakin Heydər
+      Əliyevin rəhbərliyi ilə respublikada görülən təxirəsalınmaz tədbirlər
+      nəticəsində iqtisadiyyatda tənəzzülün qarşısı alındı və beləliklə, 1994 -
+      1995-ci illərdə bugünkü nailiyyətlərin əldə olunmasının təməli qoyuldu.
+      Məhz həmin illərdə geriləmənin qarşısı alındı və 1996-cı ildən etibarən
+      dirçəliş dövrü başladı. İqtisadiyyatda aparılan islahatlar ölkənin maliyyə
+      vəziyyətinin yaxşılaşmasını, dövlət büdcəsinin gəlirlərinin ildən - ilə
+      artmasını təmin etdi.
+    </p>
+    <br></br>
+    <p>
+      Heydər Əliyevin həyata keçirdiyi islahatlar sistemində özəlləşdirmə
+      siyasətinə də mühüm əhəmiyyət verilib. O, 1994 - 1995-ci illərdə
+      özəlləşdirmə proqramının hazırlanması ilə əlaqədar gərgin və səmərəli iş
+      rejiminə rəhbərlik edib. Onun bilavasitə təşəbbüsü ilə &quot;Azərbaycan
+      Respublikasında 1995 - 1998-ci illərdə dövlət mülkiyyətinin
+      özəlləşdirilməsinin Dövlət Proqramı&quot; hazırlanıb.
+    </p>
+    <br></br>
+    <p>
+      Heydər Əliyevin diqqət yetirdiyi vacib sahələrdən biri də torpaq və onunla
+      bağlı münasibətlər sistemi oldu. 1996 -cı ildə onun rəhbərliyi və qayğısı
+      sayəsində ölkədə aqrar islahatlar və onun tərkib hissəsi olan torpaq
+      islahatları aparıldı. Bununla əlaqədar olaraq torpaqlar pulsuz olaraq
+      kəndliyə verildi və yeni torpaq -əkinçi münasibətlərinin yaradılması üçün
+      real zəmin yaradıldı. Bu islahatlar nəticəsində həmçinin, torpaqlar
+      vətəndaşlara ömürlük verildi, torpaqların ən yararlısı və keyfiyyətlisi
+      özəlləşdirildi, respublika ərazisində yaşayan vətəndaşlara harada
+      yaşamasından və kimliyindən asılı olmayaraq torpaqlardan istifadə və icarə
+      hüququ verildi.
+    </p>
+    <br></br>
+    <p>
+      1993 - cü ilin ikinci yarısından başlayaraq Azərbaycanın xarici
+      siyasətində nəzərəçarpacaq dəyişikliklər baş verdi. İlk növbədə müstəqil
+      Azərbaycan dövlətinin beynəlxalq münasibətlər sistemində yeri, Avropa
+      ölkələri və ABŞ-la, yeni müstəqil dövlətlər və Rusiya ilə, türkdilli
+      dövlətlər və Türkiyə ilə, müsəlman dünyası və İranla, Asiya, Afrika və
+      Cənubi Amerika ilə əlaqələrinin yaxın dövr üçün prioritetləri,
+      istiqamətləri, aparıcı strategiyası müəyyənləşdirildi. Heydər Əliyevin
+      ardıcıl və məqsədyönlü şəkildə həyata keçirdiyi xarici siyasət kursunun ən
+      mühüm uğurlarından biri də 2001-ci ilin əvvəlində Azərbaycanın Avropa
+      Şurasına üzv qəbul edilməsi, Avropa ailəsinə qoşulması oldu.
+    </p>
+    <br></br>
+    <p>
+      Ermənistan - Azərbaycan Dağlıq Qarabağ münaqişəsinin həlli Heydər Əliyevin
+      xarici siyasətində əsas yerlərdən birini tutub. Heydər Əliyevin 1993-cü
+      ildə hakimiyyətə tarixi qayıdışından sonra münaqişənin aradan
+      qaldırılmasına nail olmaq üçün göstərdiyi fəaliyyəti, ən yüksək səviyyədə
+      dövlət başçıları və nümayəndə heyətləri ilə ikitərəfli və eləcə də
+      çoxtərəfli görüşlərdə, beynəlxalq forumlarda, ATƏT-in zirvə görüşlərində,
+      Minsk qrupunun həmsədrləri ilə aparılan müzakirələrdə, həmçinin,
+      Ermənistan prezidenti ilə təkbətək danışıqlarda göstərdiyi ardıcıl səylər
+      Heydər Əliyevin siyasətinin mühüm hissəsini təşkil edib.
+    </p>
+    <br></br>
+    <p>
+      Heydər Əliyev siyasi və iqtisadi problemlərin həlli ilə yanaşı, mədəniyyət
+      sahəsinə də xüsusi diqqət yetirib. Ölkənin maddi rifahı artdıqca
+      mədəniyyət xadimlərinə göstərilən dövlət qayğısı yüksələn xətt üzrə
+      inkişaf edib. Azərbaycan mədəniyyəti Heydər Əliyevin qayğı və diqqəti
+      sayəsində möhtəşəm bir dövr yaşayıb. Müstəqillik dövründə tarixi
+      şəxsiyyətlərimizin, milli mədəniyyətimizin görkəmli nümayəndələrimizin,
+      habelə ayrı - ayrı milli bayramların və tarixi günlərin qeyd edilməsi ilə
+      bağlı tədbirlər Heydər Əliyevin imzaladığı fərman və sərəncamlarla
+      keçirilib. Buna misal olaraq Azərbaycanın ən qədim yazılı abidəsi olan
+      &quot;Kitabi -Dədə Qorqud&quot; dastanının 1300 illik yubileyinin,
+      həmçinin böyük Azərbaycan şairi Məhəmməd Füzulinin 500 illik yubileyinin
+      təntənəli şəkildə keçirilməsi haqqında imzaladığı sərəncamları göstərmək
+      olar.
+    </p>
+    <br></br>
+    <p>
+      Bütün dünyada tanınan dahi siyasətçi haqqında nüfuzlu siyasətçilər, dövlət
+      və hökumət nümayəndələri, elm və mədəniyyət xadimləri öz ürək sözlərini
+      deyiblər. Onların hər biri Heydər Əliyevi nüfuzlu siyasətçi, güclü dövlət
+      xadimi kimi xarakterizə ediblər. Onlardan bəzilərinə diqqət yetirək:
+    </p>
+    <br></br>
+    <p>
+      Corc Buş (Amerika Birləşmiş Ştatlarının prezidenti): &quot;Heydər Əliyev
+      Cənubi Qafqazda uzun müddət ərzində ən əsas şəxsiyyət olmuşdur. Bu
+      günlərdə ABŞ və Azərbaycanın bəhrələndiyi dostluq əlaqələrinin
+      qurulmasında və Azərbaycanın müstəqilliyinin qorunmasında onun şəxsi
+      səyləri həyati əhəmiyyət daşımışdır. Məhz onun rəhbərliyi altında Amerika
+      Birləşmiş Ştatları və Azərbaycan, Əfqanıstan və İraqdakı əməliyyatlar da
+      daxil olmaqla, terrorizmə qarşı mübarizədə tərəfdaş olmuşlar. Dağlıq
+      Qarabağ faciəsinin sülh danışıqları vasitəsilə ədalətli və uzunmüddətli
+      həllinə nail olmaq sahəsində onun nümayiş etdirdiyi qətiyyət regionda sülh
+      və sabitliyin saxlanmasında mühüm əhəmiyyət kəsb etmişdir. Eyni zamanda,
+      onun mövqeyi və göstərdiyi səylər Azərbaycanın iqtisadi inkişafını
+      möhkəmləndirən böyük həcmli xarici sərmayələrin cəlb olunmasında əsas rol
+      oynamışdır. Bu nailiyyətlər milyonlarla azərbaycanlının həyatını
+      yaxşılaşdırmış və Azərbaycanın iyirmi birinci əsrə müasir dövlət kimi
+      daxil olmasına imkan yaratmışdır &quot;.
+    </p>
+    <br></br>
+    <p>
+      Jak Şirak ( 1995- 2007-ci illərdə Fransa Respublikasının prezidenti):
+      &quot;Bu qeyri -adi şəxsiyyət Azərbaycanı çiçəklənmə yoluna gətirib
+      çıxarmışdır. Müxtəlif görüşlərimiz zamanı, xüsusilə Dağlıq Qarabağ
+      münaqişəsi ətrafında müzakirələr apararkən, münaqişənin sülh yolu ilə
+      həllində onun cəsarətini, müdrikliyini və qətiyyətini yüksək
+      qiymətləndirdim&quot;.
+    </p>
+    <br></br>
+    <p>
+      Rəcəb Tayyib Ərdoğan (Türkiyə Respublikasının Baş naziri): &quot; Heydər
+      Əliyev Azərbaycanın xoşbəxtliyi və firavanlığı, bölgədə və dünyada sülh
+      naminə göstərdiyi fövqəladə xidmətlərlə türk və dünya tarixində şərəfli
+      yer tutmuşdur&quot;.
+    </p>
+    <br></br>
+    <p>
+      İslam Kərimov (Özbəkistan Respublikasının prezidenti): &quot;Azərbaycanın
+      müstəqilliyinin təşəkkülündə və möhkəmlənməsində, beynəlxalq aləmdə
+      nüfuzunun yüksəlməsində, ölkələrimiz və xalqlarımız arasında ikitərəfli
+      münasibətlərin inkişafında və genişlənməsində Heydər Əliyevin tarixi rolu
+      misilsizdir&quot;
+    </p>
+    <br></br>
+    <p>
+      II İohan Pavel ( 1978 - 2005-ci illərdə Roma papası): &quot;Görkəmli
+      dövlət xadimi Heydər Əliyevin rəhbərliyi ilə müstəqil Azərbaycan
+      Respublikası son illər dünya birliyində layiqli yer tutmuşdur.
+      Azərbaycanda hüquqi dövlət quruculuğu, iqtisadi islahatların uğurla həyata
+      keçirilməsi sahəsində görülən işləri diqqətlə izləyir və onları
+      dəstəkləyirəm&quot;.
+    </p>
+    <br></br>
+    <p>
+      Çingiz Aytmatov (Məşhur qırğız yazıçısı): &quot;Heydər Əliyev XX əsrin
+      görkəmli liderlərindən biri kimi müasir demokratik Avrasyanın yeni
+      tarixinin bugünkü qurucularındandır&quot;.
+    </p>
+  </>
+);
+
+export const ABIDELER_ITEMS = [
+  {
+    id: 1,
+    name: "Heydər Əliyev Mərkəzi",
+    src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.oxu.az%2Fuploads%2FW1siZiIsIjIwMjAvMDQvMjEvMTQvMjUvMjkvZDlkNzk3NmEtMmNjOS00MzRlLTgzMGItMDQ0OTBhYTlkZjU5L2UyYzU4NzE1MGE2YjRlZWVhZTk0ZTA5Y2NjMDVjNjc2Lm1heC0yMDAweDEwMDAuanBnIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODAiXSxbInAiLCJ0aHVtYiIsIjYyMHg0NjVcdTAwM2UiXV0%3Fsha%3Df5f097236fc1c403&f=1&nofb=1&ipt=9a3ecc9e77784a0acc6e06957ddada216cf78c91ccfe4fee65a964b576c99c9d&ipo=images",
+    link: "Mərkəzi",
+  },
+  {
+    id: 2,
+    name: "Heydər Əliyev Sarayı   ",
+    src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fvista-eed.com%2Fwp-content%2Fuploads%2F2017%2F09%2FHaydarAliyevSarayi02.jpg%3Ffit%3D1366%252C721&f=1&nofb=1&ipt=1e7de1f7e5114b6c3d5bda09074038077439c215b462a82c37d1c53faf322a63&ipo=images",
+    link: "Sarayı",
+  },
+  {
+    id: 3,
+    name: "Heydər Əliyev Hava Limanı ",
+    src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.proplan-pmc.com%2Ffiles%2Fprojeler%2Fhaydar_aliyev_havalimani%2Fheydar_aliyev_uluslararas_havaliman_6.jpg&f=1&nofb=1&ipt=f243c5cc242c4a7570ca674e0070d3a001a23c9185d82d8f1a734388efa2c73f&ipo=images",
+    link: "Hava-Limanı",
+  },
+];
+
+export const SPEECHES_ITEMS = [
+  {
+    id: 1,
+    name: "Azərbaycan Respublikası Prezidentinin andiçmə mərasimində nitq",
+    src: "https://heydaraliyevcenter.az/thumbs/8/13692945105.jpg",
+    link: "Çıxışları/Andiçmə-mərasimi",
+  },
+  {
+    id: 2,
+    name: "BMT Baş Məclisinin 49-cu sessiyasında çıxış   ",
+    src: "https://heydaraliyevcenter.az/thumbs/8/13692931280.jpg",
+    link: "Çıxışları/BMT-49cu-sessiya",
+  },
+  {
+    id: 3,
+    name: "Türkdilli dövlət başçılarının 3-cü zirvə toplantısında çıxış    ",
+    src: "https://heydaraliyevcenter.az/thumbs/8/13692326606.jpg",
+    link: "Çıxışları/3cü-zirvə-toplantısında-çıxış",
+  },
+];
+
+export const SPEECHES_PARAGRAPH1 = (
+  <>
+    <p>Əziz həmvətənlər!</p>
+    <br></br>
+    <p>Hörmətli xanımlar və cənablar!</p>
+    <br></br>
+    <p>
+      Müstəqil Azərbaycan Respublikasının Prezidenti seçilməyimi yüksək
+      qiymətləndirirəm və bu münasibətlə Azərbaycan xalqına, Azərbaycan
+      Respublikasının bütün vətəndaşlarına öz hörmət və ehtiramımı, dərin
+      minnətdarlığımı bildirirəm.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycan xalqı öz tarixinin ən mürəkkəb, faciəli dövrünü yaşayır. Məhz
+      bu dövrdə mənim üzərimə qoyulan bu vəzifənin məsuliyyətini dərindən dərk
+      edirəm və əmin etmək istəyirəm ki, bütün fəaliyyətimi, bütün həyatımı bu
+      etibarı doğrultmaq, xalqın ümidlərini doğrultmaq işinə həsr edəcəyəm.
+    </p>
+    <br></br>
+    <p>
+      Belə bir yüksək və məsuliyyətli vəzifəsini öz üzərimə götürərkən, birinci
+      növbədə, Azərbaycan xalqının zəkasına, müdrikliyinə, qüdrətinə güvənirəm,
+      arxalanıram. Azərbaycan xalqının mənə bəslədiyi ümidlər məni bu vəzifəni
+      üzərimə götürməyə məcbur edibdir. Əmin etmək istəyirəm ki, bu ümidləri
+      doğrultmaq üçün əlimdən gələni əsirgəməyəcəyəm.
+    </p>
+    <br></br>
+    <p>
+      XX əsrin sonu dünyada köklü dəyişikliklərə səbəb olmuş siyasi proseslərlə
+      əlamətdardır. Azərbaycan xalqı da bu proseslərdən kənarda qalmamış,
+      nəhayət, əsrlərdən bəri bəslədiyi ümidlərinə, arzularına çatmış, öz
+      müstəqilliyinə nail olmuşdur. Azərbaycan Respublikasının dövlət
+      müstəqilliyi əldə etməsi dünyada, keçmiş Sovetlər İttifaqında gedən
+      ictimai-siyasi proseslərin məntiqi nəticəsidir. Bu, Azərbaycan xalqının
+      milli sərvəti, milli nailiyyətidir və bu müstəqilliyin əldə olunmasında
+      hər hansı qrupun, hərəkatın, qüvvənin müstəsna xidmətləri olduğunu heç
+      vəchlə qəbul etmək olmaz. Eyni zamanda Azərbaycanın müstəqilliyi
+      respublika qarşısında, onun vətəndaşları qarşısında çox böyük və mürəkkəb
+      vəzifələr qoyubdur. Dövlət müstəqilliyini möhkəmləndirmək, müstəqil dövlət
+      quruluşu yaratmaq, dövlət atributlarını yaratmaq və inkişaf etdirmək,
+      Azərbaycan Respublikasının ərazi bütövlüyünü, tam suverenliyini təmin
+      etmək, ölkəmizi müharibə şəraitindən çıxarmaq, respublikanın
+      vətəndaşlarının rifahını yaxşılaşdırmaq, onların yaşaması üçün lazımi
+      şərait yaratmaq - bu vəzifələr mənim Prezident fəaliyyətimdə əsas
+      istiqamətlər olacaqdır və mən bunların həyata keçirilməsinə çalışacağam.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycan Respublikası qədim tarixə, zəngin mədəniyyətə, böyük təbii
+      sərvətlərə malikdir. Dövlət müstəqilliyi bunların hamısından Azərbaycan
+      Respublikasının gələcək inkişafı üçün səmərəli istifadə etməyə şərait
+      yaradır. Bunlar bizim əsas vəzifələrimizdir. Azərbaycan Respublikası üçün
+      ən ağır məsələ beş ildən artıq müddətdə Azərbaycanın müharibə şəraitində
+      olması, erməni silahlı qüvvələri tərəfindən ərazimizə təcavüz edilməsi və
+      bunun nəticəsində də Azərbaycan xalqının böyük bəlalara düçar olmasıdır.
+      Ona görə də Azərbaycan Respublikasının müharibə şəraitdən çıxması və
+      vətəndaşlar üçün rahat, sakit, əmin-amanlıq şəraiti yaradılması qarşımızda
+      duran əsas vəzifədir. Azərbaycanın ağır müharibə şəraitinə düşməsi, bu
+      problem, yəni Qarabağ problemi başlanan dövrdən respublika rəhbərliyinin,
+      keçmiş Sovetlər İttifaqı rəhbərliyinin buraxdığı səhvlərin nəticəsidir.
+      Lakin təəssüf ki, ötən dövrdə respublikanın bu vəziyyətindən çıxmağı üçün
+      lazımi tədbirlər görülməmişdir. Respublikanın düşdüyü ağır iqtisadi,
+      sosial, siyasi-ictimai və mənəvi böhran axır zamanlar daha da dərinləşmiş
+      və 1993-cü ildə, demək olar son həddə çatmışdır. Bu ilin iyun ayında
+      Azərbaycanda daxili sabitlik tam pozulmuş, respublikada ayrı-ayrı
+      qüvvələrin qarşıdurması, bəzi cinayətkar qrupların, separatçı qüvvələrin
+      respublikanı parçalamaq meyllərini həyata keçirmək istəməsi və başqa
+      səbəblər daxili böhranı daha da dərinləşdirmişdir.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycanın dövlət rəhbəriyinin buraxdığı kobud səhvlər nəticəsində iyun
+      ayında respublikamız vətəndaş müharibəsi həddinə gəlib çatmış və onun bəzi
+      bölgələrinin parçalanması real bir hal kimi meydana çıxmışdı. Allaha
+      şükürlər olsun ki, bunların qarşısı alındı, bəzi cinayətkar qruplar aradan
+      götürüldü və respublikanın daxilində ictimai-siyasi sabitliyin təmin
+      edilməsi üçün şərait yaradıldı. Son dörd ay bizim respublika üçün ağır və
+      çətin bir dövr oldu. Bu müddətdə respublikamız, onun vətəndaşları böyük
+      imtahanlardan çıxdılar və bir daha sübut etdilər ki, xalqın müdrikliyi,
+      milli birlik və həmrəylik, vətəndaş birliyi bütün bu çətinliklərin
+      qarşısını ala bilər və respublikanı bu ağır vəziyyətdən çıxarmaq üçün
+      imkan yarana bilər.
+    </p>
+    <br></br>
+    <p>
+      Respublikanın daxilində nisbi sakitlik və sabitlik yaransa da, biz hələ
+      böyük təhlükə altındayıq. Ermənistan silahlı qüvvələrinin beş ildən bəri
+      davam edən təcavüzü nəticəsində Azərbaycan torpaqlarının bir qismi -
+      təxminən 20 faizi işğalçıların əlinə keçibdir. Keçmiş Dağlıq Qarabağ
+      vilayəti tamamilə işğal olunub. Azərbaycan xalqı üçün əziz və mötəbər olan
+      Şuşa şəhəri artıq il yarımdır ki, əlimizdən gedibdir. Laçın, Kəlbəcər,
+      Ağdam, Füzuli, Cəbrayıl, Qubadlı rayonlarımız da erməni silahlı qüvvələri
+      tərəfindən işğal olunubdur. Bunların nəticəsində yüzlərlə kəndlər,
+      qəsəbələr, yaşayış məntənələri dağılıb, evlər viran olub. Bu ərazilərdə
+      yaşayan soydaşlarımız - bir milyona qədər vətəndaş doğma yerlərini tərk
+      edib, qaçqın olub, ağır vəziyyətdə yaşayırlar. Bütün bunlar respublikanın
+      ictimai-siyasi, mənəvi vəziyyətini gərginləşdirmişdir. Bizim ən əsas
+      vəzifəmiz respublikanı müharibə vəziyyətindən çıxarmaq, işğal olunmuş
+      torpaqların hamısını geri qaytarmaq, Azərbaycanın ərazi bütövlüyünü,
+      müstəqil respublikanın sərhədlərinin təhlükəsizliyini təmin etmək,
+      yurd-yuvasından didərgin düşmüş soydaşlarımızı - bacılarımızı,
+      qardaşlırımızı öz doğma yerlərinə qaytarmaqdır.
+    </p>
+    <br></br>
+    <p>
+      Əmin ola bilərsiniz ki, bir Prezident kimi, mən bu vəzifəni özümün əsas
+      vəzifəm hesab edirəm və bunu yerinə yetirmək üçün bütün Azerbaycan
+      xalqının qüvvələrini səfərbər edib, bütün imkanlardan istifadə edib
+      Azerbaycan xalqının istəyinə nail olacağam.
+    </p>
+    <br></br>
+    <p>
+      Beş ildən artıq davam edən müharibədən çıxmaq, işğal olunmuş torpaqları
+      geri qaytarmaq, şübhəsiz, asan məsələ deyildir. Cəmiyyətimizdə cürbəcür
+      fikirlər var: buna hansı yollarla nail olmaq mümkündür? Biz, ümumiyyətlə,
+      sülhsevər mövqe tutaraq, bu vəzifəni birinci növbədə sülh yolu ilə,
+      danışıqlar yolu ilə həll etməyə üstünlük veririk. Bu baxımdan müstəqil
+      Azerbaycan Respublikası diplomatik vasitələrdən səmərəli istifadə etməli,
+      sülh danışıqlarını Azerbaycan Respublikasının mənafelərini təmin etmək
+      yolu ilə aparmalı və bu danışıqlar nəticəsində məqsədimizə nail olmalıyıq.
+      Biz Birləşmiş Millətlər Təşkilatının, ATƏM-in, BMT Təhlükəsizlik
+      Şurasının, bu münaqişənin aradan qaldırılması məsələsində iştirak edən
+      böyük dövlətlərin və bütün beynəlxalq təşkilatların imkanlarından səmərəli
+      istifadə edərək, Azərbaycanı müharibə şəraitindən çıxarmaq, işğal olunmuş
+      torpaqlarımızı geri qaytarmaq üçün bundan sonra da səy göstərəcəyik.
+    </p>
+    <br></br>
+    <p>
+      Ancaq bununla yanaşı, Azərbaycan Respublikası bir müstəqil dövlət kimi
+      özünü müdafiə etməyə qadir orduya malik olmalıdır. Təəssüf ki, müstəqillik
+      əldə ediləndən sonra keçən dövrdə bu sahədə az iş görülübüdür. Lazım
+      gələrsə, sülh yolunda addımlarımız nəticə verməsə, Azərbaycanın ərazi
+      bütövlüyünü təmin etmək üçün, respublikanı müdafiə etmək üçün qüdrətli bir
+      ordunun yaradılması bizim əsas vəzifəmizdir.
+    </p>
+    <br></br>
+    <p>
+      Qeyd etmək lazımdır ki, beş il ərzində gedən müharibə nəticəsində
+      Azərbaycan xalqı böyük sınaqlardın çıxıb, qələbənin də, uğursuzluğun da
+      nəticələrini görübdür. Bu müharibə bizim üçün böyük faciədir. Eyni
+      zamanda, bu müharibədə Azərbaycan xalqının gücü, qüdrəti, qəhrəmanlaığı,
+      müdrikliyi bir daha bütün dünyaya nümayiş etdirildi. Bu müharibədə
+      xalqımız böyük qurbanlar vermişdir. İgid oğullarmız torpaqlarımızı müdafiə
+      edərək qərhamancasına həlak olmuş, şəhid olmuşlar. Bu gün, bu təntənəli
+      mərəsimdə, Azərbaycan torpaqlarını müdafiə edərək, Azərbaycanın
+      suverenliyini qoruyaraq həlak olmuş şəhidlərin xatirəsini bir dəqiqəlik
+      sükutla yad etməyi rica edirəm. Allah onlara rəhmət eləsin, qəbirləri
+      nurla dolsun.
+    </p>
+    <br></br>
+    <p>
+      Mən bu gün bəyan edirəm ki, şəhidlərimizin qanı yerdə qalmayacaq, onların
+      xatirəsi qəlbimizdə əbədi yaşayacaq, gənclərimiz və gələcək nəsillər
+      onların qəhramanlıqlarından nümunə götürəcəklər. Azərbaycan xalqı öz
+      qamətini düzəldəcək, ayağa qalxacaq, gücünü birləşdirəcək, müasir ordusunu
+      yaradacaq və müstəqil dövlətini, öz ərazisini bundan sonra göz bəbəyi kimi
+      qoruyacaqdır.
+    </p>
+    <br></br>
+    <p>
+      Müstəqil Azərbaycan Respublikasının qarşısında duran əsas vəzifələrdən
+      biri respublikanın dövlət quruculuğunu təşkil etməkdir. Bizim yolumuz
+      aydındır, bunu dəfələrlə bəyan etmişik. Yolumuz demokratiya yoludur.
+      Müstəqil Azərbaycanda demokratik, hüquqi dövlət qurulmalıdır. Azərbaycan
+      dövləti demokratik prinsiplər əsasında fəaliyyət göstərməlidir, öz tarixi
+      ənənələrindən, milli ənənələrindən bəhrələnərək, dünya demokratiyasından,
+      ümumbəşəri dəyərlərdən səmərəli istifadə edərək demokratik dövlət
+      quruculuğu yolu ilə getməlidir. Bizim yolumuz bu yoldur və mən sizə bir
+      daha söz verirəm ki, biz məhz bu yolla gedəcəyik.
+    </p>
+    <br></br>
+    <p>
+      Bu yol ilə getmək həm tarixi keçmişimizə uyğundur, həm də bir müstəqil
+      dövlət kimi dünya sivilizasiyasına daha yaxından qovuşmaq üçün lazımi
+      şərtdir. Bunun üçün Azərbaycanda bütün imkanlar yaranıb və bundan sonra da
+      yaranacaqdır. Azərbaycanda insan azadlığı, söz azadlığı, din azadlığı, dil
+      azadlığı, vicdan azadlığı - bunların hamısı demokratik, sivilizasiyalı
+      cəmiyyətin yaranmasına imkan verən şərtlərdir. Biz bu şərtlərin bərqərar
+      olmasını təmin edəcəyik. Azərbaycanda çoxpartiyalı cəmiyyət yaranmaqdadır,
+      bir çox partiyalar yaranıb və bundan sonra da yaranacaqdır. Bunların
+      yaranması və inkişaf etməsi üçün Azərbaycan dövləti bütün imkanları təmin
+      edəcəkdir və çoxpartiyalı cəmiyyət, demokratik prinsiplərin bərqərar
+      olduğu cəmiyyət, şubhəsiz, Azərbaycanın müstəqil bir dövlət kimi
+      inkişafına kömək edəcəkdir.
+    </p>
+    <br></br>
+    <p>
+      Çoxpartiyalı cəmiyyətdə müxalifətin də böyük rolu var. Biz müxalifətə
+      bundan sonra da böyük hörmətlə münasibət göstərəcəyik və əmin olduğumu
+      bildirmək istəyirəm ki, Azərbaycan cəmiyyətində müxalifət mövqeyində olan
+      partiyalar, siyasi qüvvələr konstruktiv əməkdaşlıq mövqeyindən çıxış
+      edəcəklər və bununla da Azərbaycanda həqiqi demokratiyanın inkişafı üçün
+      daha geniş imkanlar yaradılacaqdır. Bir sözlə, biz Azərbaycanda müxalif
+      qüvvələr olmasını təbii bir hall hesab edirik, eyni zamanda dövlət müxalif
+      qüvvələrlə konsrtuktiv əməkdaşlığa həmişə hazır olduğunu bildirir.
+    </p>
+    <br></br>
+    <p>
+      Ancaq müxalifətdə olan qruplar, ayrı-ayrı siyasi təşkilatlar son illərdə
+      istifadə etdikləri qeyri-qanuni, əcaib, demokratiyaya zidd üsullardan,
+      metodlardan əl çəkməlidirlər. Siyasi partiyalar, hərəkatlar Azərbaycanda
+      sərbəst fəaliyyət göstərə bilərlər. Lakin heç bir siyasi partiyanın və ya
+      hərəkatın, ictimai-siyasi təşkilatın silahlı dəstələri, silahlı qüvvələri
+      ola bilməz! Bu gün mən bunu bütün Azərbaycan vətəndaşları qarşısında tam
+      qətiyyətlə bəyan edirəm. Vaxtilə Azərbaycan Respublikasının ictimai-siyasi
+      həyatında müsbət rol oynamış Xalq Cəbhəsinin bu sahədə çox mənfi təcrübəsi
+      təəssüf ki, Azərbaycanda ayrı-ayrı qeyri-qanuni silahlı dəstələrin
+      yaranmasına və fəaliyyət göstərməsinə səbəb olmuşdur. Güman edirəm ki,
+      bütün partiyalar, hərəkatlar, ictimai-siyasi təşkilatlar öz silahlı
+      dəstələrindən imtina edəcəklər. Cəmiyyətimizdə bir silahlı dəstə ola
+      bilər, o da dövlətin silahlı qüvvələridir. Biz hamımımz birlikdə
+      qeyri-qanuni silahlı dəstələrin ləğv olmasına çalışmalıyıq və bu da
+      respublikamızda daxili ictimai-siyasi sabitlik yaranması üçün əsas
+      şərtdir.
+    </p>
+    <br></br>
+    <p>
+      Demokratik sivilizasiyalı cəmiyyətdə insan huquqlarının qorunması dövlətin
+      əsas vəzifələrindən biridir. Əmin ola bilərsiniz ki, bu yüksək vəzifədə
+      mən həmin sahəni daim diqqət mərkəzində saxlayacağam və insan hüquqlarının
+      qorunması üçün bütün təminatları yaradacağam. Bir sözlə, cəmiyyətimizdə
+      insanın tam azad olması üçün şərait yaradılacaqdır. Bu baxımdan
+      həyatımızın indiki mərhələsində vicdan azadlığı məsələsi də mühüm yer
+      tutur. Xalqımız öz dininə qayıtdı. İslam dini dünyada öz tarixi yerini
+      tutmuşdur. Xalqımızın mənəviyyətına, elminə, qüdrətinə, zəkasına islam
+      dininin böyük təsiri olmuşdur. Milli ənənələrimiz, mədəniyyətimiz bir çox
+      hallarda islam dini vasitəsilə nəsildən-nəslə keçib, indi böyük milli
+      sərvətimiz kimi bugünkü nəsillərə çatmışdır. Azərbaycanda islam dininə
+      insanların sərbəst etiqad etməsi üçün bütün şərait yaradılmış və bundan
+      sonra da yaradılacaqdır. Güman edirik ki, bizim dinimiz respblikanın bu
+      ağır dövründə vətəndaş həmrəyliyinin, vətəndaş birliyinin yaranması üçün
+      çox böyük fəaliyyət göstərəcəkdir.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycan çoxmillətli respublikadır. Bu, respublikanın secəyyəvi
+      cəhətidir. Bunun böyük tarixi var və bu tarixlə, respublikanın bu
+      ictimai-siyasi mənzərəsi ilə biz fəxr edirik. Respublikamızda bütün
+      vətəndaşlar dini və milli mənsubiyyətindən asılı olmayaraq, eyni hüquqa
+      malikdirlər və bundan sonra da bütün vətəndaşların bərabər hüquqla
+      Azərbaycan Respublikasının ictimai-siyasi həyatında iştirak etməsi üçün
+      imkanlar yaradılacaqdır.
+    </p>
+    <br></br>
+    <p>
+      Bu gün bizim islam dininin, Qafqaz müsəlmanlarının rəhbəri, xristian
+      dininin, yahudi dininin nümayəndələri məni bu vəzifəyə gəlmək münasibətilə
+      təbrik etdilər. Mən onlara öz minnətdarlığımı bildirirəm və əmin etmək
+      istəyirəm ki, Azərbaycanda bütün millətlərin, bütün dinlərin bərabər
+      hüquqla yaşaması üçün bütün şərait yaradılacaqdır.
+    </p>
+    <br></br>
+    <p>
+      Respublikamızın müstəqilliyini möhkəmlətmək üçün əsas vəzifələrdən biri
+      Azərbaycanın mənafeyini dünya miqyasında müdafiə edə bilən ağıllı,
+      səriştəli xarici siyasətin olmasıdır. Müstəqillik əldə edildikdən sonra
+      xarici siyasət sahəsində təəssüf ki, az iş görülmüşdür. Qarşıda böyük
+      vəzifələr durur. Bizim xarici siyasətimiz birinci növbədə Azərbaycanın
+      dövlət müstəqilliyini təmin etməyə yönəldilməlidir. Vəzifə dünyanın bütün
+      dövlətləri ilə bərabərhüquqlu, qarşılıqlı surətdə faydalı əlaqələr
+      yaratmaq və inkişaf etdirməkdən, bu əlaqələrdən həm Azərbaycan
+      Respublikasının beynəlxalq mövqelərini möhkəmləndirmək üçün, həm də
+      respublikanın iqtisadiyyatını, elmini, mədəniyyətini inkişaf etdirmək üçün
+      səmərəli istifadə etməkdən ibarətdir. Bizim xarici siyasətimiz sülhsevər
+      siyasətdir, biz heç bir dövlətin suverenliyinə, ərazi bütövlüyünə toxunmaq
+      məqsədi güdmürük. Lakin eyni zamanda nəyin bahasına olursa-olsun
+      respublikanın suverenliyini, müstəqilliyini və ərazi bütövlüyünü xarici
+      siyasət vasitəsilə təmin etməyə çalışacağıq. Güman edirəm ki, bundan sonra
+      görüləsi işlər Azərbaycanın daha geniş tanınmasına şərait yaradacaqdır və
+      respublikamız dünya dövlətləri birliyində öz layiqli yerini tutacaqdır.
+    </p>
+    <br></br>
+    <p>
+      Mənim Prezident seçilməyinmlə əlaqədar olaraq dünyanın bir çox
+      dövlətlərinin başçıları təbrik məktubları göndərmişlər. Bunları, birinci
+      növbədə, Azərbaycan Respublikasının müstəqilliyinə, dünya birliyində
+      tutduğu yerə verilən qiymət kimi qəbul edirəm. Təbrik məktubları göndərmiş
+      dövlət başçılarına, xarici ölkələrin bu salonda olan təmsilçilərinə
+      minnətdarlığımı bildirirəm və onları əmin etmək istəyirəm ki, Azərbaycan
+      Respublikası bir mistəqil dövlət kimi gələcəkdə bütün bu dövlətlərlə və
+      başqa ölkələrlə səmərəli əlaqələr yaratmağa və respublikamızı bu ağır
+      vəziyyətdən çıxarmaq üçün onların imkanlarından istifadə etməyə
+      çalışacaqdır. Çox sağ olun, təşəkkür edirəm və eyni zamanda
+      dövlətlərinizin başçılarına və xalqlarınıza səadət, xoşbəxtlik və bütün
+      işlərinizdə müvəffəqiyyətlər diləyirəm.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycan Respublikasının ağır böhran vəziyyətindən çıxması üçün
+      sosial-iqtisadi sahədə böyük işlər görülməlidir. Təsəvvür edin ki,
+      müstəqilliyimizin əldə edilməsi bizim üçün tarixi bir hadisədirsə,
+      iqtisadiyyatımızın belə vəziyyətdə olması ağır və çətin bir haldır.
+      Təəssüf ki, son illərdə respublikanın böhran vəziyyətində olması
+      iqtisadiyyatın bütün sahələrinə mənfi təsir göstərmişdir. İqtisadiyyat,
+      demək olar, tamamilə dağılmış və bu da respblika vətəndaşlarının rifahının
+      aşağı düşməsinə gətirib çıxarmışdır. Eyni zamanda qeyd etmək istəyirəm ki,
+      respublikanın böyük iqtisadi-sosial, elmi-texniki potensialı vardır.
+      Azərbaycanın coğrafi-siyasi vəziyyəti, onun təbii sərvətləri, uzun illər
+      boyu yaranmış əsas fondları respublikanı bu ağır böhrandan çıxarmağa imkan
+      verir. Bu baxımdan biz gələcək işimizdə bir tərəfdən yaranmış potensialdan
+      səmərəli istifadə etmək, digər tərəfdən isə yeni iqtisadi islahatlar
+      aparmaq yolu ilə bazar iqtisadiyyatına keçmək istiqamətində hərəkət
+      etməliyik.
+    </p>
+    <br></br>
+    <p>
+      Bu yol çətin, ağır yoldur. On illər boyu yaranmış iqtisadi-sosial
+      sistemdən sərbəst iqtisadiyyat sisteminə keçmək böyük çətinliklərlə
+      bağlıdır. Bu sahədə son illərdə buraxılan səhvlər vəziyyəti daha da
+      gərginləşdirmişdir. Ancaq biz bu yolla getməliyik, başqa yol yoxdur. Bu iş
+      Azərbaycan Respublikasının iqtisadiyyatına, ənənələrinə uyğun olaraq
+      təşkil edilməlidir. Bu yola keçərkən əlimizdə olan iqtisadi potensialdan
+      səmərəli istifadə etməliyik, onun bundan sonra dağılmasına yol
+      verməməliyik. Çalışmalıyıq ki, bu potensial bütün Azərbaycan xalqının
+      sərvəti kimi bundan sonra da respublikamızın bütün vətəndaşlarının, bütün
+      təbəqələrin həyat tərzinin yaxşılaşması üçün şərait yaratsın.
+    </p>
+    <br></br>
+    <p>
+      Bu sahədə demokratik islahatlar keçirmək, ağıllı hərəkət etmək bizim
+      borcumuzdur və əmin ola bilərsiniz ki, biz bu yolla gedəcəyik. Bununla
+      əlaqədar olaraq mən Azərbaycan Respublikasının Müstəqil Dövlətlər
+      Birliyinə daxil olmasını xüsusi qeyd etmək istəyirəm. Respublikada uzun
+      müddət bu barədə müzakirələr getmiş və nəhayət, Azərbaycan Müstəqil
+      Dövlətlər Birliyinə daxil olmuşdur. Biz əminik ki, Azərbaycanın MDB-yə
+      daxil olması respublikanın iqtisadiyyatının inkişaf etməsi üçün yaxşı
+      şərait yaradacaq və biz bu imkanlardan səmərəli istifadə etməliyik.
+    </p>
+    <br></br>
+    <p>
+      Onu da qeyd etmək istəyirəm ki, bəzi dairələr Azərbaycanın MDB-yə daxil
+      olmasını təhlükəli bir hal kimi qələmə verməyə çalışırlar. Bu, səhv
+      fikirdir. Azərbaycan müstəqil bir dövlət kimi demokratik yolla gedəcək,
+      beynəlxalq demokratiya normalarına riayət edəcəkdir. Azərbaycanda
+      kommunist ideologiyası, kommunist rejimi bir daha bərpa olmayacaqdır.
+      Güman edirəm ki, Azərbaycan vətəndaşlarının əksəriyyətinin də fikri
+      belədir. Azərbaycan Respublikası bundan sonra heç vaxt başqa bir dövlətin
+      tərkibinə daxil olmayacaq, başqa bir dövlətin tabeliyinə düşməyəcək, öz
+      müstəqilliyini daim qoruyacaqdır.
+    </p>
+    <br></br>
+    <p>
+      Bizim daxili siyasətimiz, xarici siyasətimiz dünya demokratiyasının açdığı
+      yolla demokratik prinsiplər əsasında gedəcəkdir. Biz Azərbaycanın
+      daxilində demokratik prinsipləri bərqərar edərək respublikanın xarici
+      siyasətində Azərbaycanın müstəqilliyini daim qoruyacağıq. Mən bir
+      Prezident kimi, xalqın qarşısında öz fikirlərimi açıq bəyan edir və əmin
+      etmək istəyirəm ki, bu fikirlərə, bu prinsiplərə daim sadiq olacağam.
+    </p>
+    <br></br>
+  </>
+);
+
+export const SPEECHES_PARAGRAPH2 = (
+  <>
+    <p>
+      Azərbaycan Respublikası münaqişənin sülh yolu ilə, siyasi yolla aradan
+      qaldırılmasına tərəfdar olaraq belə hesab edir ki, yalnız Təhlükəsizlik
+      Şurasının qətnamələrini yerinə yetirmək yolu ilə təcavüzün nəticələrini
+      aradan qaldıraraq, uzunmüddətli möhkəm sülhün bərqərar edilməsi və
+      regionun bütün əhalisinin təhlükəsizliyinin təmin edilməsi məqsədi ilə
+      sabit və əməli danışıq prosesi aparmaq olar.
+    </p>
+    <br></br>
+    <p>
+      Həm də biz beynəlxalq normalara uyğun olaraq sülhpərvərlərin dəqiq mandata
+      malik olması şərti ilə razılaşdırılmış sülh qərarlarının həyata
+      keçirilməsinin təmin edilməsində Dünya Birliyinin köməyinə ümid
+      bəsləyirik.
+    </p>
+    <br></br>
+    <p>
+      Biz atəşin kəsilməsi haqqında əldə edilmiş razılığı yüksək
+      qiymətləndirərək başa düşürük ki, bu hələ sülh demək deyil, lakin atəşkəs
+      tezliklə sülh əldə edilməsi üçün lazımi şərait yaradır. Biz sülh sazişi
+      əldə edilənədək və silahlı münaqişəyə tamamilə son qoyulanadək atəşkəs
+      rejiminə əməl etmək əzmində olduğumuzu dəfələrlə bildirmişik. Bu gün mən
+      Birləşmiş Millətlər Təşkilatının yüksək tribunasından bunu bir daha bəyan
+      edirəm.
+    </p>
+    <br></br>
+    <p>
+      Biz ATƏM-in Minsk qrupunun və Rusiya Federasiyasının sülhpərvər
+      fəaliyyətini müdafiə edərək onların səylərinin birləşdirilməsinə
+      tərəfdarıq, münaqişənin aradan qaldırılmasında birincilik uğrunda hər
+      hansı bəhsləşmənin əleyhinə çıxırıq. Belə bəhsləşmə Azərbaycan və
+      Ermənistan xalqlarının eyni dərəcədə ehtiyac duyduqları sülhün əldə
+      edilməsini yalnız çətinləşdirə bilər.
+    </p>
+    <br></br>
+    <p>
+      Azərbaycanın işğal olunmüş bütün ərazilərinin tamamilə azad edilməsi
+      barədə tələblərimiz hüquqa uyğun tələblərdir, onlar BMT Təhlükisizlik
+      Şurasının qətnamələrinə tamamilə uyğundur. Hər hansı bir rayonun ilhaqına
+      cəhd göstərilməsi bizim üçün məqbul deyil və beynəlxalq hüquq normalarına
+      ziddir.
+    </p>
+    <br></br>
+    <p>
+      Müharibəyə cəlb olunmağımız nəticəsində respublikada son dərəcə ağır
+      humanitar vəziyyət yaranmışdır. Yeddi milyonluq ölkədə hər yeddi nəfərdən
+      biri ev-eşiyi, işi, yaşamaq üçün vəsaiti olmayan qaçqındır. Qaçqınlar və
+      köçkünlər misilsiz məhrumiyyətlərə düçar olaraq çadır düşərgələrində
+      yaşayırlar. Amansız qış şəraiti, kifayət qədər qida, dava-dərman olmaması
+      əhalinin ən imkansız olan bu qrupu arasında epidemiya və aclıq təhlükəsi
+      yaratmışdır. Qaçqınlar ilə əlaqədar ekstremal vəziyyətin aradan
+      qaldırılması Azərbaycan dövlətinin başlıca qayğılarından birinə
+      çevrilmişdir.
+    </p>
+    <br></br>
+    <p>
+      Respublikamızın təcili çağırışına beynəlxalq təşkilatlar, bir sıra
+      dövlətlər səs verdilər və biz Azərbaycana humanitar yardım göstərilməsində
+      BMT proqramlarının ən iri donorları olan İsveç, Böyük Britaniya, Almaniya,
+      Yaponiya, İsveçrə, Niderland, Danimarka hökumətlərinə ən səmimi
+      minnətdarlığımızı bildiririk.
+    </p>
+    <br></br>
+    <p>
+      Biz, həmçinin ikitərəfli əlaqədar xətti ilə Azərbaycana xeyli humanitar
+      yardım göstərən Türkiyənin, İranın, Səudiyyə Ərəbistanının və digər
+      ölkələrin hökumətlərinə də minnətdarıq.
+    </p>
+    <br></br>
+    <p>
+      Biz Azərbaycanda qaçqınlara və köçkünlərə mühüm kömək göstərmiş BMT-nin
+      qaçqınların işi üzrə ali komissarının idarəsinə, Beynəlxalq Qırmızı Xaç
+      Komitəsinə, BMT-nin uşaq fonduna, &quot;Hakimlər sərhəd tanımır&quot;
+      təşkilatına, çoxsaylı qeyri-hökümət təşkilatlarına da minnətdarıq.
+    </p>
+    <br></br>
+    <p>Hörmətli xanımlar və cənablar!</p>
+    <p>
+      Şərq və Qərb sivilizasiyasını vəhdət halında birləşdirən ölkəmizin coğrafi
+      mövqeyindən, sosial-siyasi yönümündən və tarixi-mədəni ənənələrindən irəli
+      gələn xüsusiyyətlər beynəlxalq münasibətlər sistemində mənim resbublikamın
+      roluna və yerinə seciyyəvi təsir göstərir.
+    </p>
+    <br></br>
+    <p>
+      Məhz öz xüsusiyyətlərimizi başa düşərək və dəyişikliklərin irəli sürdüyü
+      tələbləri nəzərə alaraq biz addım-addım irəliləyərək xarici dünya ilə
+      əməkdaşlıq binasını ucaldırıq. Azərbaycan Respublikası beynəlxalq miqyaslı
+      tanışlığı vaxtdan etibarən biz əksər ölkələrlə bərabər hüquqlu,
+      tarazlaşdırılmış münasibətlər yaratmış və bir çox ümumdünya və regional
+      təşkilatlara daxil olmuş, beynəlxalq münasibətlərimizin genişləndirilməsi,
+      müəyyən səbəbərə üzündən itirilmiş əlaqələrin bərpa edilməsi üçün ciddi
+      səylər göstərmişik.
+    </p>
+    <br></br>
+    <p>
+      Biz keçmiş SSRİ-nin ərazisində yaranmış müstəqil dövlətlərlə tarixi,
+      coğrafi, iqtisadi və humanitar əlaqələrə xüsusi əhəmiyyət verərək, istər
+      ikitərəfli münasibətlər əsasında, istərsə də Müstəqil Dövlətlər Birliyi
+      çərçivəsində onlara, xüsusən Rusiya ilə bərabər hüquqlu əməkdaşlığın
+      inkişaf etdirilməsinə tərəfdar çıxırıq.
+    </p>
+    <br></br>
+    <p>
+      Amerika Birləşmiş Ştatları, Böyük Britaniya Birləşmiş Krallığı, Fransa,
+      Çin ilə Azərbaycanın dostluq əlaqələri müvəffəqiyyətlə inkişaf edir.
+      Regionumuzun və yaxın regionların Türkiyə, İran, Səudiyyə Ərəbistanı,
+      Misir, Pakistan kimi ölkələri ilə bizi sıx, mehriban qonşuluq telləri
+      birləşdirir. Bu ölkələrlə biz İslam Konfransı Təşkilatı çərçivəsində də
+      sıx əməkdaşlıq edirik.
+    </p>
+    <br></br>
+    <p>
+      Bu ilin mayında NATO-nun &quot;Sülh naminə tərəfdaşlıq&quot; proqramına
+      Azərbaycanın qoşulması onun siyasi həyatında mühüm hadisə oldu. Bu
+      proqramda bizi ümumi təhlükəsizlik mənafeyi naminə əməkdaşlıq və
+      qarşılıqlı fəaliyyət məsələlri cəlb edir.
+    </p>
+    <br></br>
+    <p>
+      Bu il Azərbaycan Respublikasına bloklara qoşulmamaq hərəkatında müşahidəçi
+      statusu verilmişdir ki, bu da müxtəlif sahələrdə ikitərəfli əlaqələri
+      qaydaya salmaq və həmin hərəkatın üzvləri olan ölkələrə mövqelərimizi
+      yaxınlaşdırmaq üçün qarşımızda geniş imkanlar açır.
+    </p>
+    <br></br>
+    <p>
+      1992-ci ilin yanvarında gənc Azərbaycan dövlətinin Birləşmiş Millətlər
+      Təşkilatına tam-hüquqlu üzv qəbul edilməsi onun təşəkkülü prosesində mühüm
+      mərhələ oldu. BMT-yə daxil olan bir çox beynəlxalq təşkilatlarla
+      əməkdaşlığımızın miqyası həmin vaxtdan etibarən artır. Beynəlxalq Valyuta
+      Fondu, Ümumdünya Bankı, Beynəlxalq Yenidənqurma və İnkişaf Bankı ilə
+      qarşılıqlı fəaliyyətimiz bizim üçün xüsusən dəyərlidir.
+    </p>
+    <br></br>
+    <p>
+      Dünyanın bu ən iri maliyyə təsisatları mütəxəssislərinin Azərbaycandakı
+      əməli işi nəticəsində ölkəmizin sosial-iqtisadi inkişafı üçün böyük
+      əhəmiyyət daşıyan konkret layihələr müəyyənləşdirilmişdir.
+    </p>
+    <br></br>
+    <p>
+      Güman edirəm ki, beynəlxalq maliyyə təsisatları ilə əməkdaşlığımız üçün
+      böyük imkanlar vardır. Biz Azərbaycan Respubikasının düçar olduğu faktiki
+      mühəribə vəziyyəti ilə əlaqədar Beynəlxalq Valyuta Fondunun və Ümumdünya
+      Bankının rəhbərlərinin ehtiyat etdiyini və narahatlıq keçirdiyini başa
+      düşürük. Lakin eyni zamanda, Beynəlxalq Valyuta Fondu bizimlə müharibə
+      aparan Ermənistana sabitləşdirmə krediti vermişdir. Belə hesab edirəm ki,
+      bu məsələ də heç olmasa simmetrik münasibət tələb edir.
+    </p>
+    <br></br>
+    <p>
+      Biz bazar iqtisadiyyatı infrastrukturunun təşəkkül tapması, ölkəni müasir
+      idarəetmə səviyyəsinə çıxarılması, qabaqcıl texnologiyaların tətbiqi
+      sahəsində milli proqramların hazırlanmasını texniki yardım göstərilməsi
+      işində BMT-nin inkişaf proqramında və BMT-nin ətraf mühitə dair
+      proqramından çox şey gözləyirik.
+    </p>
+    <br></br>
+    <p>
+      Biz beynəlxalq iqtisadi əməkdaşlığa xüsusi əhəmiyyət veririk və mən böyük
+      məmnuniyyət hissi ilə sizə bildirmək istəyirəm ki, Azərbaycan Respublikası
+      sentyabrın 20-də Xəzər dənizinin Azərbaycan sektorunda neft yataqlarının
+      birgə istismarı sahəsində bir sıra iri dünya şirkətlərinin konsorsiumu ilə
+      30 illik müqavilə imzalamışdır. Bu, uzun sürən çətin danışıqların
+      yekunudur.
+    </p>
+    <br></br>
+    <p>
+      Bu iri iqtisadi tədbir bütün dünya üçün açıq olmaq siyasətimizin,
+      iqtisadiyyatının sərbəstləşdirilməsi, xarici investisiyalarının cəlb
+      edilməsi siyasətimizin sübutudur. Belə bir nadir müqavilənin imzalanması
+      əməkdaşlığın möhkəmləndirilməsində, onun həyata keçirilməsində iştirak
+      edən Azərbaycanın, ABŞ-nın, Rusiyanın, Böyük Britaniya Birləşmiş
+      Krallığının, Türkiyənin, Norveçin, Səudiyyə Ərəbistanının xalqlarının və
+      ölkələrin yaxınlaşmasına kömək edəcəkdir. Bu barədə danışarkən mən bir
+      daha qeyd etmək istəyirəm ki, Azərbaycan Respublikası Dünya Birliyi ilə
+      tamhüquqlu interqrasiyaya istiqamət götürmüşdür və bunun üçün bütün
+      imkanlara malikdir. Buna görə də onun siyasəti sülhə əsaslanır və buna
+      nail olmaq üçün Birləşmiş Millətlər Təşkilatına böyük ümidlər bəsləyirik.
+    </p>
+    <br></br>
+    <p>Hörmətli xanımlar və cənablar!</p>
+    <br></br>
+    <p>
+      Azərbaycan xalqı məni özünün gənc müstəqil dövlətinin Prezidenti seçərək
+      mənə çox böyük etimad göstərmişdir və bu gün mən onun ən xoş arzu və
+      diləklərini sizə çatdırmaq şərəfinə nail oldum.
+    </p>
+    <p>
+      <br></br>
+      BMT Baş Məslisinin bu yüksək tribunasını belə bir ümidlə tərk edirəm ki,
+      siz xalqımın səsini eşidəcəksiniz, xalqımın səsi ürəklərinizə yol
+      tapacaqdır.
+    </p>
+    <br></br>
+    <p>Diqqətinizə görə minnətdaram.</p>
+  </>
+);
+
+export const SPEECHES_PARAGRAPH3 = (
+  <>
+    <p>Hörmətli dövlət başçıları!</p>
+    <br />
+    <p>Xanımlar və cənablar!</p>
+    <br />
+    <p>
+      Bizə göstərilən qonaqpərvərliyə və zirvə görüşümüzü yüksək səviyyədə
+      təşkil etdiklərinə görə hər şeydən əvvəl Qırğızıstan Respublikasının
+      Prezidenti cənab Əsgər Akayevə və Qırğızıstan hökümətinə dərin təşəkkürümü
+      bildirirəm.
+    </p>
+    <br />
+    <p>
+      Azərbaycan xalqı adından bu mötəbər məclisin iştirakçıları olan əziz və
+      möhtərəm qardaşlarım - Türkiyə Respublikasının Prezidenti Süleyman
+      Dəmirəli, Qazaxıstan Respublikasının Prezidenti Nursultan Nazarbayevi,
+      Qırğızıstan Respublikasının Prezidenti Əsgər Akayevi, Türkmənistanın
+      Prezidenti Saparmurad Niyazovu, Özbəkistan Respublikasının Prezndenti
+      İslam Kərimovu ürəkdən salamlayıram, sizə və xalqlarınıza hörmət və
+      ehtiramımı bildirir, səadət və firavanlıq arzulayıram.
+    </p>
+    <br />
+    <p>
+      Məmnuniyyətlə qeyd etmək istəyirəm ki, əsası 1992-ci ilin oktyabrında
+      Ankarada qoyulmuş bu üçüncü Zirvə görüşümüz artıq gözəl bir ənənəyə
+      çevrilmişdir.
+    </p>
+    <br />
+    <p>
+      Çox sevindirici haldır ki, Avroasiya məkanın xeyli hissəsini, böyük
+      iqtisadi potensialı, insan potensialını birləşdirən ölkələrimiz müstəqil
+      dövlətlər, dünya birliyinin bərabərhüquqlu üzvləri kimi artıq regional
+      əməkdaşlığa başlayıblar.
+    </p>
+    <br />
+    <p>
+      Çoxəsrlik tarixi boyu dünya sivilizasiyası xəzinəsinə sanballı töhfələr
+      vermiş, coğrafi yaxınlığı ilə, tarixi tale, mədəniyyət, adət-ənənə, din və
+      dil birliyi kimi sarsılmaz tellər ilə bir-birinə bağlı olan xalqlarımız və
+      ölkələrimiz sıx və səmərəli əməkdaşlıq üçün çox geniş imkanlara
+      malikdirlər.
+    </p>
+    <br />
+    <p>
+      Ədəbiyyat və incəsənət, memarlıq, fəlsəfə və dəqiq elmlər sahəsində
+      xalqlarımızın yetirməsi olan korifeylərimizin dahi əsərləri bütün
+      bəşəriyyətin tərəqqisinə, onun mənəvi həyatına və maddi mədəniyyətinə
+      böyük təkan vermişdir.
+    </p>
+    <br />
+    <p>
+      Bu yaxınlarda qardaş Türkiyə Respublikasında Şərq ədəbiyyatının və
+      fəlsəfəsinin korifeylərindən biri, dahi Azərbaycan şairi Məhəmməd
+      Füzulinin anadan olmasının 500 illik yubiley toplantılarında və Almatıda
+      qazax xalqının ləyaqətli oğlu, görkəmli mütəfəkkir, filosof, şair Abayın
+      150 illiyinə həsr olunmuş bayram şənliklərində məmnuniyyətlə iştirak
+      etdim. Bir daha qəti əmin oldum ki, İbn Sinanın, Nizaminin, Nəvainin,
+      Yunis İmrənin, Füzulinin, Məhdumqulunun, Mahmud Kaşqarinin və Şərqin bir
+      çox digər parlaq dahilərinin yaradıcılığı, &quot;Dədə Qorqud&quot;,
+      &quot;Koroğlu&quot;, &quot;Manas&quot;, &quot;Alpamış&quot; kimi ölməz
+      dastanlar təkcə bizim qohum xalqlarımıza mənsub deyil, onlar həm də bütün
+      bəşəriyyətin sərvətidir.
+    </p>
+    <br />
+    <p>
+      Mən çox şadam ki, bizim Zirvə görüşümüz &quot;Manas&quot; eposunun min
+      illik yubileyi ilə üst-üstə düşür və bizdə, bu Zirvə görüşünün
+      iştirakçıları olan dövlət başçıları, bütün qırğız xalqı ilə birlikdə türk
+      aləmi üçün müqəddəs olan bir əsərin min illik ildönümünü azad
+      Qırğızıstanın paytaxtı gözəl Bişkek şəhərində təntənəli sürətdə qeyd
+      edirik.
+    </p>
+    <br />
+    <p>
+      &quot;Manas&quot; köləliyə qarşı çıxır, xalqın azadlığını, müstəqilliyini
+      hər şeydən uca tutur, müqəddəs hesab etdiyi ata yurdunu yadelli
+      işğalçıların tapdağından qorumaq üçün xalqı mübarizəyə çağırır, türk
+      xalqlarının qardaşlığını məhəbbətlə tərənnüm edir.
+    </p>
+    <br />
+    <p>
+      Biz vacib problemlərimizin həll olunması üçün bir-birimizə kömək
+      göstərməli, yardım əlimizi uzatmalıyıq, parçalanmanın və təklənmənin
+      qarşısını almalıyıq, dara düşmüş qardaşlarımıza birlikdə kömək etməliyik,
+      qanlı müharibənin və silahlı münaqişələrin alovunu söndürməliyik.
+    </p>
+    <br />
+    <p>
+      Bütün bunlara görə mən bu görüşümüzə çox böyük əhəmiyyət verirəm. Belə
+      görüşlərin daimi xarakter almasını ürəkdən alqışlayıam. Tarixi mənşəyimiz,
+      qarşımızda duran məqsəd və problemlərin oxşarlığı, milli mənafelərimizin
+      birliyi-bütün bunlar bizim strateji əməkdaşlığımızın etibarlı təməlidir və
+      gələcəyimizə nikbin baxmağa imkan verir.
+    </p>
+    <br />
+    <p>
+      Yaşadığımız son illərdə Yer kürəsində böyük tarixi, geosiyasi
+      dəyişikliklər baş vermişdir. Yaranmış yeni şəraitdə bizim qarşılıqlı
+      əlaqələrimizi müstəqil, suveren əsaslar üzərində qurmaq üçün geniş üfüqlər
+      açılır.
+    </p>
+    <br />
+    <p>
+      Ölkələrimizin keçirdiyi islahatları, dünya iqtisadi birliyi ilə
+      bərabərhüquqlu inteqrasiyaya doğru atdığımız addımları nəzərə alaraq
+      əməkdaşlığımızın bu sahəsini xüsusilə vacib sayıram. Ölkələrimizin zəngin
+      təbii sərvətlərindən, çox böyük sənaye, kənd təsərrüfatı və intellektual
+      potensialından səmərəli istifadə edərək, onları müasir texnologiyalarla
+      zənginləşdirərək, yeni nəqliyyat-kommunikasiya sistemlərini yaradaraq biz
+      XXI əsrin tələblərinə cavab verə biləcəyik və xalqlarımıza layiqli həyatı
+      yaratmağa nail olacağıq.
+    </p>
+    <br />
+    <p>
+      Xəzəryanı dövlətlərin hər birinin energi ehtiyatı ilə zəngin olan öz
+      sektoru və buradan irəli gələn bütün hüquqları və imkanları vardır. Biz bu
+      imkanlardan istifadə edib, birgə çoxtərəfli layihələrin həyata
+      keçirilməsində fəal əməkdaşlıq üçün geniş imkanlar açmaqla bərabər, bu
+      sərvətlərdən qənaətlə və səmərəli istifadə etmək vəzifəsini də qarşımıza
+      qoyur.
+    </p>
+    <br />
+    <p>
+      İri investisiya layihələri bizim enerji resursları ilə zəngin ökələrimizi
+      dünya istehlakçıları ilə bağlamaq üçün müasir nəqliyyat və kommunikasiya
+      sistemləri yaratmağa imkan verir.
+    </p>
+    <br />
+    <p>
+      Qarşılıqlı faydalı və bir-birini tamamlayan iqtisadi əməkdaşlıq üçün ümumi
+      məkan yaratmaq və Mərkəzi Asiyadan çəkiləcək neft və qaz kəmərlərini
+      Türkiyəyə, oradan isə dünya bazarına çıxarmaq xalqlarımız arasında
+      əməkdaşlığı daha da möhkəmlədə və müstəqil dövlətlərimizin çiçəklənməsinə
+      xidmət edərdi.
+    </p>
+    <br />
+    <p>
+      Bu mötəbər məclisdə təmsil olunan bir sıra qardaş dövlətlər kimi
+      Azərbaycan da müəkkəb keçid dövrünü yaşayır. Sovetlər İttifaqı dağıldıqdan
+      sonra öz müstəqilliyini elan edən Azərbaycan demokratik hüquqi dövlət
+      quruculuğu, radikal bazar islahatlaının həyata keçirilməsi yolunu
+      tutmuşdur. Bu cür tarixi dövrə xas olan obyektiv çətinliklərə bazmayaraq
+      biz atıq bu yolda bir sıra müvəffəqiyyətlər əldə etmişik.
+    </p>
+    <br />
+    <p>
+      Əsrlər boyu öz azadlığına nail olmaq üçün mübarizə aparmış xalqımızın
+      iradəsinə söykənərək müstəqil dövlət quruculuğuna inamla irəliləyir.
+    </p>
+    <br />
+    <p>
+      Bu gün biz öz taleyimizin və sərvətlərimizin sahibiyik. Qısa dövr ərzində
+      Azərbaycanda siyasi plüralizm, insan, söz, mətbuat, vicdan azadlığı
+      bərqərar olunmuşdur. Milliyətindən, dilindən, dinindən, siyasi
+      baxışlarından asılı olmayaraq insan hüquqları Azərbaycanda etibarlı
+      surətdə qorunur.
+    </p>
+    <br />
+    <p>
+      40-dan çox siyasi partiya, 400-ə yaxın müstəqil qəzet, 30-dan çox
+      informasiya agentilkləri və teleşirkətlər tam sərbəstlik şəraitində
+      fəaliyyət göstərir.
+    </p>
+    <br />
+    <p>
+      Biz dövləti zor işlətməklə devirməyə yönəldilmiş bir sıra antikonstitusion
+      cəhdlərin qarşısını aldıq. Respublikanın daxilində ictimai-siyasi
+      stabilliyi bərqərar etdik. Köklü demokratik islahatları həyata keçirmək
+      üçün gördüyümüz tədbirlər bütün Azərbaycan xalqı tərəfindən inam və
+      qətiyyətlə dəstəklənir. Buna görə də istiqlaliyyət yolundan bizi
+      sapındırmaq mümkün deyil.
+    </p>
+    <br />
+    <p>
+      Biz bu ilin noyabr ayının 12-də çoxpartiyalı sistem əsasında ilk azad
+      demokratik parlament seçkiləri keçirmək barədə qərar qəbul etmişik.
+      Respublikada seçkilərə geniş hazırlıq işləri gedir. Əminəm ki, bu
+      parlament seçkiləri Azərbaycanda demokratik ənənələrin bərqərar edilməsi
+      yolunda mühüm addım olacaqdır. Elə həmin gün də biz müstəqil Azərbaycanın
+      ilk demokratik konstitusiyasını ümumxalq referendumu yolu ilə qəbul
+      edəcəyik. Bu hadisələr Azərbaycan tarixində yeni parlaq səhifə olacaq və
+      gələcək nəsillərin xoşbəxt həyatını təmin edəcəkdir.
+    </p>
+    <br />
+    <p>
+      Biz azad bazar münasibətlərini yaradaraq bəabərhüquqlu tərəfdaş kimi dünya
+      iqtisadiyyatına inteqrasiya olunmaq üçün ciddi iqtisadi islahatlar
+      aparırıq. Kənd təsərrüfatı sahəsində islahatlar artıq müvəffəqiyyətlə
+      həyata keçirilir. Özəlləşdirmə proqramı qəbul olunub və yaxın zamanlarda
+      dövlət mülkiyyətinin genişmiqyaslı özəlləşdirilməsi həyata keçiriləcəkdir.
+    </p>
+    <br />
+    <p>
+      Dünyanın iri neft şirkəttərinin təmsil olunduğu konsorsium ilə bağlanmış
+      məşhur &quot;Əsrin müqaviləsi&quot; imzalandıqdan sonra Xəzər dənizinin
+      Azərbaycana məxsus olan sektorunda enerji ehtiyatlarının istismarı üzrə
+      uzunmüddətli beynəlxalq əməkdaşlıq sürətlə inkişaf edir. Böyük məmnuniyyət
+      hissi ilə qeyd etmək istəyirəm ki, bu müqavilədə qardaş Türkiyə
+      Respublikasını təmsil edən neft şirkətləri də fəal iştirak edir.
+    </p>
+    <br />
+    <p>
+      Bununla bərabər, Azərbaycan Respublikası öz dövlət quruculuğu yolunda
+      ciddi maneələrlə də üzləşir. Yeddi ildən bəri Ermənistan Respublikası
+      Azərbaycana qarşı hərbi təcavüz edib, qanlı mühaibə törədibdir. Bu təcavüz
+      nəticəsində Azərbaycanın torpaqlarının iyirmi faizdən çoxu işğal olunub,
+      bir miyondan çox vətəndaşımız işğal olunmuş torpaqlardan qaçqın düşüb və
+      indi ağır şəraitdə çadırlarda yaşayır.
+    </p>
+    <br />
+    <p>
+      Xalqımızın güzəranına mənfi təsir göstərən amillərdən biri də odur ki,
+      Emənistan silahlı qüvvələri tərəfindən işğal olunmuş ərazilərdə sənaye və
+      kənd təsərrüfatı müəssisələrimiz, sosial obyektlərimiz və mədəniyyət
+      abidələrimiz, taxıl zəmilərimiz, pambıq plantasiyalarımız, üzüm bağlarımız
+      işğalçılar tərəfindən yandırılmış, viran edilmişdir.
+    </p>
+    <br />
+    <p>
+      Böyük itkilərə və qurbanlara baxmayaraq biz bu münaqişənin sivilizasiyalı
+      siyasi yollarla, Avropada Təhlükəsizlik və Əməkdaşlıq Təşkilatı, onun
+      Minsk qruppu çərçivəsində həll olunmasına, regionda ədalətli beynəlmiləl
+      qanunlara söykənən sülhün və əmin-amanlığın bərqərar edilməsinə çalışırıq.
+      Lakin məsələnin siyasi yolla həll olunması üçün ermənilər öz qoşunlarını
+      Şuşa və Laçın da daxil olmaqla Azərbaycanın işğal edilmiş bütün
+      torpaqlarından çıxarmalıdırlar.
+    </p>
+    <br />
+    <p>
+      Azərbaycan müharibə etmək istəmir. Biz torpaqlarımızın müdafiəsinə
+      qalxmışıq, Ermənistanın hərbi təcavüzünə qarşı, respublikamızın ərazi
+      bütövlüyü, suverenliyi uğrunda mübarizə aparırıq. Biz dünyanın bütün
+      dövlətləri tərəfindən qəbul olunmuş beynəlxalq hüquq normalarına hömət
+      qoyulmasını, Azərbaycanın ərazi bütövlüyünün, suverenliyinin təmin
+      olunmasını tələb edirik. Birləşmiş Millətlər Təşkilatı Təhlükəsizlik
+      Şurasının, İslam Konfransı Təşkilatının erməni təcavüzünü pisləyən və
+      erməni işğalçı qoşunlarının işğal olunmuş bütün torpaqlardan qeyd-şərtsiz
+      çıxarılmasını tələb edən qətnamələrin həyata keçirilməsini tələb edirik.
+    </p>
+    <br />
+    <p>
+      Sevindirici haldır ki, keçən ilin may ayında əldə edilmiş atəşkəs barədə
+      sazişə artıq on beş aydır ki, riayət olunur. Biz dəfələrlə bəyan etmişik
+      və bir daha bildiririk ki, ədalətli və möhkəm sülhə nail olunana qədər
+      atəşkəs rejiminə sadiq qalacağıq. Eyni zamanda hesab edirik ki, yaranmış
+      vəziyyət - &quot;Nə müharibə, nə sülh&quot; şəraiti əbədi olaraq davam edə
+      bilməz. Müharibəyə son qoyulmalı və işğal edilmiş Azərbaycan torpaqları
+      tezliklə azad olunmalıdır.
+    </p>
+    <br />
+    <p>
+      Füsətdən istifadə edərək mən sizə, bu Zirvə görüşündə iştirak edən dövlət
+      başçılarına müraciət edirəm ki, öz imkanlarımızdan istifadə edərək bu
+      münaqişəni tezliklə həll etməyə səy göstərəsiniz. Azərbaycan ərazi
+      bütövlüyünü təmin etməyə və bir milyondan çox qaçqını öz doğma
+      yurd-yuvalarına qaytarmağa əlinizdən gələn köməyi bizdən əsirgəməyəsiniz.
+    </p>
+    <br />
+    <p>
+      Bütün ölkələrin ərazi bütövlüyünü, sərhədlərin toxunulmazlığını qorumaq,
+      dünyanın bir çox regionlarında axır zamanlarda geniş surətdə yayılmış
+      separatizmə və terrorizmə qarşı ciddi mübarizə aparmaq, Birləşmiş
+      Millətlər Təşkilatının nizamnaməsinə və Avropada Təhlükəsizlik və
+      Əməkdaşlıq Təşkilatının prinsiplərinə riayət etmək, onları fəal surətdə
+      həyata keçirmək hər birimizin və hamımızın müqəddəs borcudur.
+    </p>
+    <br />
+    <p>Əziz və möhtərəm qardaşlar!</p>
+    <br />
+    <p>
+      <br />
+      Türksoy proqramı çərçivəsində etdiyimiz əməkdaşlıq xalqlarımızın
+      həyatında, mədəniyyətində böyük əhəmiyyət kəsb edir. &quot;Manas&quot;ın
+      min illiyinə və Abay Kunanbayevin 150 illiyinə həsr edilmiş təntənəli
+      yubiley məasimləri də bu əməkdaşlığın bir qoludur.
+    </p>
+    <br />
+    <p>
+      Bildiyiniz kimi, YUNESKO-nun qərarı ilə bu il Şərqin böyük mütəfəkkiri,
+      Azərbaycan şairi Məhəmməd Füzulinin 500 illik yubileyi də bütün dünyada
+      geniş surətdə qeyd olunur. Artıq Ankarada, Moskvada bu bayramlar
+      keçirilib, ilin axırında isə Parisdə, YUNESKO-nun baş qərargahında
+      keçiriləcəkdir.
+    </p>
+    <br />
+    <p>
+      Füsətdən istifadə edərək sizi Füzuli təntənələrinin Zirvə bayramına -
+      Azərbaycanın paytaxtı Bakıya dəvət edirəm.
+    </p>
+    <br />
+    <p>
+      Xalqlarımız min illər boyu sıx əməkdaşlıq etmiş, qarşılıqlı fəaliyyət
+      göstərmiş, bir-biini zənginləşdirmişlər. Yeni dövrdə, yeni şəraitdə bu
+      əməkdaşlığın dirçəldilməsi hamımız üçün böyük əhəmiyyət kəsb edir. Bu
+      köklər, bu əsaslar xalqlarımızın ən müqəddəs arzularının çiçəklənməsinə
+      geniş imkanlar açır, onların sülhə, tərəqqiyə doğru inamla getməsinə gözəl
+      şərait yaradır.
+    </p>
+    <br />
+    <p>
+      Mən inanıram ki, bir çox ağır sınaqlardan keçmiş, bu yolda həm itkilərin
+      acısını dadmış, həm də dirçəliş sevincini duymuş xalqlarımız çoxəsrlik
+      ümidlərini həyata keçirəcək, XXI əsrə öz şanlı əcdadlarının layiqli
+      övladları kimi qədəm qoyacaqlar. Bu bizim ümidimiz, bu bizim vəzifəmiz, bu
+      bizim borcumuzdur.
+    </p>
+    <br />
+    <p>Diqqətinizə görə təşəkkür edirəm.</p>
+  </>
+);
+
+export const GALLERY_MAIN_PHOTOS = [
+  {
+    id: 1,
+    src: "https://heydaraliyevcenter.az/thumbs/8/13692321563.jpg",
+    name: "1923-1969",
+  },
+  {
+    id: 2,
+    src: "https://heydaraliyevcenter.az/thumbs/8/13692931289.jpg",
+    name: "1969-1987",
+  },
+  {
+    id: 3,
+    src: "https://heydaraliyevcenter.az/thumbs/8/13692326606.jpg",
+    name: "1990-2003",
+  },
+  {
+    id: 4,
+    src: "https://heydaraliyevcenter.az/thumbs/8/13692945105.jpg",
+    name: "Ömründən anlar",
+  },
+];
+
+//this is the photos in the gallery route
+export const GALLERY_PHOTOS_1923 = [
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321560.jpg",
+    name: "Əliyevlər ailəsi. Naxçıvan,1930",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321561.jpg",
+    name: "Heydər Əliyev, Naxçıvan, 1930",
+    colSpan: "col-span-2 md:col-span-1",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321562.jpg",
+    name: "Heydər Əliyev, Naxçıvan,1938",
+    colSpan: "col-span-2 md:col-span-1",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321563.jpg",
+    name: "Heydər Əliyev, Azərbaycan Sənaye institutunun tələbəsi, Bakı,1940",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321566.jpg",
+    name: "Heydər Əliyev, Naxçıvan, 1945",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321564.jpg",
+    name: "Heydər Əliyev,Naxçıvan MSSR Nazirlər Sovetinin məsul əməkdaşı,Naxçıvan,1942",
+    colSpan: "col-span-",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321569.jpg",
+    name: "Heydər Əliyev və Zərifə Əliyeva, 1954",
+    colSpan: "col-span-",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321567.jpg",
+    name: "Heydər Əliyev DTK əməkdaşları ilə Dzerjinski klubunun qarşısında,Bakı,1952",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321565.jpg",
+    name: "Naxçıvan MSSR Xalq Komissarları Sovetinin şöbə müdiri,1944",
+    colSpan: "col-span-",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692321568.jpg",
+    name: "Heydər Əliyev DTK əməkdaşları ilə, 1952",
+    colSpan: "col-span-",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/136923215610.jpg",
+    name: "Leytenant Heydər Əliyev",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692322840.jpg",
+    name: "Böyük leytenant Heydər Əliyev",
+    colSpan: "col-span-",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692322841.jpg",
+    name: "Kapitan Heydər Əliyev",
+    colSpan: "col-span-",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692322842.jpg",
+    name: "Mayor Heydər Əliyev",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2 md:row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692322844.jpg",
+    name: "Polkovnik Heydər Əliyev",
+    colSpan: "col-span-",
+    rowSpan: "row-span-2",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692322848.jpg",
+    name: "General-mayor Heydər Əliyev",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692322846.jpg",
+    name: "Heydər Əliyev DTK-nın Ali Məktəbində,Leninqrad,1950",
+    colSpan: "col-span-2 md:col-span-1",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "    https://heydaraliyevcenter.az/files/gallery/13692322843.jpg    ",
+    name: "Podpolkovnik Heydər Əliyev",
+    colSpan: "col-span-2 md:col-span-1",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692322847.jpg",
+    name: "Heydər Əliyev Azərbaycan SSR DTK rəhbərləri ilə, 1967",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-",
+  },
+
+  {
+    src: "http://img.day.az/clickable/0e/5/398636_006.jpg",
+    name: "Heydər Əliyev və onun həyat yoldaşı Zərifə Əliyeva",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-",
+  },
+];
+
+export const GALLERY_PHOTOS_1969 = [
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931280.jpg",
+    name: "Azərbaycan KP MK-nin birinci katibi",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931281.jpg",
+    name: "Kür su kəmərinin tikintisində, 1970",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931285.jpg",
+    name: "Üzümçülük kolxozlarının birində, Naxçıvan,1974",
+    colSpan: "col-span-2 sm:col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931282.jpg",
+    name: "Bakı şəhərində iməclikdə, 1973",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "    https://heydaraliyevcenter.az/files/gallery/13692931284.jpg    ",
+    name: "Taxılçılıq kolxozlarından birində, 1974",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931283.jpg",
+    name: "Araz SES-in tikintisində,Naxçıvan,1974",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931286.jpg",
+    name: "Sərsəng SES-in tikintisində, Tərtər, 1975",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931287.jpg",
+    name: "Yuxarı-Xanbulançay su anbarının açılışında, Lənkəran, 1976",
+    colSpan: "col-span-",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931288.jpg",
+    name: "Səlyan rayonunda, 1977",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932991.jpg",
+    name: "Çay plantasiyasında, Astara, 1982",
+    colSpan: "col-span-3 sm:col-span-2",
+    rowSpan: "row-span-1",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932990.jpg",
+    name: "Vaqifin barelyefi qarşısında, Şuşa, 1982",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932993.jpg",
+    name: "Cəmşid Naxçıvanski adına Respublika Hərbi İnternat Məktəbində, 1973",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932992.jpg",
+    name: "Heydər Əliyev iməclikdə, 1973",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692931289.jpg",
+    name: "Heydər Əliyev Sabirabadda, 1977",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/136929312810.jpg",
+    name: "Pambıq sahəsində, Saatlı, 1980",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932994.jpg",
+    name: "Heydər Əliyev İtaliyada səfərdə, 1974",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932996.jpg",
+    name: "Metronun “Neftçilər” stansiyasının açılışında, 1976",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932999.jpg",
+    name: "Heydər Əliyev Hindistanda səfərdə, 1978",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932995.jpg",
+    name: "Bakı Məişət Kondisionerləri zavodu ilə tanış olarkən, 1975",
+    colSpan: "col-span-2 sm:col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935531.jpg",
+    name: "Mingəçevir Toxuculuq Kombinatında, 1981",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932998.jpg",
+    name: "Gəncə Xalça Mahud Kombinatında, 1978",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/136929329910.jpg",
+    name: "Heydər Əliyev, 1980",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692932997.jpg",
+    name: "Yeni Bakı Neftayırma zavodunda, 1976",
+    colSpan: " col-span-1",
+    rowSpan: "row-span-2 sm:row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935530.jpg",
+    name: "Bibiheybət Neft və Qazçıxarma İdarəsinin sahəsində, 1981",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935532.jpg",
+    name: "Xalq şairi Səməd Vurğunun ev-muzeyinin açılışında, 1975",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935539.jpg",
+    name: "Fransua Mitteranla Kremldə görüş zamanı, 1984",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935535.jpg",
+    name: "Heydər Əliyevin Meksikaya səfəri,1982",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935534.jpg",
+    name: "Yazıçı Anara Dövlət mükafatı laureatının diplomunu təqdim edərkən, 1980",
+    colSpan: "col-span-4 sm:col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935536.jpg",
+    name: "Təltif olunmuş şair və yazıçılarla, 1981",
+    colSpan: "col-span-4 sm:col-span-3",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935537.jpg",
+    name: "Heydər Əliyev və maestro Niyazi, 1983",
+    colSpan: "col-span-4 sm:col-span-3",
+    rowSpan: "row-span-2",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935533.jpg",
+    name: "Qara Qarayevin 60 illik yubileyinə həsr olunmuş təntənəli gecədə, 1978",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935871.jpg",
+    name: "Volqoqrad, 1987",
+    colSpan: "col-span-1",
+    rowSpan: "sm:row-span-2 row-span-4",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935538.jpg",
+    name: "Heydər Əliyev, 1984",
+    colSpan: "col-span-3 sm:col-span-2",
+    rowSpan: "row-span-3",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/136929355310.jpg",
+    name: "SSRİ Kommunist Partiyasının 27-ci qurultayının mətbuat mərkəzində, 1986",
+    colSpan: "col-span-4 sm:col-span-3",
+    rowSpan: "row-span-",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692935870.jpg",
+    name: "Laos, Sovet nümayəndə heyətinin qəbul mərasimi, 1986",
+    colSpan: "col-span-4",
+    rowSpan: "row-span-",
+  },
+];
+
+export const GALLERY_PHOTOS_1990 = [
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326600.jpg",
+    name: "Şəhidlərin ruhuna baş əyərkən, 1990",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326601.jpg",
+    name: "Heydər Əliyev Naxçıvanda, 1990",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326602.jpg",
+    name: "Yenidən ata ocağında, 1990",
+
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326605.jpg",
+    name: "Heydər Əliyev Milli Məclisdə, 1991",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326603.jpg",
+    name: "Heydər Əliyev Naxçıvanda, 1991",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326604.jpg",
+    name: "Heydər Əliyev Şəhidlər Xiyabanında, Bakı, 1991",
+    colSpan: "col-span-2",
+    rowSpan: " row-span-2 sm:row-span-1",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326606.jpg",
+    name: "“Ümid körpüsü”nün açılışında çıxış edərkən, Naxçıvan, 1992",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326607.jpg",
+    name: "Heydər Əliyevin andiçmə mərasimi, 1993",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326608.jpg",
+    name: "Heydər Əliyev döyüş bölgəsində, 1994",
+    colSpan: "col-span-3 sm:col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692326609.jpg",
+    name: "“Əsrin müqaviləsi”nin imzalanması mərasimi, 1994",
+    colSpan: "col-span-3 sm:col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/136923266010.jpg",
+    name: "ATƏT-in Budapeşt sammitində, 1994",
+    colSpan: "col-span-3 sm:col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692328340.jpg",
+    name: "ATƏT-in Lissabon sammitində, 1996",
+    colSpan: "col-span-3 sm:col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692328341.jpg",
+    name: "Heydər Əliyev və kraliça 2-ci Yelizaveta, London, 1998",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692328342.jpg ",
+    name: "“Əsrin müqaviləsi” çərçivəsində ilk neftin hasil olması mərasimi, 1997",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692328343.jpg",
+    name: "Heydər Əliyevin andiçmə mərasimi, 1998",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692328344.jpg",
+    name: "Bakı-Supsa ixrac boru kəməri və terminalının açılışında, Poti, 1999",
+    colSpan: "col-span-2",
+    rowSpan: "row-span-1",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692328345.jpg",
+    name: "Heydər Əliyev Süleyman Dəmirəli qəbul edərkən, Bakı, 1999",
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/136923283410.jpg",
+    name: "Heydər Əliyev və Bill Klinton, Vaşinqton",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
+  },
+  {
+    src: "https://heydaraliyevcenter.az/files/gallery/13692328349.jpg",
+    name: "Rusiya Federasiyasına rəsmi səfərdə, Moskva, 2002",
+    colSpan: "col-span-3",
+    rowSpan: "row-span-2",
   },
 ];

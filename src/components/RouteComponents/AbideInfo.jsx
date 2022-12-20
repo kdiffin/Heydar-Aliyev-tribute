@@ -42,12 +42,14 @@ function AbideInfo(props) {
             <p className="text-4xl font-semibold   border-b-2 border-gray-500">
               {props.name}
             </p>
-            <p className="text-2xl font-semibold m-10">Qalleriya</p>
+            <p className="text-2xl font-semibold m-10">Qaleriya</p>
           </div>
           <div className="flex justify-center ">
             <div
-              className={`flex overflow-y-scroll  border-2 rounded-xl sm:rounded-md border-opacity-70  dark:border-gray-300
-           shadow-lg shadow-gray-700 dark:shadow-gray-300 border-gray-800 md:overflow-y-hidden md:overflow-x-scroll 
+              className={`flex overflow-y-scroll  border-2 
+              rounded-xl sm:rounded-md border-opacity-70  dark:border-gray-300
+           shadow-lg shadow-gray-700 dark:shadow-gray-300
+            border-gray-800 md:overflow-y-hidden md:overflow-x-scroll 
            w-full h-[1000px] sm:h-[450px] gap-y-4  p-4 
            ${
              lightMode ? "" : "dark-scrollbar"

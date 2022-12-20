@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
 //think of this as everything besides the navbar in the /Həyatı route
+//this was actually pointless to make thsi a react prop lol
+//i didnt know that defining jsx as consts was a thing tho when i added this feature
+//for now ill let it stay but wont make this mistake again in the future
 
 function AboutParagraph(props) {
   return (

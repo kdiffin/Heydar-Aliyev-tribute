@@ -6,6 +6,7 @@ import {
 } from "../consts";
 
 function havaLimani() {
+  //same comment as the one in politicalportrait
   return (
     <>
       <AbideInfo
