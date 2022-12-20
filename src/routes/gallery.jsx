@@ -5,7 +5,7 @@ import About from "../components/Sections/About";
 
 function gallery() {
   const location = useLocation();
-  const lightMode = location.state.lightMode;
+  const lightMode = location.state.lightMode || false;
   const filter = location.state.filter;
 
   return (
@@ -15,7 +15,7 @@ function gallery() {
       }  `}
     >
       {/* routed prop will be useful when u go to the about component and see all the ternaries */}
-      <GalleryInfo routed lightMode={lightMode || false} filter={filter} />
+      <GalleryInfo routed lightMode={lightMode} filter={filter} />
     </div>
   );
 }
