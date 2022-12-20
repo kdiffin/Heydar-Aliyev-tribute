@@ -15,7 +15,7 @@ function gallery() {
       }  `}
     >
       {/* routed prop will be useful when u go to the about component and see all the ternaries */}
-      <GalleryInfo routed lightMode={lightMode} filter={filter} />
+      <GalleryInfo routed lightMode={lightMode || false} filter={filter} />
     </div>
   );
 }
