@@ -4,15 +4,23 @@ function PopupImg(props) {
   return (
     <div className="fixed bg-black/50 top-0 w-full h-full  z-10">
       <div className="flex w-full h-full justify-center items-center">
-        <div className=" relative w-11/12 px-2 rounded-md group ">
-          <div className="flex justify-center items-center">
+        <div className=" relative w-11/12 px-4  rounded-md group ">
+          <div className="flex justify-center  items-center">
             <img
               src={props.img}
               alt="popupimg"
-              className="cursor-zoom-out"
+              className="cursor-zoom-out "
               onClick={() => props.setShowPopUpImg(false)}
             />
           </div>
+          {props.name ? (
+            <p className="text-xl flex justify-center   items-center mt-4">
+              {" "}
+              {props.name}{" "}
+            </p>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
       <div

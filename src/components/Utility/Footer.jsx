@@ -1,6 +1,6 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (

@@ -75,6 +75,7 @@ function ReactResponsiveMasonry(props) {
         <PopupImg
           setShowPopUpImg={setShowPopUpImg}
           img={images[ImgIndex].src}
+          name={images[ImgIndex].name}
         />
       ) : (
         <></>
