@@ -4,7 +4,7 @@ function PopupImg(props) {
   return (
     <div className="fixed bg-black/50 top-0 w-full h-full  z-10">
       <div className="flex w-full h-full justify-center items-center">
-        <div className=" relative w-11/12 px-4  rounded-md group ">
+        <div className=" relative w-10/12 px-4  rounded-md group ">
           <div className="flex justify-center  items-center">
             <img
               src={props.img}

@@ -1,6 +1,7 @@
 import React from "react";
 import { WORDS_NESIHETLERI as sözlər } from "../../consts";
 import Footer from "../Utility/Footer";
+import HeaderText from "../Utility/HeaderText";
 
 function Nəsihətləri(props) {
   return (
@@ -15,11 +16,7 @@ function Nəsihətləri(props) {
       snap-center  items-center justify-center relative text-center w-full md:h-screen`}
     >
       <div className="max-w-screen-lg p-4 mx-auto mb-20 sm:mb-0 flex flex-col justify-center w-full">
-        <div className="pb-8">
-          <p className="text-4xl font bold inline border-b-2 border-gray-500">
-            Müdrik İfadələri
-          </p>
-        </div>
+        <HeaderText name="Müdrik ifadələri" centered />
 
         <div
           className=" pb-6 shadow-lg dark:shadow-gray-300 shadow-gray-800 

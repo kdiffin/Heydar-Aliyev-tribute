@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Navbar from "./Navbar";
+import HeaderText from "../Utility/HeaderText";
+import NavigationButton from "../Utility/NavigationButton";
+import NavigationButtonHome from "../Utility/NavigationButtonHome";
 
 function About(props) {
   //there are 2 different sources of props here, the ones found in the /routes directory
@@ -11,13 +14,13 @@ function About(props) {
       id={props.isHeyati ? "həyatı" : "siyasi-portreti"}
       className={
         !props.routed
-          ? `flex flex-col  h-[1500px] xxs:h-[1300px] items-center justify-center 
+          ? `flex flex-col  h-[1500px] xxs:h-[1300px]   items-center justify-center 
           ${
             props.lightMode
               ? "dark bg bg-gradient-to-b  from-gray-200 via-white to-white"
               : "bg-gradient-to-b dark-scrollbar  from-gray-800 via-gray-800 to-black "
           }
-          snap-center  w-full md:h-screen`
+          snap-center  w-full xl:h-screen`
           : `w-full   	pb-20 pt-5  
           ${
             props.lightMode
@@ -28,26 +31,13 @@ function About(props) {
       }
     >
       {props.routed ? <Navbar routAbout lightMode={props.lightMode} /> : <></>}{" "}
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
+      <div className="max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full">
         {props.routed ? (
-          <Link
-            to="/"
-            state={props.lightMode}
-            className="active:scale-90 dark:text-gray-900 sm:mx-0 back-to-home-button dark:bg-gradient-to-b dark:from-white dark:to-gray-200"
-          >
-            <span className="mr-3">
-              <FaArrowLeft />
-            </span>
-            <span className="mr-4">Geriyə dön</span>
-          </Link>
+          <NavigationButtonHome lightMode={props.lightMode} />
         ) : (
           <></>
         )}
-        <div className={`pb-8 flex ${props.routed ? "" : "justify-center"}`}>
-          <p className="text-4xl font bold  inline border-b-2 border-gray-500">
-            {props.name}
-          </p>
-        </div>
+        <HeaderText name={props.name} centered={props.routed ? false : true} />
         <div className="text-xl mt-5">
           {props.firstLines}
           {!props.routed && props.isHeyati ? (
@@ -67,16 +57,7 @@ function About(props) {
             <></>
           )}
           {!props.routed ? (
-            <>
-              <Link
-                onClick={() => scrollTo(0, 0)}
-                state={props.lightMode}
-                to={props.link}
-                className={`to-route-button dark:bg-gradient-to-b dark:from-white dark:to-gray-200 dark:shadow-md active:scale-90 dark:text-gray-800`}
-              >
-                <span className=" mr-3">Daha Ətraflı</span> <FaArrowRight />
-              </Link>
-            </>
+            <NavigationButton lightMode={props.lightMode} link={props.link} />
           ) : (
             <>{props.paragraph}</>
           )}

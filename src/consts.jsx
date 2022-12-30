@@ -6,10 +6,23 @@ import educationImg5 from "/educationImg5.jpg";
 import educationImg6 from "/educationImg6.jpg";
 import educationImg8 from "/educationImg8.jpg";
 import educationImg7 from "/educationImg7.jpg";
-
 import educationImg9 from "/educationImg9.jpg";
 import educationImg10 from "/educationImg10.jpg";
 import educationImg11 from "/educationImg11.jpg";
+
+import mukafat1 from "/mukafat1.png";
+import mukafat2 from "/mukafat2.png";
+import mukafat3 from "/mukafat3.png";
+import mukafat4 from "/mukafat4.png";
+import mukafat5 from "/mukafat5.png";
+import mukafat6 from "/mukafat6.png";
+import mukafatAze1 from "/mukafatAze1.png";
+import mukafatAze2 from "/mukafatAze2.svg";
+
+import mukafatAze3 from "/mukafatAze3.svg";
+import mukafatAze4 from "/mukafatAze4.svg";
+import mukafatAze5 from "/mukafatAze5.svg";
+import mukafatAze6 from "/mukafatAze6.png";
 
 //IF YOURE USING VSCODE BE SURE TO COLLAPSE ALL UNUSED LISTS/OBJECTS BEFORE TRYING TO EDIT
 
@@ -3713,5 +3726,124 @@ export const GALLERY_PHOTOS_MOMENTS = [
     src: "https://heydaraliyevcenter.az/files/gallery/13692945105.jpg",
     colSpan: "col-span-3",
     rowSpan: "row-span-2",
+  },
+];
+
+export const ACHIEVMENTS_AZ = [
+  {
+    id: 1,
+    src: mukafatAze1,
+    name: " Atatürk Beynəlxalq Sülh Mükafatı",
+    melumat:
+      "1986-cı ildən etibarən verilməyə başlanan və dünyada sülhə töhfə vermiş insanlara verilən Türkiyənin Dövlət mükafatıdır.",
+    subTitle: "Türkiyənin ən nüfuzlu mükafatı.",
+    wikiLink:
+      "https://az.wikipedia.org/wiki/Atat%C3%BCrk_Beyn%C9%99lxalq_S%C3%BClh_M%C3%BCkafat%C4%B1",
+  },
+  {
+    id: 2,
+    src: mukafatAze2,
+    name: " Tbilisi Dövlət Universitetinin fəxri doktoru",
+    melumat:
+      "Ölkənin ən böyük elm mərkəzlərindən biri. 1918-ci ilin fevralında yaradılıb. Universitetdə təxminən 18.000 tələbə təhsil alır. Universitetdə Hüquq, İqtisadiyyat, Sosial elmlər, Tibb və Təbiət Elmləri Fakültəsi var.",
+    subTitle: "Gürcüstanın aparıcı və ən böyük ali məktəbi.",
+    wikiLink:
+      "https://az.wikipedia.org/wiki/Tbilisi_D%C3%B6vl%C9%99t_Universiteti",
+  },
+  {
+    id: 3,
+    src: mukafatAze3,
+    name: " Dövlət nişanı      ",
+    melumat:
+      "1988-ci ildə təsis edilmişdir. Türkiyə prezidenti tərəfindən təqdim edilən 'Dövlət nişanı' dövlət başçısının tövsiyəsi əsasında Türkiyə Respublikası Nazirlər Kabinetinin qərarı ilə verilir. Bu mükafata xarici ölkələrin dövlət başçıları ölkələr arasında dostluq əlaqələrinin inkişafı və xalqların bir-biri ilə daha da yaxınlaşmasındakı xidmətlərinə görə layiq görülürlər",
+    subTitle: "Türkiyə Respublikasının ən yüksək mükafatı.",
+    wikiLink:
+      "https://az.wikipedia.org/wiki/D%C3%B6vl%C9%99t_ni%C5%9Fan%C4%B1_(T%C3%BCrkiy%C9%99)",
+  },
+  {
+    id: 4,
+    src: mukafatAze4,
+    name: " `Yaroslav Mudrı` ordeni və s.      ",
+    melumat:
+      "2001-ci ildə Ukraynanın `Qızıl tale` Beynəlxalq Açıq Məşhurluq Reytinqinin `Qloriya Populi` qızıl ulduzu, 2003-cü ildə Ukrayna Prezidenti yanında Dövlət İdarəçilik Akademiyasının fəxri doktoru və 2003-cü ilin 27 İyununda Ukraynanın mədəniyyət ictimaiyyətinin `Şərəf` ordenini əldə edib.",
+    subTitle: "Ukraynanın ali mükafatı.",
+    wikiLink: "https://az.wikipedia.org/wiki/Heyd%C9%99r_%C6%8Fliyev",
+  },
+  {
+    id: 5,
+    src: mukafatAze5,
+    name: "Ege Universitetinin fəxri doktoru   ",
+    melumat:
+      "1955-cı ildə yaradılan, Türkiyənin qabaqda gələn universitetlərindən biri. 2016-ci ildə açıqlanan məlumatda , dünyanın ən yaxşı universitetləri arasında 482-ci olmuşdur.",
+    subTitle: "",
+    wikiLink: "https://az.wikipedia.org/wiki/Egey_Universiteti",
+  },
+  {
+    id: 6,
+    src: mukafatAze6,
+    name: "`Fəxri legion` ordeni      ",
+    melumat:
+      "19 may 1802-ci ildə Napoleon Bonapart tərəfindən təsis edilmişdir. Bu ordenlə təltif olunmuş azərbaycanlılar arasında müharibə veteranı Əhmədiyyə Cəbrayılov, dahi rəssam Tahir Salahov, prezident İlham Əliyev və YUNESKO və İSESKO-nun xoşməramlı səfiri Mehriban Əliyeva da var.",
+    subTitle: "Fransanın ən yüksək hərbi və mülki dövlət mükafatı.      ",
+    wikiLink: "https://az.wikipedia.org/wiki/%22F%C9%99xri_legion%22_ordeni",
+  },
+];
+
+export const ACHIEVMENTS_USSR = [
+  {
+    id: 1,
+    src: mukafat1,
+    name: "SSRİ Silahlı Qüvvələrinin 70 illiyi yubiley medalı",
+    melumat:
+      " 1988-ci ildə SSRİ Silahlı Qüvvələrinin 70 illik yubileyi münasibətilə təsis olunmuşdur.",
+    subTitle: "",
+    wikiLink:
+      "https://az.wikipedia.org/wiki/%22SSR%C4%B0_Silahl%C4%B1_Q%C3%BCvv%C9%99l%C9%99rinin_70_illiyi%22_yubiley_medal%C4%B1",
+  },
+  {
+    id: 2,
+    src: mukafat2,
+    name: " Böyük Vətən müharibəsində Almaniya üzərində qələbə",
+    melumat:
+      "II Dünya Müharibəsi cəbhələrində Qırmızı Ordu, Hərbi Dəniz Qüvvələri və NKVD qoşunlarının sıralarında bilavasitə iştirak edən və ya hərbi rayonlardakı işləri ilə qələbəni təmin edən bütün hərbi personal və mülki heyət",
+    subTitle:
+      "`1941–1945-ci illər Böyük Vətən Müharibəsində Almaniya üzərində qələbəyə görə` medalı ilə təltif edilsin:",
+    wikiLink: "",
+  },
+  {
+    id: 3,
+    src: mukafat3,
+    name: " Beş dəfə Lenin ordeni      ",
+    melumat: "",
+    subTitle:
+      "SSRİ-nin ən yüksək mükafatı. 6 aprel 1930-cu ildə SSRİ MİK-in fərmanı ilə yaradılıb.",
+    wikiLink: "",
+  },
+
+  {
+    id: 4,
+    src: mukafat4,
+    name: "Əmək igidliyi medalı   ",
+    melumat: "",
+    subTitle:
+      "SSRİ Ali Sovetinin 27 dekabr 1938-ci il tarixli qanunu ilə təsis olunmuş SSRİ medalı",
+    wikiLink: "",
+  },
+  {
+    id: 5,
+    src: mukafat5,
+    name: "Böyük Vətən müharibəsində qələbənin 40 illiyi yubiley medalı   ",
+    melumat: "",
+    subTitle: "1985-ci ildə təsis olunmuş SSRİ medalı.",
+    wikiLink: "",
+  },
+  {
+    id: 6,
+    src: mukafat6,
+    name: "İki dəfə Sosialist Əməyi Qəhrəmanı",
+    melumat: "",
+    subTitle:
+      "Sosialist Əməyi Qəhrəmanı fəxri adı və bu adın verilməsinin əsasnaməsi SSRİ Ali Soveti Rəyasət Heyətinin 27 dekabr 1938-ci il tarixli qərarı ilə təsis edilmişdir. Buna qədər Əmək Qəhrəmanı adı mövcud idi. SSRİ üzrə ümumilikdə 20 613 nəfər Sosialist Əməyi Qəhrəmanı adına layiq görülmüşdür ki, bunlardan 201-i iki dəfə, 15-sı isə üç dəfə bu fəxri adla təltif edilmişdir. 134 nəfərə verilmiş Sosialist Əməyi Qəhrəmanı fəxri adı sonradan geri alınmışdır.",
+    wikiLink: "",
   },
 ];

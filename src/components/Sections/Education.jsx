@@ -4,10 +4,14 @@ import { Link } from "react-router-dom";
 import { SCHOOLS_EDUCATION as schools } from "../../consts";
 import AboutParagraph from "../RouteComponents/AboutParagraph";
 import EducationParagraph from "../RouteComponents/EducationParagraph";
+import HeaderText from "../Utility/HeaderText";
+import NavigationButton from "../Utility/NavigationButton";
 import Popup from "../Utility/Popup";
 import Navbar from "./Navbar";
 
 function Education(props) {
+  // looking back at this the wiser option wouldve been to use the about.jsx component
+  // for the root implementation of this
   const [showPopUp, setShowPopUp] = useState(false);
   const [mukafatIndex, setMukafatIndex] = useState();
 
@@ -79,11 +83,7 @@ function Education(props) {
         <></>
       )}
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
-        <div className={`pb-8 flex  justify-center`}>
-          <p className="text-4xl font bold  text-center inline  border-b-2 border-gray-500">
-            Milli təhsil quruculuğunda rolu
-          </p>
-        </div>
+        <HeaderText name="Milli təhsil quruculuğunda rolu" centered />
         <div className="text-xl mt-5">
           <p>
             Heydər Əliyev hələ Azərbaycana birinci rəhbərliyi dövründə təhsilin
@@ -109,14 +109,10 @@ function Education(props) {
           <br />
           {!props.routed ? (
             <>
-              <Link
-                onClick={() => scrollTo(0, 0)}
-                state={props.lightMode}
-                to={"/Təhsilə-Dəyəri"}
-                className={`to-route-button dark:text-gray-800 dark:bg-gradient-to-b dark:from-white dark:to-gray-200 dark:shadow-md active:scale-90`}
-              >
-                <span className=" mr-3">Daha Ətraflı</span> <FaArrowRight />
-              </Link>
+              <NavigationButton
+                lightMode={props.lightMode}
+                link="Təhsilə-Dəyəri"
+              />
             </>
           ) : (
             <EducationParagraph />

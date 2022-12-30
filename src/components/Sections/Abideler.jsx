@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HeaderText from "../Utility/HeaderText";
 
 function Abideler(props) {
   return (
@@ -16,11 +17,8 @@ function Abideler(props) {
           props.isAbideler && "xl:max-w-screen-2xl"
         } p-4 mx-auto flex flex-col items-center  justify-center w-full`}
       >
-        <div className={`pb-8 flex  justify-center`}>
-          <p className="text-4xl font bold mb-14  inline border-b-2 border-gray-500">
-            {props.name}
-          </p>
-        </div>
+        <HeaderText name={props.name} additionalClassName="mb-10" />
+
         <div className="grid  grid-cols-1 gap-8 px-5 gap-y-16 md:gap-y-0 sm:px-0 md:grid-cols-3 ">
           {props.items.map((abide) => {
             return (

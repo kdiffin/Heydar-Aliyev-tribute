@@ -66,7 +66,7 @@ function Navbar(props) {
       <div>
         <Link
           to="/"
-          className="text-4xl text-center flex w-full justify-center items-center   sm:ml-6 navOverflow:mr-auto  "
+          className="text-4xl text-center  flex w-full justify-center items-center   sm:ml-6 navOverflow:mr-auto  "
           state={props.lightMode}
         >
           Azərbaycanın ümumilli lideri

@@ -2,6 +2,7 @@ import React from "react";
 import { FaShareSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { GALLERY_MAIN_PHOTOS as photos } from "../../consts";
+import HeaderText from "../Utility/HeaderText";
 
 function Gallery(props) {
   return (
@@ -16,11 +17,8 @@ function Gallery(props) {
   snap-center  w-full md:h-screen`}
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col items-center  justify-center w-full">
-        <div className={`pb-8 flex  justify-center`}>
-          <p className="text-4xl font bold mb-10 sm:mb-0  text-center inline  border-b-2 border-gray-500">
-            Foto Qaleriya
-          </p>
-        </div>
+        <HeaderText name="Foto Qalereya" centered />
+
         <div
           className="p-5 border-4 dark:border-0 parentHover border-solid rounded-md
          border-opacity-30 relative  border-gray-800"
