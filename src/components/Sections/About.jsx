@@ -31,7 +31,7 @@ function About(props) {
       }
     >
       {props.routed ? <Navbar routAbout lightMode={props.lightMode} /> : <></>}{" "}
-      <div className="max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full">
+      <div className="max-w-screen-lg  p-8 mx-auto flex flex-col justify-center w-full">
         {props.routed ? (
           <NavigationButtonHome lightMode={props.lightMode} />
         ) : (
