@@ -26,12 +26,14 @@ function root() {
   //but the better way to do it was to set it as sessionstorage and access it using loaders and change it using actions
   //but ive already did it this way and i dont have time to revert the whole project
 
+  //all of these ways are actually trash the best way is to  just imperitavely give a dark class to body
+
   const [lightMode, setLightMode] = useState(lightModeRouter || false);
 
   return (
     <div
       className={` ${
-        lightMode ? "text-black  dark " : "dark-scrollbar"
+        lightMode ? "text-black  dark " : "sm:dark-scrollbar"
       } m-0 app  p-0`}
     >
       <Əsas lightMode={lightMode} setLightMode={setLightMode} />
