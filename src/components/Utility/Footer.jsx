@@ -6,8 +6,8 @@ function Footer() {
   return (
     <div className="text-gray-400  dark:border-t-gray-300  flex sm:flex-row flex-col py-2 sm:py-5 flex-wrap text-wrap px-2 sm:px-5 border-t-2 border-gray-600  ">
       <h1 className=" w-full sm:w-[500px] text-center sm:text-left  text-xl mr-auto mb-4 sm:mb-0">
-        Bu sayt 132-134 nömrəli təhsil kompleksinin 9b şagirdi,{" "}
-        <span className="font-semibold">Davud İbrahim</span> tərəfindən
+        This site was created by ADA school student{" "}
+        <span className="font-semibold">Davud İbrahim.</span> 
         hazırlanmışdır.
       </h1>
 
