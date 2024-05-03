@@ -8,7 +8,6 @@ function Footer() {
       <h1 className=" w-full sm:w-[500px] text-center sm:text-left  text-xl mr-auto mb-4 sm:mb-0">
         This site was created by ADA school student{" "}
         <span className="font-semibold">Davud İbrahim.</span> 
-        hazırlanmışdır.
       </h1>
 
       <div className="font-semibold flex   sm:flex-col text-[20px]">
